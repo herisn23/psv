@@ -1,9 +1,8 @@
-import {useMatrix} from "../../context/DataContext";
+import {MatrixValue} from "../types/Matrix";
+import {PokemonType} from "../types/PokemonType";
 import {Table} from "@mantine/core";
-import {PokemonImageType} from "../PokemonImageType";
-import {MatrixValue} from "../../types/Matrix";
-import {PokemonType} from "../../types/PokemonType";
-
+import {useMatrix} from "../context/DataContext";
+import {PokemonImageType} from "./PokemonImageType";
 
 const ValueCell = ({values, type}: { values: MatrixValue[], type: PokemonType }) => {
     let color;
@@ -28,12 +27,15 @@ const ValueCell = ({values, type}: { values: MatrixValue[], type: PokemonType })
     )
 }
 
-export const MatrixPanel = () => {
+export const MatrixComponent = () => {
     const matrix = useMatrix()
     const types = matrix.map(m => m.type)
     return (
         <Table highlightOnHover withBorder withColumnBorders>
             <thead>
+            <tr>
+                <th colSpan={types.length +2} style={{textAlign:"center"}}>Defending</th>
+            </tr>
             <tr>
                 <th></th>
                 {

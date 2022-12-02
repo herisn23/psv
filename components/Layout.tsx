@@ -1,8 +1,8 @@
 import {ColorScheme, ColorSchemeProvider, createEmotionCache, MantineProvider} from "@mantine/core";
-import {ThemeToggle} from "./ThemeToggle";
 import rtlPlugin from 'stylis-plugin-rtl';
 import {PropsWithChildren, useState} from "react";
 import {useHotkeys, useLocalStorage} from "@mantine/hooks";
+import {HeaderMenu} from "./HeaderMenu";
 
 const THEME_KEY = 'mantine-color-scheme';
 
@@ -41,7 +41,7 @@ export const Layout = ({children}: PropsWithChildren) => {
                 withNormalizeCSS
                 emotionCache={dir === 'rtl' ? rtlCache : undefined}
             >
-                <ThemeToggle/>
+                <HeaderMenu />
                 {children}
             </MantineProvider>
         </ColorSchemeProvider>
