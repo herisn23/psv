@@ -1,7 +1,7 @@
 import {Matrix} from "../types/Matrix";
 import {Pokemon} from "../types/Pokemon";
 import React, {PropsWithChildren, useContext} from "react";
-import {useBuildMatrix} from "../hooks/useMatrix";
+import {useBuildMatrix} from "../hooks/useBuildMatrix";
 
 type DataContextType = {
     matrix: Matrix[],
