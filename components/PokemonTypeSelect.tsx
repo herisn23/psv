@@ -27,7 +27,7 @@ export const PokemonTypeSelect = ({onPick}:PokemonTypeSelectProps) => {
     return (
         <Select
             itemComponent={PokemonTypeItem}
-            placeholder={"Choose type of Tera type"}
+            placeholder={"Tera type"}
             data={data}
             clearable
             searchable

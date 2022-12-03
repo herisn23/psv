@@ -1,43 +1,48 @@
-import {Burger, Container, createStyles, Group, Header} from '@mantine/core';
+import {useState} from 'react';
+import {Burger, Container, createStyles, Group, Header, Paper, Transition} from '@mantine/core';
 import {useDisclosure} from '@mantine/hooks';
-import {links} from "../data/links";
-import Link from "next/link";
-import {useRouter} from "next/router";
+import {links} from '../data/links';
 import {ThemeToggle} from "./ThemeToggle";
+import {useRouter} from "next/router";
 
+const HEADER_HEIGHT = 60;
 
 const useStyles = createStyles((theme) => ({
-    inner: {
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        height: 56,
+    root: {
+        position: 'relative',
+        zIndex: 1,
+    },
 
-        [theme.fn.smallerThan('sm')]: {
-            justifyContent: 'flex-start',
+    dropdown: {
+        position: 'absolute',
+        top: HEADER_HEIGHT,
+        left: 0,
+        right: 0,
+        zIndex: 0,
+        borderTopRightRadius: 0,
+        borderTopLeftRadius: 0,
+        borderTopWidth: 0,
+        overflow: 'hidden',
+
+        [theme.fn.largerThan('sm')]: {
+            display: 'none',
         },
     },
 
-    links: {
-        width: 450,
+    header: {
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        height: '100%',
+    },
 
+    links: {
         [theme.fn.smallerThan('sm')]: {
             display: 'none',
         },
     },
 
-    social: {
-        width: 260,
-
-        [theme.fn.smallerThan('sm')]: {
-            width: 'auto',
-            marginLeft: 'auto',
-        },
-    },
-
     burger: {
-        marginRight: theme.spacing.md,
-
         [theme.fn.largerThan('sm')]: {
             display: 'none',
         },
@@ -56,6 +61,11 @@ const useStyles = createStyles((theme) => ({
         '&:hover': {
             backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[0],
         },
+
+        [theme.fn.smallerThan('sm')]: {
+            borderRadius: 0,
+            padding: theme.spacing.md,
+        },
     },
 
     linkActive: {
@@ -66,32 +76,52 @@ const useStyles = createStyles((theme) => ({
     },
 }));
 
+interface HeaderResponsiveProps {
+    links: { link: string; label: string }[];
+}
+
 export function HeaderMenu() {
-    const [opened, {toggle}] = useDisclosure(false)
-    const router = useRouter()
-    const {classes, cx} = useStyles()
+    const [opened, {toggle, close}] = useDisclosure(false);
+    const {classes, cx} = useStyles();
+    const {push, pathname} = useRouter()
+    const [active, setActive] = useState(pathname);
 
     const items = links.map((link) => (
-        <Link
+        <a
             key={link.label}
             href={link.link}
-            className={cx(classes.link, {[classes.linkActive]: router.pathname === link.link})}
+            className={cx(classes.link, {[classes.linkActive]: active === link.link})}
+            onClick={(event) => {
+                event.preventDefault();
+                setActive(link.link);
+                push(link.link)
+                close();
+            }}
         >
             {link.label}
-        </Link>
+        </a>
     ));
 
     return (
-        <Header height={56}>
-            <Container className={classes.inner}>
-                <Burger opened={opened} onClick={toggle} size="sm" className={classes.burger}/>
-                <Group className={classes.links} spacing={5}>
+        <Header height={HEADER_HEIGHT} className={classes.root}>
+            <Container className={classes.header}>
+
+                <Group spacing={5} className={classes.links}>
                     {items}
                 </Group>
-                <Group spacing={0} className={classes.social} position="right" noWrap>
-                    <ThemeToggle />
-                </Group>
+
+                <ThemeToggle/>
+
+                <Burger opened={opened} onClick={toggle} className={classes.burger} size="sm"/>
+
+                <Transition transition="pop-top-right" duration={200} mounted={opened}>
+                    {(styles) => (
+                        <Paper className={classes.dropdown} withBorder style={styles}>
+                            {items}
+                        </Paper>
+                    )}
+                </Transition>
             </Container>
         </Header>
-    );
+    )
 }

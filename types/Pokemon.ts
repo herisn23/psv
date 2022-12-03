@@ -2,24 +2,25 @@ import {PokemonType} from "./PokemonType";
 
 
 export type Multiplier = {
-    source:PokemonType,
-    target:PokemonType
-    value:number
+    source: PokemonType
+    target: PokemonType
+    value: number
 }
 
 export type FightingEfficiency = {
-    attackMultipliers: Multiplier[],
+    attackMultipliers: Multiplier[]
     defendMultipliers: Multiplier[]
 }
+
 export type PokemonEfficiency = {
-    pokemon: Pokemon,
-    score:number,
+    pokemon: Pokemon
+    score: number
     efficiency: FightingEfficiency
 }
 
 export type Pokemon = {
-    order: string,
-    name: string,
+    order: string
+    name: string
     meta: boolean
     types: PokemonType[]
 }

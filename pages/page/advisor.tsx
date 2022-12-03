@@ -17,7 +17,7 @@ const TeraTypeUsageAdvice = ({raiders}: TeraTypeUsageAdviceProps) => {
         <Grid  gutter="sm">
             {raiders.map(p => {
                 return (
-                    <Grid.Col key={p.pokemon.order} span={3} w={300}>
+                    <Grid.Col key={p.pokemon.order} w={300} xs={1} md={3}>
                         <PokemonEfficiencyComponent pokemonEfficiency={p}/>
                     </Grid.Col>
                 )
@@ -44,6 +44,7 @@ const AdvisorPage = () => {
             )
 
         } else {
+            setSearchText(undefined)
             setRaiders([])
         }
     }, [type])
@@ -54,10 +55,10 @@ const AdvisorPage = () => {
             />
             <Grid.Col>
                 <Grid>
-                    <Grid.Col span={2}>
+                    <Grid.Col xs={1} md={2}>
                         <PokemonTypeSelect onPick={setType}/>
                     </Grid.Col>
-                    <Grid.Col span={2}>
+                    <Grid.Col xs={1} md={2}>
                         {
                             raiders.length > 0 && <Input
                                 onChange={e => {

@@ -2,7 +2,7 @@ import {GetStaticProps} from "next";
 import {MatrixValue} from "../../types/Matrix";
 import {PokemonType} from "../../types/PokemonType";
 import {useMatrix} from "../../context/DataContext";
-import {Table} from "@mantine/core";
+import {ScrollArea, Table} from "@mantine/core";
 import {PokemonTypeImage} from "../../components/PokemonTypeImage";
 import {matrixLink} from "../../data/links";
 
@@ -42,41 +42,44 @@ const MatrixPage = () => {
     const matrix = useMatrix()
     const types = matrix.map(m => m.type)
     return (
-        <Table highlightOnHover withBorder withColumnBorders>
-            <thead>
-            <tr>
-                <th colSpan={types.length +2} style={{textAlign:"center"}}>Defending</th>
-            </tr>
-            <tr>
-                <th></th>
+        <ScrollArea>
+            <Table highlightOnHover withBorder withColumnBorders>
+                <thead>
+                <tr>
+                    <th colSpan={types.length +2} style={{textAlign:"center"}}>Defending</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    {
+                        types.map(type => {
+                            return (
+                                <th key={type} style={{textAlign:"center"}}>
+                                    <PokemonTypeImage type={type} orientation={'vertical'}/>
+                                </th>
+                            )
+                        })
+                    }
+                </tr>
+                </thead>
+                <tbody>
                 {
-                    types.map(type => {
+                    matrix.map(m => {
                         return (
-                            <th key={type} style={{textAlign:"center"}}>
-                                <PokemonTypeImage type={type} orientation={'vertical'}/>
-                            </th>
+                            <tr key={m.type} style={{textAlign:"center"}}>
+                                <td><PokemonTypeImage type={m.type}/></td>
+                                {
+                                    types.map((type, index) => (
+                                        <ValueCell key={`${m.type}-${index}`} values={m.values} type={type}/>
+                                    ))
+                                }
+                            </tr>
                         )
                     })
                 }
-            </tr>
-            </thead>
-            <tbody>
-            {
-                matrix.map(m => {
-                    return (
-                        <tr key={m.type} style={{textAlign:"center"}}>
-                            <td><PokemonTypeImage type={m.type}/></td>
-                            {
-                                types.map((type, index) => (
-                                    <ValueCell key={`${m.type}-${index}`} values={m.values} type={type}/>
-                                ))
-                            }
-                        </tr>
-                    )
-                })
-            }
-            </tbody>
-        </Table>
+                </tbody>
+            </Table>
+        </ScrollArea>
+
     )
 }
 

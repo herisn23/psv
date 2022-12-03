@@ -17,7 +17,7 @@ export const pokemonTypes = [
     "rock",
     "steel",
     "water"
-] as const;
+] as const
 
-export type PokemonType = typeof pokemonTypes[number];
+export type PokemonType = typeof pokemonTypes[number]
     
