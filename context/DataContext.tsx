@@ -2,6 +2,7 @@ import {Matrix} from "../types/Matrix";
 import {Pokemon} from "../types/Pokemon";
 import React, {PropsWithChildren, useContext} from "react";
 import {useBuildMatrix} from "../hooks/useBuildMatrix";
+import {useBuildPokedex} from "../hooks/useBuildPokedex";
 
 type DataContextType = {
     matrix: Matrix[],
@@ -23,9 +24,10 @@ export const usePokedex = () => {
 
 const DataContextProvider = ({children}: PropsWithChildren) => {
     const matrix = useBuildMatrix()
+    const pokedex = useBuildPokedex()
 
     return (
-        <DataContext.Provider value={{matrix, pokedex: []}}>
+        <DataContext.Provider value={{matrix, pokedex}}>
             {children}
         </DataContext.Provider>
     )

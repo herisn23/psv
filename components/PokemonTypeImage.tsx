@@ -14,9 +14,9 @@ const sizes: { [key in PokemonTypeImageOrientation]: { width: number, height: nu
     }
 }
 
-type PokemonImageTypeProps = { type: PokemonType, orientation?: PokemonTypeImageOrientation }
+type PokemonTypeImageProps = { type: PokemonType, orientation?: PokemonTypeImageOrientation }
 
-export const PokemonImageType = ({type, orientation = 'horizontal'}: PokemonImageTypeProps) =>
+export const PokemonTypeImage = ({type, orientation = 'horizontal'}: PokemonTypeImageProps) =>
     <Image src={`/types/${orientation}/${type}.png`}
            alt={type}
            width={sizes[orientation]?.width}

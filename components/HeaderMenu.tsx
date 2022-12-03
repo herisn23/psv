@@ -19,7 +19,7 @@ const useStyles = createStyles((theme) => ({
     },
 
     links: {
-        width: 350,
+        width: 450,
 
         [theme.fn.smallerThan('sm')]: {
             display: 'none',

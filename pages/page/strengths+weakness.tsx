@@ -1,8 +1,18 @@
-import {MatrixValue} from "../types/Matrix";
-import {PokemonType} from "../types/PokemonType";
+import {GetStaticProps} from "next";
+import {MatrixValue} from "../../types/Matrix";
+import {PokemonType} from "../../types/PokemonType";
+import {useMatrix} from "../../context/DataContext";
 import {Table} from "@mantine/core";
-import {useMatrix} from "../context/DataContext";
-import {PokemonImageType} from "./PokemonImageType";
+import {PokemonTypeImage} from "../../components/PokemonTypeImage";
+import {matrixLink} from "../../data/links";
+
+export const getStaticProps: GetStaticProps<{ pageName: string }> = async (params) => {
+    return {
+        props: {
+            pageName: matrixLink.label
+        }
+    };
+};
 
 const ValueCell = ({values, type}: { values: MatrixValue[], type: PokemonType }) => {
     let color;
@@ -27,7 +37,8 @@ const ValueCell = ({values, type}: { values: MatrixValue[], type: PokemonType })
     )
 }
 
-export const MatrixComponent = () => {
+
+const MatrixPage = () => {
     const matrix = useMatrix()
     const types = matrix.map(m => m.type)
     return (
@@ -42,7 +53,7 @@ export const MatrixComponent = () => {
                     types.map(type => {
                         return (
                             <th key={type} style={{textAlign:"center"}}>
-                                <PokemonImageType type={type} orientation={'vertical'}/>
+                                <PokemonTypeImage type={type} orientation={'vertical'}/>
                             </th>
                         )
                     })
@@ -54,7 +65,7 @@ export const MatrixComponent = () => {
                 matrix.map(m => {
                     return (
                         <tr key={m.type} style={{textAlign:"center"}}>
-                            <td><PokemonImageType type={m.type}/></td>
+                            <td><PokemonTypeImage type={m.type}/></td>
                             {
                                 types.map((type, index) => (
                                     <ValueCell key={`${m.type}-${index}`} values={m.values} type={type}/>
@@ -68,3 +79,5 @@ export const MatrixComponent = () => {
         </Table>
     )
 }
+
+export default MatrixPage

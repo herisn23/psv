@@ -1,9 +1,10 @@
 import {GetStaticProps} from "next";
+import {pokedexLink} from "../../data/links";
 
 export const getStaticProps: GetStaticProps<{ pageName: string }> = async (params) => {
     return {
         props: {
-            pageName: "Pokédex"
+            pageName: pokedexLink.label
         }
     };
 };
