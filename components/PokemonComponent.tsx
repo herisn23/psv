@@ -2,15 +2,9 @@ import {FightingEfficiency, Multiplier, Pokemon, PokemonEfficiency} from "../typ
 import {Badge, Button, Card, Collapse, Group, Table, Text} from "@mantine/core";
 import {PokemonTypeImage} from "./PokemonTypeImage";
 import {PropsWithChildren, useState} from "react";
+import {groupBy} from "../utils/groupBy";
 
 type PokemonComponentProps = { pokemon: Pokemon }
-
-// A little bit simplified version
-const groupBy = <T, K extends keyof any>(arr: T[], key: (i: T) => K) =>
-    arr.reduce((groups, item) => {
-        (groups[key(item)] ||= []).push(item);
-        return groups;
-    }, {} as Record<K, T[]>);
 
 const PokemonInfo = ({pokemon}: PokemonComponentProps) => {
     return (

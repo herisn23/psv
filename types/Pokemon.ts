@@ -19,7 +19,7 @@ export type PokemonEfficiency = {
 }
 
 export type Pokemon = {
-    order: string
+    order: number
     name: string
     meta: boolean
     types: PokemonType[]

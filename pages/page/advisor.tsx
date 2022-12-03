@@ -6,7 +6,8 @@ import {PokemonType} from "../../types/PokemonType";
 import {PokemonEfficiencyComponent} from "../../components/PokemonComponent";
 import {Grid, Input, LoadingOverlay} from "@mantine/core";
 import {useTeraRaidAdvise} from "../../hooks/useTeraRaidAdvise";
-import {PokemonEfficiency} from "../../types/Pokemon";
+import {Pokemon, PokemonEfficiency} from "../../types/Pokemon";
+import {PokemonSelect} from "../../components/PokemonSelect";
 
 
 type TeraTypeUsageAdviceProps = { raiders: PokemonEfficiency[] }
@@ -28,6 +29,7 @@ const TeraTypeUsageAdvice = ({raiders}: TeraTypeUsageAdviceProps) => {
 
 const AdvisorPage = () => {
     const [type, setType] = useState<PokemonType>()
+    const [boss, setBoss] = useState<Pokemon>()
     const [raiders, setRaiders] = useState<PokemonEfficiency[]>([])
     const [loading, setLoading] = useState<boolean>(false)
     const [searchText, setSearchText] = useState<string>()
@@ -37,7 +39,8 @@ const AdvisorPage = () => {
             setLoading(true)
             setTimeout(
                 () => {
-                    loadRaiders(type)
+                    console.log("loading")
+                    loadRaiders(type, boss)
                         .then(setRaiders)
                         .finally(() => setLoading(false))
                 }
@@ -47,7 +50,7 @@ const AdvisorPage = () => {
             setSearchText(undefined)
             setRaiders([])
         }
-    }, [type])
+    }, [type, boss])
     return (
         <Grid p={10}>
             <LoadingOverlay
@@ -57,6 +60,9 @@ const AdvisorPage = () => {
                 <Grid>
                     <Grid.Col xs={1} md={2}>
                         <PokemonTypeSelect onPick={setType}/>
+                    </Grid.Col>
+                    <Grid.Col xs={1} md={2}>
+                        <PokemonSelect onPick={setBoss}/>
                     </Grid.Col>
                     <Grid.Col xs={1} md={2}>
                         {

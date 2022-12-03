@@ -5,10 +5,11 @@ import {FightingEfficiency, Multiplier} from "../types/Pokemon";
 
 export const usePokemonFightEfficiency = () => {
     const matrix = useMatrix()
-    const findMultipliers = useCallback((attacking: PokemonType[], defending: PokemonType[]) =>
+    const findMultipliers = useCallback((attacking: PokemonType[], defending: PokemonType[], teraType?:PokemonType) =>
         matrix.filter(m => attacking.includes(m.type))
             .map(m => {
-                return m.values.filter(m2 => defending.includes(m2.type))
+                return m.values
+                    .filter(m2 => defending.filter(d=>d === teraType || teraType === undefined).includes(m2.type))
                     .map(m2 => {
                         return {
                             target: m2.type,
@@ -18,8 +19,8 @@ export const usePokemonFightEfficiency = () => {
                     })
             })
             .flat(), [matrix])
-    return useCallback((attackerTypes: PokemonType[], defenderTypes: PokemonType[]) => {
-        const attackMultipliers = findMultipliers(attackerTypes, defenderTypes)
+    return useCallback((attackerTypes: PokemonType[], defenderTypes: PokemonType[], teraType:PokemonType) => {
+        const attackMultipliers = findMultipliers(attackerTypes, defenderTypes, teraType)
         const defendMultipliers = findMultipliers(defenderTypes, attackerTypes)
         return {
             attackMultipliers,

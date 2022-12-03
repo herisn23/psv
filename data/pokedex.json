@@ -3050,5 +3050,12 @@
       "dragon",
       "electric"
     ]
+  },
+  {
+    "order": 401,
+    "name": "Charizard",
+    "types": [
+      "flying", "fire"
+    ]
   }
 ]
