@@ -92,7 +92,7 @@ const AdvisorPage = () => {
                 <Grid justify={"center"}>
                     {
                         boss && (
-                            <Grid.Col span={3}>
+                            <Grid.Col md={3}>
                                 <Text mb={"xs"} align={"center"}>Boss</Text>
                                 <PokemonComponent pokemon={boss}/>
                             </Grid.Col>
