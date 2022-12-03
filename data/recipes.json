@@ -1,0 +1,452 @@
+[
+  {
+    "type": "bug",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Potato Salad"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "dark",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Smoked Filet"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "dragon",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Avocado"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "electric",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Yellow Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Onion"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      }
+    ]
+  },
+  {
+    "type": "fairy",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Tomato"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "fighting",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Herbed Sausage"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "fire",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Onion"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "flying",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Onion"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "ghost",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Red Onion"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "grass",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Lettuce"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "ground",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Ham"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "ice",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Klawf Stick"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "normal",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Tofu"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "poison",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Onion"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "psychic",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Onion"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "rock",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Bacon"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "steel",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Hamburger"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  },
+  {
+    "type": "water",
+    "ingredients": [
+      {
+        "count": 2,
+        "name": "Cucumber"
+      },
+      {
+        "count": 1,
+        "name": "Prosciutto"
+      },
+      {
+        "count": 1,
+        "name": "Green Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Red Pepper"
+      },
+      {
+        "count": 1,
+        "name": "Yellow Pepper"
+      }
+    ]
+  }
+]

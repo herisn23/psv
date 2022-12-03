@@ -14,8 +14,13 @@ export const pokedexLink: HeaderLink = {
     link: "/page/pokedex",
     label: "Pokédex"
 }
+export const recipesLink: HeaderLink = {
+    link: "/page/recipes",
+    label: "Recipes"
+}
+
 
 
 export const links: HeaderLink[] = [
-    matrixLink, advisorLink, pokedexLink
+    matrixLink, advisorLink, pokedexLink, recipesLink
 ]

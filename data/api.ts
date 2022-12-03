@@ -1,8 +1,10 @@
 import weaknessJson from './weakness-matrix.json'
 import pokedexJson from './pokedex.json'
-import {Matrix} from "../types/Matrix";
-import {PokemonType} from "../types/PokemonType";
-import {Pokemon} from "../types/Pokemon";
+import recipesJson from './recipes.json'
+import {Matrix} from "../types/Matrix"
+import {PokemonType} from "../types/PokemonType"
+import {Pokemon} from "../types/Pokemon"
+import {Recipe} from "../types/Recipe";
 
 
 export const matrix = weaknessJson.map(m => {
@@ -30,3 +32,5 @@ export const pokedex = pokedexJson.map(p => {
         baseStats: p.baseStats
     } as Pokemon
 }).flat()
+
+export const recipes = recipesJson as Recipe[]
