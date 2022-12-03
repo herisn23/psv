@@ -3,6 +3,7 @@ import rtlPlugin from 'stylis-plugin-rtl';
 import {PropsWithChildren, useState} from "react";
 import {useHotkeys, useLocalStorage} from "@mantine/hooks";
 import {HeaderMenu} from "./HeaderMenu";
+import {ScrollToTop} from "./ScrollToTop";
 
 const THEME_KEY = 'mantine-color-scheme';
 
@@ -43,6 +44,7 @@ export const Layout = ({children}: PropsWithChildren) => {
             >
                 <HeaderMenu />
                 {children}
+                <ScrollToTop />
             </MantineProvider>
         </ColorSchemeProvider>
     )

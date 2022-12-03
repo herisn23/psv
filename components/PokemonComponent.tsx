@@ -4,7 +4,7 @@ import {PokemonTypeImage} from "./PokemonTypeImage";
 import {PropsWithChildren, useState} from "react";
 import {groupBy} from "../utils/groupBy";
 import {IconChevronDown, IconChevronUp} from "@tabler/icons";
-import {PokemonImage} from "./PokemonImage";
+import {PokemonAvatar} from "./PokemonImage";
 import {PokemonStatsComponent} from "./PokemonStatsComponent";
 
 type PokemonComponentProps = { pokemon: Pokemon }
@@ -12,10 +12,10 @@ type PokemonComponentProps = { pokemon: Pokemon }
 const PokemonInfo = ({pokemon}: PokemonComponentProps) => {
     return (
         <>
-            <Group position="apart" mb="md">
-                <PokemonImage pokemon={pokemon}/>
-                <Text weight={500} size={"lg"}>{pokemon.name}</Text>
-                <Text weight={200}>#{pokemon.order}</Text>
+            <Group position="apart" mb="md" p={0}>
+                <PokemonAvatar pokemon={pokemon} />
+                <Text>{pokemon.name}</Text>
+                <Text sx={{position:"absolute", right:0, top:0}} mt={10} mr={15} weight={100}>#{pokemon.order}</Text>
             </Group>
             <Group>
                 {pokemon.types?.map(type => <PokemonTypeImage key={type} type={type}/>)}
@@ -88,7 +88,7 @@ const PokemonEfficiencyInfo = ({efficiency}: { efficiency: FightingEfficiency })
 
 const PokemonCard = ({children}: PropsWithChildren) => {
     return (
-        <Card shadow="sm" p="lg" radius="md" withBorder>
+        <Card shadow="md" p="md" radius="md" withBorder>
             {children}
         </Card>
     )

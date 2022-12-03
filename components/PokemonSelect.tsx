@@ -13,7 +13,7 @@ const PokemonItem = forwardRef<HTMLDivElement, ItemProps>(
     ({pokemon, ...others}: ItemProps, ref) => (
         <div ref={ref} {...others}>
             <Group noWrap>
-                <PokemonImage pokemon={pokemon} width={20} height={20} />
+                <PokemonImage pokemon={pokemon} size={20} />
                 <Text>#{pokemon.order} - {pokemon.name}</Text>
             </Group>
         </div>

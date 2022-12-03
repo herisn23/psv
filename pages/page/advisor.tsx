@@ -8,10 +8,11 @@ import {Grid, Input, LoadingOverlay, Text} from "@mantine/core";
 import {useTeraRaidAdvise} from "../../hooks/useTeraRaidAdvise";
 import {Pokemon, PokemonEfficiency} from "../../types/Pokemon";
 import {PokemonSelect} from "../../components/PokemonSelect";
+import {pokemonFilter} from "../../utils/pokemonFilter";
+import {useReachBottom} from "../../hooks/useReachBottom";
 
 
-type TeraTypeUsageAdviceProps = { raiders: PokemonEfficiency[] }
-
+const pageSize = 16
 const AdvisorPage = () => {
     const [type, setType] = useState<PokemonType>()
     const [boss, setBoss] = useState<Pokemon>()
@@ -19,30 +20,32 @@ const AdvisorPage = () => {
     const [raiders, setRaiders] = useState<PokemonEfficiency[]>([])
     const [loading, setLoading] = useState<boolean>(false)
     const [searchText, setSearchText] = useState<string>()
+    const [size, setSize] = useState(pageSize)
     const loadRaiders = useTeraRaidAdvise()
+    useReachBottom(() => {
+        setSize(size + pageSize)
+    })
     useEffect(() => {
         if (type) {
             setLoading(true)
             setTimeout(
                 () => {
                     loadRaiders(type, boss, minStats)
-                        .then(setRaiders)
+                        .then(o=>{
+                            setSize(pageSize)
+                            setRaiders(o)
+                        })
                         .finally(() => setLoading(false))
                 }
             )
 
         } else {
+            setSize(pageSize)
             setSearchText(undefined)
             setRaiders([])
         }
     }, [type, boss, minStats, loadRaiders])
-    const filteredRaiders = raiders.filter(o => {
-        if (searchText) {
-            return o.pokemon.name.toLowerCase().includes(searchText)
-        } else {
-            return true
-        }
-    })
+    const filteredRaiders = raiders.filter(o=>pokemonFilter(o.pokemon, searchText)).slice(0, size)
     return (
         <Grid p={10} justify={"center"}>
             <LoadingOverlay
@@ -65,6 +68,7 @@ const AdvisorPage = () => {
                             onChange={e => {
                                 const val = e.currentTarget.value
                                 if (val) {
+                                    setSize(pageSize)
                                     setMinStats(parseFloat(val))
                                 }
                             }}
@@ -76,6 +80,7 @@ const AdvisorPage = () => {
                             hidden={raiders.length === 0}
                             defaultValue={searchText}
                             onChange={e => {
+                                setSize(pageSize)
                                 setSearchText(e.currentTarget.value)
                             }}
                             placeholder="Pokemon name"
@@ -100,7 +105,7 @@ const AdvisorPage = () => {
             </Grid.Col>
             {filteredRaiders.map(raider=>{
                 return (
-                    <Grid.Col key={raider.pokemon.order} span={3}>
+                    <Grid.Col key={raider.pokemon.order} md={3}>
                         <PokemonEfficiencyComponent pokemonEfficiency={raider} />
                     </Grid.Col>
                 )
