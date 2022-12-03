@@ -15,7 +15,7 @@ const rtlCache = createEmotionCache({
 export const Layout = ({children}: PropsWithChildren) => {
     const [colorScheme, setColorScheme] = useLocalStorage<ColorScheme>({
         key: THEME_KEY,
-        defaultValue: 'light',
+        defaultValue: 'dark',
         getInitialValueInEffect: true,
     });
     const [dir, setDir] = useState<'rtl' | 'ltr'>('ltr');
