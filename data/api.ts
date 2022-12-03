@@ -25,13 +25,13 @@ export const pokedex = pokedexJson.map(p => {
         {
             name: form.name,
             types: form.types,
-            order: `${p.order}.${index + 1}`,
+            order: parseFloat(`${p.order}.${index + 1}`),
             meta: false
         } as Pokemon
     )) ?? []
     forms.unshift({
         name: p.name,
-        order: `${p.order}`,
+        order: p.order,
         types: p.types,
         meta: p.meta ?? false
     } as Pokemon)
