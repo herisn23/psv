@@ -4,7 +4,7 @@ import {PokemonTypeSelect} from "../../components/PokemonTypeSelect";
 import {useEffect, useState} from "react";
 import {PokemonType} from "../../types/PokemonType";
 import {PokemonEfficiencyComponent} from "../../components/PokemonComponent";
-import {Grid, Input, LoadingOverlay} from "@mantine/core";
+import {Grid, Input, LoadingOverlay, Text} from "@mantine/core";
 import {useTeraRaidAdvise} from "../../hooks/useTeraRaidAdvise";
 import {Pokemon, PokemonEfficiency} from "../../types/Pokemon";
 import {PokemonSelect} from "../../components/PokemonSelect";
@@ -53,6 +53,7 @@ const AdvisorPage = () => {
     }, [type, boss])
     return (
         <Grid p={10}>
+            <Text p={10}>Advisor counting only damage multipliers to types not base stats nor IV nor EV of pokemons</Text>
             <LoadingOverlay
                 visible={loading}
             />
