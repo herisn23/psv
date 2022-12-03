@@ -1,8 +1,10 @@
 import {FightingEfficiency, Multiplier, Pokemon, PokemonEfficiency} from "../types/Pokemon";
-import {Badge, Button, Card, Collapse, Group, Table, Text} from "@mantine/core";
+import {ActionIcon, Card, Collapse, Group, Table, Text} from "@mantine/core";
 import {PokemonTypeImage} from "./PokemonTypeImage";
 import {PropsWithChildren, useState} from "react";
 import {groupBy} from "../utils/groupBy";
+import {IconChevronDown, IconChevronUp} from "@tabler/icons";
+import {PokemonImage} from "./PokemonImage";
 
 type PokemonComponentProps = { pokemon: Pokemon }
 
@@ -10,11 +12,38 @@ const PokemonInfo = ({pokemon}: PokemonComponentProps) => {
     return (
         <>
             <Group position="apart" mb="md">
-                <Text weight={500} size={"lg"}>{pokemon.name} {pokemon.meta && <Badge>Meta</Badge>}</Text>
+                <PokemonImage pokemon={pokemon}/>
+                <Text weight={500} size={"lg"}>{pokemon.name}</Text>
                 <Text weight={200}>#{pokemon.order}</Text>
             </Group>
             <Group>
                 {pokemon.types?.map(type => <PokemonTypeImage key={type} type={type}/>)}
+            </Group>
+            <Group position={"center"} mt={"md"}>
+                <Table>
+                    <thead>
+                    <tr>
+                        <th>total</th>
+                        <th>hp</th>
+                        <th>atk</th>
+                        <th>def</th>
+                        <th>spatk</th>
+                        <th>spdef</th>
+                        <th>spd</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>{pokemon.baseStats.total}</td>
+                        <td>{pokemon.baseStats.hp}</td>
+                        <td>{pokemon.baseStats.attack}</td>
+                        <td>{pokemon.baseStats.defense}</td>
+                        <td>{pokemon.baseStats.spAttack}</td>
+                        <td>{pokemon.baseStats.spDefense}</td>
+                        <td>{pokemon.baseStats.speed}</td>
+                    </tr>
+                    </tbody>
+                </Table>
             </Group>
         </>
     )
@@ -101,12 +130,13 @@ export const PokemonEfficiencyComponent = ({pokemonEfficiency}: PokemonEfficienc
     return (
         <PokemonCard>
             <PokemonInfo pokemon={pokemonEfficiency.pokemon}/>
-            <Group position="apart" mt="md" mb="xs">
-                <Text>Score: {pokemonEfficiency.score}</Text>
+            <Group position="center" mt="md">
+                <ActionIcon size="lg" onClick={() => setOpened((o) => !o)}>
+                    {
+                        opened ? <IconChevronUp size={26}/> : <IconChevronDown size={26}/>
+                    }
+                </ActionIcon>
             </Group>
-            <Button onClick={() => setOpened((o) => !o)}>
-                {opened ? "Hide multipliers" : "Show multipliers"}
-            </Button>
             <Collapse in={opened}>
                 <PokemonEfficiencyInfo efficiency={pokemonEfficiency.efficiency}/>
             </Collapse>

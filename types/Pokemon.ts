@@ -17,10 +17,20 @@ export type PokemonEfficiency = {
     score: number
     efficiency: FightingEfficiency
 }
-
+export type BaseStats = {
+    total: number
+    hp: number
+    attack: number
+    defense: number
+    spAttack: number
+    spDefense: number
+    speed: number
+}
 export type Pokemon = {
+    id: string
     order: number
     name: string
-    meta: boolean
+    abilities: string[],
+    baseStats: BaseStats
     types: PokemonType[]
 }

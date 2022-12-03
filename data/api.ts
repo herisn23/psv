@@ -21,19 +21,12 @@ export const matrix = weaknessJson.map(m => {
 })
 
 export const pokedex = pokedexJson.map(p => {
-    const forms = p.forms?.map((form, index) => (
-        {
-            name: form.name,
-            types: form.types,
-            order: parseFloat(`${p.order}.${index + 1}`),
-            meta: false
-        } as Pokemon
-    )) ?? []
-    forms.unshift({
+    return {
+        id: p.id,
+        order: parseFloat(p.order),
         name: p.name,
-        order: p.order,
+        abilities: p.abilities,
         types: p.types,
-        meta: p.meta ?? false
-    } as Pokemon)
-    return forms
+        baseStats: p.baseStats
+    } as Pokemon
 }).flat()

@@ -1,8 +1,8 @@
 import {Group, Select, SelectItem, Text} from "@mantine/core";
-import {ComponentPropsWithoutRef, forwardRef} from "react";
-import {PokemonTypeImage} from "./PokemonTypeImage";
+import {ComponentPropsWithoutRef, forwardRef, useState} from "react";
 import {Pokemon} from "../types/Pokemon";
 import {usePokedex} from "../context/DataContext";
+import {PokemonImage} from "./PokemonImage";
 
 interface ItemProps extends ComponentPropsWithoutRef<'div'> {
     pokemon:Pokemon
@@ -13,8 +13,8 @@ const PokemonItem = forwardRef<HTMLDivElement, ItemProps>(
     ({pokemon, ...others}: ItemProps, ref) => (
         <div ref={ref} {...others}>
             <Group noWrap>
+                <PokemonImage pokemon={pokemon} width={20} height={20} />
                 <Text>#{pokemon.order} - {pokemon.name}</Text>
-                {pokemon.types.map(t=><PokemonTypeImage key={t} type={t} />)}
             </Group>
         </div>
     )
@@ -24,11 +24,20 @@ type PokemonTypeSelectProps = {onPick:(type?:Pokemon)=>void}
 
 export const PokemonSelect = ({onPick}:PokemonTypeSelectProps) => {
     const pokedex = usePokedex()
+    const filterPokedex = (search?:String) =>
+        pokedex.filter(p=>{
+            if(search) {
+                return p.name.toLowerCase().includes(search.toLowerCase())
+            } else {
+                return true
+            }
+        }).slice(0, 20)
+    const [data, setData] = useState(filterPokedex())
     return (
         <Select
             itemComponent={PokemonItem}
             placeholder={"Boss"}
-            data={pokedex.map(i=>{
+            data={data.map(i=>{
                 return {
                     value:`${i.order}`,
                     label:i.name,
@@ -41,9 +50,10 @@ export const PokemonSelect = ({onPick}:PokemonTypeSelectProps) => {
                 onPick(pokedex.find(p=>`${p.order}` === value))
             }}
             nothingFound="Type not found"
-            filter={(value, item) =>
-                item.pokemon.name.toLowerCase().includes(value.toLowerCase())
-            }
+            onInput={e=>{
+                // @ts-ignore
+                setData(filterPokedex(e.target['value'] as string))
+            }}
         />
     )
 }

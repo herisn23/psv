@@ -1,3061 +1,9756 @@
 [
   {
-    "order": 1,
+    "id": "BzhXnkoEAt",
+    "order": "1",
     "name": "Sprigatito",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Overgrow",
+      "Protean"
+    ],
+    "baseStats": {
+      "total": 310,
+      "hp": 40,
+      "attack": 61,
+      "defense": 54,
+      "spAttack": 45,
+      "spDefense": 45,
+      "speed": 65
+    }
   },
   {
-    "order": 2,
+    "id": "GUVal3qk3W",
+    "order": "2",
     "name": "Floragato",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Overgrow",
+      "Protean"
+    ],
+    "baseStats": {
+      "total": 410,
+      "hp": 61,
+      "attack": 80,
+      "defense": 63,
+      "spAttack": 60,
+      "spDefense": 63,
+      "speed": 83
+    }
   },
   {
-    "order": 3,
+    "id": "vz8hy20tRO",
+    "order": "3",
     "name": "Meowscarada",
     "types": [
       "grass",
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Overgrow",
+      "Protean"
+    ],
+    "baseStats": {
+      "total": 530,
+      "hp": 76,
+      "attack": 110,
+      "defense": 70,
+      "spAttack": 81,
+      "spDefense": 70,
+      "speed": 123
+    }
   },
   {
-    "order": 4,
+    "id": "Msw8v5ChyD",
+    "order": "4",
     "name": "Fuecoco",
     "types": [
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Blaze",
+      "Unaware"
+    ],
+    "baseStats": {
+      "total": 310,
+      "hp": 67,
+      "attack": 45,
+      "defense": 59,
+      "spAttack": 63,
+      "spDefense": 40,
+      "speed": 36
+    }
   },
   {
-    "order": 5,
+    "id": "84qD1B6gto",
+    "order": "5",
     "name": "Crocalor",
     "types": [
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Blaze",
+      "Unaware"
+    ],
+    "baseStats": {
+      "total": 411,
+      "hp": 81,
+      "attack": 55,
+      "defense": 78,
+      "spAttack": 90,
+      "spDefense": 58,
+      "speed": 49
+    }
   },
   {
-    "order": 6,
+    "id": "Lx7q0TMtpQ",
+    "order": "6",
     "name": "Skeledirge",
     "types": [
       "fire",
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Blaze",
+      "Unaware"
+    ],
+    "baseStats": {
+      "total": 530,
+      "hp": 104,
+      "attack": 75,
+      "defense": 100,
+      "spAttack": 110,
+      "spDefense": 75,
+      "speed": 66
+    }
   },
   {
-    "order": 7,
+    "id": "Lmn8SIYQDO",
+    "order": "7",
     "name": "Quaxly",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Torrent",
+      "Moxie"
+    ],
+    "baseStats": {
+      "total": 310,
+      "hp": 55,
+      "attack": 65,
+      "defense": 45,
+      "spAttack": 50,
+      "spDefense": 45,
+      "speed": 50
+    }
   },
   {
-    "order": 8,
+    "id": "oxZikPb4ut",
+    "order": "8",
     "name": "Quaxwell",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Torrent",
+      "Moxie"
+    ],
+    "baseStats": {
+      "total": 410,
+      "hp": 70,
+      "attack": 85,
+      "defense": 65,
+      "spAttack": 65,
+      "spDefense": 60,
+      "speed": 65
+    }
   },
   {
-    "order": 9,
+    "id": "m7ZAtfWq3v",
+    "order": "9",
     "name": "Quaquaval",
     "types": [
       "water",
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Torrent",
+      "Moxie"
+    ],
+    "baseStats": {
+      "total": 530,
+      "hp": 85,
+      "attack": 120,
+      "defense": 80,
+      "spAttack": 85,
+      "spDefense": 75,
+      "speed": 85
+    }
   },
   {
-    "order": 10,
+    "id": "XJG8oBWbNS",
+    "order": "10",
     "name": "Lechonk",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Aroma",
+      "Veil",
+      "Gluttony",
+      "Thick",
+      "Fat"
+    ],
+    "baseStats": {
+      "total": 254,
+      "hp": 54,
+      "attack": 45,
+      "defense": 40,
+      "spAttack": 35,
+      "spDefense": 45,
+      "speed": 35
+    }
   },
   {
-    "order": 11,
-    "name": "Oinkologne",
+    "id": "lt0Dw8LaLv",
+    "order": "11",
+    "name": "Oinkologne (Male)",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Lingering",
+      "Aroma",
+      "Gluttony",
+      "Thick",
+      "Fat"
+    ],
+    "baseStats": {
+      "total": 489,
+      "hp": 110,
+      "attack": 100,
+      "defense": 75,
+      "spAttack": 59,
+      "spDefense": 80,
+      "speed": 65
+    }
   },
   {
-    "order": 12,
+    "id": "smeTUuAYP2",
+    "order": "11.1",
+    "name": "Oinkologne (Female)",
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "Aroma",
+      "Veil",
+      "Gluttony",
+      "Thick",
+      "Fat"
+    ],
+    "baseStats": {
+      "total": 489,
+      "hp": 115,
+      "attack": 90,
+      "defense": 70,
+      "spAttack": 59,
+      "spDefense": 90,
+      "speed": 65
+    }
+  },
+  {
+    "id": "hzaiHNP142",
+    "order": "12",
     "name": "Tarountula",
     "types": [
       "bug"
-    ]
+    ],
+    "abilities": [
+      "Insomnia",
+      "Stakeout"
+    ],
+    "baseStats": {
+      "total": 210,
+      "hp": 35,
+      "attack": 41,
+      "defense": 45,
+      "spAttack": 29,
+      "spDefense": 40,
+      "speed": 20
+    }
   },
   {
-    "order": 13,
+    "id": "qsvKSgNbur",
+    "order": "13",
     "name": "Spidops",
     "types": [
       "bug"
-    ]
+    ],
+    "abilities": [
+      "Insomnia",
+      "Stakeout"
+    ],
+    "baseStats": {
+      "total": 404,
+      "hp": 60,
+      "attack": 79,
+      "defense": 92,
+      "spAttack": 52,
+      "spDefense": 86,
+      "speed": 35
+    }
   },
   {
-    "order": 14,
+    "id": "n5LxvPW4V8",
+    "order": "14",
     "name": "Nymble",
     "types": [
       "bug"
-    ]
+    ],
+    "abilities": [
+      "Swarm",
+      "Tinted",
+      "Lens"
+    ],
+    "baseStats": {
+      "total": 210,
+      "hp": 33,
+      "attack": 46,
+      "defense": 40,
+      "spAttack": 21,
+      "spDefense": 25,
+      "speed": 45
+    }
   },
   {
-    "order": 15,
+    "id": "ic8TJJvfSh",
+    "order": "15",
     "name": "Lokix",
     "types": [
       "bug",
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Swarm",
+      "Tinted",
+      "Lens"
+    ],
+    "baseStats": {
+      "total": 450,
+      "hp": 71,
+      "attack": 102,
+      "defense": 78,
+      "spAttack": 52,
+      "spDefense": 55,
+      "speed": 92
+    }
   },
   {
-    "order": 16,
+    "id": "zTFPoN9nRh",
+    "order": "16",
     "name": "Hoppip",
     "types": [
       "grass",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Chlorophyll",
+      "Leaf",
+      "Guard",
+      "Infiltrator"
+    ],
+    "baseStats": {
+      "total": 250,
+      "hp": 35,
+      "attack": 35,
+      "defense": 40,
+      "spAttack": 35,
+      "spDefense": 55,
+      "speed": 50
+    }
   },
   {
-    "order": 17,
+    "id": "CW1ghEkxbm",
+    "order": "17",
     "name": "Skiploom",
     "types": [
       "grass",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Chlorophyll",
+      "Leaf",
+      "Guard",
+      "Infiltrator"
+    ],
+    "baseStats": {
+      "total": 340,
+      "hp": 55,
+      "attack": 45,
+      "defense": 50,
+      "spAttack": 45,
+      "spDefense": 65,
+      "speed": 80
+    }
   },
   {
-    "order": 18,
+    "id": "Fs46j7QUtY",
+    "order": "18",
     "name": "Jumpluff",
     "types": [
       "grass",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Chlorophyll",
+      "Leaf",
+      "Guard",
+      "Infiltrator"
+    ],
+    "baseStats": {
+      "total": 460,
+      "hp": 75,
+      "attack": 55,
+      "defense": 70,
+      "spAttack": 55,
+      "spDefense": 95,
+      "speed": 110
+    }
   },
   {
-    "order": 19,
+    "id": "FO0rXkLJx9",
+    "order": "19",
     "name": "Fletchling",
     "types": [
       "normal",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Big",
+      "Pecks",
+      "Gale",
+      "Wings"
+    ],
+    "baseStats": {
+      "total": 278,
+      "hp": 45,
+      "attack": 50,
+      "defense": 43,
+      "spAttack": 40,
+      "spDefense": 38,
+      "speed": 62
+    }
   },
   {
-    "order": 20,
+    "id": "xYgT9jw144",
+    "order": "20",
     "name": "Fletchinder",
     "types": [
       "fire",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Flame",
+      "Body",
+      "Gale",
+      "Wings"
+    ],
+    "baseStats": {
+      "total": 382,
+      "hp": 62,
+      "attack": 73,
+      "defense": 55,
+      "spAttack": 56,
+      "spDefense": 52,
+      "speed": 84
+    }
   },
   {
-    "order": 21,
+    "id": "ONnpl29YWQ",
+    "order": "21",
     "name": "Talonflame",
     "types": [
       "fire",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Flame",
+      "Body",
+      "Gale",
+      "Wings"
+    ],
+    "baseStats": {
+      "total": 499,
+      "hp": 78,
+      "attack": 81,
+      "defense": 71,
+      "spAttack": 74,
+      "spDefense": 69,
+      "speed": 126
+    }
   },
   {
-    "order": 22,
+    "id": "id5bcsmp90",
+    "order": "22",
     "name": "Pawmi",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Static",
+      "Natural",
+      "Cure",
+      "Iron",
+      "Fist"
+    ],
+    "baseStats": {
+      "total": 240,
+      "hp": 45,
+      "attack": 50,
+      "defense": 20,
+      "spAttack": 40,
+      "spDefense": 25,
+      "speed": 60
+    }
   },
   {
-    "order": 23,
+    "id": "5GjkFJZqzl",
+    "order": "23",
     "name": "Pawmo",
     "types": [
-      "electric"
-    ]
+      "electric",
+      "fighting"
+    ],
+    "abilities": [
+      "Volt",
+      "Absorb",
+      "Natural",
+      "Cure",
+      "Iron",
+      "Fist"
+    ],
+    "baseStats": {
+      "total": 350,
+      "hp": 60,
+      "attack": 75,
+      "defense": 40,
+      "spAttack": 50,
+      "spDefense": 40,
+      "speed": 85
+    }
   },
   {
-    "order": 24,
+    "id": "R4N4Jc5MRD",
+    "order": "24",
     "name": "Pawmot",
     "types": [
       "electric",
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Volt",
+      "Absorb",
+      "Natural",
+      "Cure",
+      "Iron",
+      "Fist"
+    ],
+    "baseStats": {
+      "total": 490,
+      "hp": 70,
+      "attack": 115,
+      "defense": 70,
+      "spAttack": 70,
+      "spDefense": 60,
+      "speed": 105
+    }
   },
   {
-    "order": 25,
+    "id": "bKjWTQip8m",
+    "order": "25",
     "name": "Houndour",
     "types": [
       "dark",
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Early",
+      "Bird",
+      "Flash",
+      "Fire",
+      "Unnerve"
+    ],
+    "baseStats": {
+      "total": 330,
+      "hp": 45,
+      "attack": 60,
+      "defense": 30,
+      "spAttack": 80,
+      "spDefense": 50,
+      "speed": 65
+    }
   },
   {
-    "order": 26,
+    "id": "1ht0YjAsjt",
+    "order": "26",
     "name": "Houndoom",
     "types": [
       "dark",
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Early",
+      "Bird",
+      "Flash",
+      "Fire",
+      "Unnerve"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 75,
+      "attack": 90,
+      "defense": 50,
+      "spAttack": 110,
+      "spDefense": 80,
+      "speed": 95
+    }
   },
   {
-    "order": 27,
+    "id": "8OyWKE3QVa",
+    "order": "27",
     "name": "Yungoos",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Stakeout",
+      "Strong",
+      "Jaw",
+      "Adaptability"
+    ],
+    "baseStats": {
+      "total": 253,
+      "hp": 48,
+      "attack": 70,
+      "defense": 30,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 45
+    }
   },
   {
-    "order": 28,
+    "id": "KAql70IYFW",
+    "order": "28",
     "name": "Gumshoos",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Stakeout",
+      "Strong",
+      "Jaw",
+      "Adaptability"
+    ],
+    "baseStats": {
+      "total": 418,
+      "hp": 88,
+      "attack": 110,
+      "defense": 60,
+      "spAttack": 55,
+      "spDefense": 60,
+      "speed": 45
+    }
   },
   {
-    "order": 29,
+    "id": "epx9SVOqxg",
+    "order": "29",
     "name": "Skwovet",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Cheek",
+      "Pouch",
+      "Gluttony"
+    ],
+    "baseStats": {
+      "total": 275,
+      "hp": 70,
+      "attack": 55,
+      "defense": 55,
+      "spAttack": 35,
+      "spDefense": 25,
+      "speed": 25
+    }
   },
   {
-    "order": 30,
+    "id": "MwQcyskq2T",
+    "order": "30",
     "name": "Greedent",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Cheek",
+      "Pouch",
+      "Gluttony"
+    ],
+    "baseStats": {
+      "total": 460,
+      "hp": 120,
+      "attack": 95,
+      "defense": 95,
+      "spAttack": 55,
+      "spDefense": 75,
+      "speed": 20
+    }
   },
   {
-    "order": 31,
+    "id": "yQ9NBaxCaO",
+    "order": "31",
     "name": "Sunkern",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Chlorophyll",
+      "Solar",
+      "Power",
+      "Early",
+      "Bird"
+    ],
+    "baseStats": {
+      "total": 180,
+      "hp": 30,
+      "attack": 30,
+      "defense": 30,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 30
+    }
   },
   {
-    "order": 32,
+    "id": "0zgWYZxKM8",
+    "order": "32",
     "name": "Sunflora",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Chlorophyll",
+      "Solar",
+      "Power",
+      "Early",
+      "Bird"
+    ],
+    "baseStats": {
+      "total": 425,
+      "hp": 75,
+      "attack": 75,
+      "defense": 55,
+      "spAttack": 105,
+      "spDefense": 85,
+      "speed": 30
+    }
   },
   {
-    "order": 33,
+    "id": "N8kE55NZHe",
+    "order": "33",
     "name": "Kricketot",
     "types": [
       "bug"
-    ]
+    ],
+    "abilities": [
+      "Shed",
+      "Skin",
+      "Run",
+      "Away"
+    ],
+    "baseStats": {
+      "total": 194,
+      "hp": 37,
+      "attack": 25,
+      "defense": 41,
+      "spAttack": 25,
+      "spDefense": 41,
+      "speed": 25
+    }
   },
   {
-    "order": 34,
+    "id": "0W1nvbvbar",
+    "order": "34",
     "name": "Kricketune",
     "types": [
       "bug"
-    ]
+    ],
+    "abilities": [
+      "Swarm",
+      "Technician"
+    ],
+    "baseStats": {
+      "total": 384,
+      "hp": 77,
+      "attack": 85,
+      "defense": 51,
+      "spAttack": 55,
+      "spDefense": 51,
+      "speed": 65
+    }
   },
   {
-    "order": 35,
+    "id": "d30HtSjYnu",
+    "order": "35",
     "name": "Scatterbug",
     "types": [
       "bug"
-    ]
+    ],
+    "abilities": [
+      "Shield",
+      "Dust",
+      "Compound",
+      "Eyes",
+      "Friend",
+      "Guard"
+    ],
+    "baseStats": {
+      "total": 200,
+      "hp": 38,
+      "attack": 35,
+      "defense": 40,
+      "spAttack": 27,
+      "spDefense": 25,
+      "speed": 35
+    }
   },
   {
-    "order": 36,
+    "id": "VEhZC6skQ3",
+    "order": "36",
     "name": "Spewpa",
     "types": [
       "bug"
-    ]
+    ],
+    "abilities": [
+      "Shed",
+      "Skin",
+      "Friend",
+      "Guard"
+    ],
+    "baseStats": {
+      "total": 213,
+      "hp": 45,
+      "attack": 22,
+      "defense": 60,
+      "spAttack": 27,
+      "spDefense": 30,
+      "speed": 29
+    }
   },
   {
-    "order": 37,
+    "id": "QFpMdTzCs1",
+    "order": "37",
     "name": "Vivillon",
     "types": [
       "bug",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Shield",
+      "Dust",
+      "Compound",
+      "Eyes",
+      "Friend",
+      "Guard"
+    ],
+    "baseStats": {
+      "total": 411,
+      "hp": 80,
+      "attack": 52,
+      "defense": 50,
+      "spAttack": 90,
+      "spDefense": 50,
+      "speed": 89
+    }
   },
   {
-    "order": 38,
+    "id": "fySbETxwUB",
+    "order": "38",
     "name": "Combee",
     "types": [
       "bug",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Honey",
+      "Gather",
+      "Hustle"
+    ],
+    "baseStats": {
+      "total": 244,
+      "hp": 30,
+      "attack": 30,
+      "defense": 42,
+      "spAttack": 30,
+      "spDefense": 42,
+      "speed": 70
+    }
   },
   {
-    "order": 39,
+    "id": "AmhRyk0x1e",
+    "order": "39",
     "name": "Vespiquen",
     "types": [
       "bug",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Pressure",
+      "Unnerve"
+    ],
+    "baseStats": {
+      "total": 474,
+      "hp": 70,
+      "attack": 80,
+      "defense": 102,
+      "spAttack": 80,
+      "spDefense": 102,
+      "speed": 40
+    }
   },
   {
-    "order": 40,
+    "id": "E1GeWehao4",
+    "order": "40",
     "name": "Rookidee",
     "types": [
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Unnerve",
+      "Keen",
+      "Eye",
+      "Big",
+      "Pecks"
+    ],
+    "baseStats": {
+      "total": 245,
+      "hp": 38,
+      "attack": 47,
+      "defense": 35,
+      "spAttack": 33,
+      "spDefense": 35,
+      "speed": 57
+    }
   },
   {
-    "order": 41,
+    "id": "8RE7q0LmDF",
+    "order": "41",
     "name": "Corvisquire",
     "types": [
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Unnerve",
+      "Keen",
+      "Eye",
+      "Big",
+      "Pecks"
+    ],
+    "baseStats": {
+      "total": 365,
+      "hp": 68,
+      "attack": 67,
+      "defense": 55,
+      "spAttack": 43,
+      "spDefense": 55,
+      "speed": 77
+    }
   },
   {
-    "order": 42,
+    "id": "j18OY8OKgN",
+    "order": "42",
     "name": "Corviknight",
     "types": [
       "flying",
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Unnerve",
+      "Pressure",
+      "Mirror",
+      "Armor"
+    ],
+    "baseStats": {
+      "total": 495,
+      "hp": 98,
+      "attack": 87,
+      "defense": 105,
+      "spAttack": 53,
+      "spDefense": 85,
+      "speed": 67
+    }
   },
   {
-    "order": 43,
+    "id": "4vZwY3bZdv",
+    "order": "43",
     "name": "Happiny",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Natural",
+      "Cure",
+      "Serene",
+      "Grace",
+      "Friend",
+      "Guard"
+    ],
+    "baseStats": {
+      "total": 220,
+      "hp": 100,
+      "attack": 5,
+      "defense": 5,
+      "spAttack": 15,
+      "spDefense": 65,
+      "speed": 30
+    }
   },
   {
-    "order": 44,
+    "id": "Z26VrTGnCD",
+    "order": "44",
     "name": "Chansey",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Natural",
+      "Cure",
+      "Serene",
+      "Grace",
+      "Healer"
+    ],
+    "baseStats": {
+      "total": 450,
+      "hp": 250,
+      "attack": 5,
+      "defense": 5,
+      "spAttack": 35,
+      "spDefense": 105,
+      "speed": 50
+    }
   },
   {
-    "order": 45,
+    "id": "JE4Z7LOBiV",
+    "order": "45",
     "name": "Blissey",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Natural",
+      "Cure",
+      "Serene",
+      "Grace",
+      "Healer"
+    ],
+    "baseStats": {
+      "total": 540,
+      "hp": 255,
+      "attack": 10,
+      "defense": 10,
+      "spAttack": 75,
+      "spDefense": 135,
+      "speed": 55
+    }
   },
   {
-    "order": 46,
+    "id": "dnAdbCRVFH",
+    "order": "46",
     "name": "Azurill",
     "types": [
       "normal",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Thick",
+      "Fat",
+      "Huge",
+      "Power",
+      "Sap",
+      "Sipper"
+    ],
+    "baseStats": {
+      "total": 190,
+      "hp": 50,
+      "attack": 20,
+      "defense": 40,
+      "spAttack": 20,
+      "spDefense": 40,
+      "speed": 20
+    }
   },
   {
-    "order": 47,
+    "id": "G0o4wStEs5",
+    "order": "47",
     "name": "Marill",
     "types": [
       "water",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Thick",
+      "Fat",
+      "Huge",
+      "Power",
+      "Sap",
+      "Sipper"
+    ],
+    "baseStats": {
+      "total": 250,
+      "hp": 70,
+      "attack": 20,
+      "defense": 50,
+      "spAttack": 20,
+      "spDefense": 50,
+      "speed": 40
+    }
   },
   {
-    "order": 48,
-    "meta": true,
+    "id": "UuYqG8etFw",
+    "order": "48",
     "name": "Azumarill",
     "types": [
       "water",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Thick",
+      "Fat",
+      "Huge",
+      "Power",
+      "Sap",
+      "Sipper"
+    ],
+    "baseStats": {
+      "total": 420,
+      "hp": 100,
+      "attack": 50,
+      "defense": 80,
+      "spAttack": 60,
+      "spDefense": 80,
+      "speed": 50
+    }
   },
   {
-    "order": 49,
+    "id": "JrJKFTvSU0",
+    "order": "49",
     "name": "Surskit",
     "types": [
       "bug",
       "water"
-    ]
+    ],
+    "abilities": [
+      "Swift",
+      "Swim",
+      "Rain",
+      "Dish"
+    ],
+    "baseStats": {
+      "total": 269,
+      "hp": 40,
+      "attack": 30,
+      "defense": 32,
+      "spAttack": 50,
+      "spDefense": 52,
+      "speed": 65
+    }
   },
   {
-    "order": 50,
+    "id": "DLhooN589q",
+    "order": "50",
     "name": "Masquerain",
     "types": [
       "bug",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Intimidate",
+      "Unnerve"
+    ],
+    "baseStats": {
+      "total": 454,
+      "hp": 70,
+      "attack": 60,
+      "defense": 62,
+      "spAttack": 100,
+      "spDefense": 82,
+      "speed": 80
+    }
   },
   {
-    "order": 51,
+    "id": "SEKbMnQXTU",
+    "order": "51",
     "name": "Buizel",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Swift",
+      "Swim",
+      "Water",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 330,
+      "hp": 55,
+      "attack": 65,
+      "defense": 35,
+      "spAttack": 60,
+      "spDefense": 30,
+      "speed": 85
+    }
   },
   {
-    "order": 52,
+    "id": "9O0G35XKDT",
+    "order": "52",
     "name": "Floatzel",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Swift",
+      "Swim",
+      "Water",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 495,
+      "hp": 85,
+      "attack": 105,
+      "defense": 55,
+      "spAttack": 85,
+      "spDefense": 50,
+      "speed": 115
+    }
   },
   {
-    "order": 53,
-    "name": "Wooper",
+    "id": "GKimEEnDCD",
+    "order": "53",
+    "name": "Paldean Wooper",
     "types": [
       "poison",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Poison",
+      "Point",
+      "Water",
+      "Absorb",
+      "Unaware"
+    ],
+    "baseStats": {
+      "total": 210,
+      "hp": 55,
+      "attack": 45,
+      "defense": 45,
+      "spAttack": 25,
+      "spDefense": 25,
+      "speed": 15
+    }
   },
   {
-    "order": 54,
+    "id": "D5Sj2GLNms",
+    "order": "53.1",
+    "name": "Wooper",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "abilities": [
+      "Damp",
+      "Water",
+      "Absorb",
+      "Unaware"
+    ],
+    "baseStats": {
+      "total": 210,
+      "hp": 55,
+      "attack": 45,
+      "defense": 45,
+      "spAttack": 25,
+      "spDefense": 25,
+      "speed": 15
+    }
+  },
+  {
+    "id": "wFNnl6jdYH",
+    "order": "54",
     "name": "Clodsire",
     "types": [
       "poison",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Poison",
+      "Point",
+      "Water",
+      "Absorb",
+      "Unaware"
+    ],
+    "baseStats": {
+      "total": 430,
+      "hp": 130,
+      "attack": 75,
+      "defense": 60,
+      "spAttack": 45,
+      "spDefense": 100,
+      "speed": 20
+    }
   },
   {
-    "order": 55,
+    "id": "tHuACjoGiG",
+    "order": "55",
     "name": "Psyduck",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Damp",
+      "Cloud",
+      "Nine",
+      "Swift",
+      "Swim"
+    ],
+    "baseStats": {
+      "total": 320,
+      "hp": 50,
+      "attack": 52,
+      "defense": 48,
+      "spAttack": 65,
+      "spDefense": 50,
+      "speed": 55
+    }
   },
   {
-    "order": 56,
+    "id": "63iFHkC97o",
+    "order": "56",
     "name": "Golduck",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Damp",
+      "Cloud",
+      "Nine",
+      "Swift",
+      "Swim"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 80,
+      "attack": 82,
+      "defense": 78,
+      "spAttack": 95,
+      "spDefense": 80,
+      "speed": 85
+    }
   },
   {
-    "order": 57,
+    "id": "M63DrAKFjK",
+    "order": "57",
     "name": "Chewtle",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Strong",
+      "Jaw",
+      "Shell",
+      "Armor",
+      "Swift",
+      "Swim"
+    ],
+    "baseStats": {
+      "total": 284,
+      "hp": 50,
+      "attack": 64,
+      "defense": 50,
+      "spAttack": 38,
+      "spDefense": 38,
+      "speed": 44
+    }
   },
   {
-    "order": 58,
+    "id": "qFRVb4xzXv",
+    "order": "58",
     "name": "Drednaw",
     "types": [
       "water",
       "rock"
-    ]
+    ],
+    "abilities": [
+      "Strong",
+      "Jaw",
+      "Shell",
+      "Armor",
+      "Swift",
+      "Swim"
+    ],
+    "baseStats": {
+      "total": 485,
+      "hp": 90,
+      "attack": 115,
+      "defense": 90,
+      "spAttack": 48,
+      "spDefense": 68,
+      "speed": 74
+    }
   },
   {
-    "order": 59,
+    "id": "Y6qwupxTGs",
+    "order": "59",
     "name": "Igglybuff",
     "types": [
       "normal",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Cute",
+      "Charm",
+      "Competitive",
+      "Friend",
+      "Guard"
+    ],
+    "baseStats": {
+      "total": 210,
+      "hp": 90,
+      "attack": 30,
+      "defense": 15,
+      "spAttack": 40,
+      "spDefense": 20,
+      "speed": 15
+    }
   },
   {
-    "order": 60,
+    "id": "9MKmtv3Ncw",
+    "order": "60",
     "name": "Jigglypuff",
     "types": [
       "normal",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Cute",
+      "Charm",
+      "Competitive",
+      "Friend",
+      "Guard"
+    ],
+    "baseStats": {
+      "total": 270,
+      "hp": 115,
+      "attack": 45,
+      "defense": 20,
+      "spAttack": 45,
+      "spDefense": 25,
+      "speed": 20
+    }
   },
   {
-    "order": 61,
+    "id": "FHvqsiFWTY",
+    "order": "61",
     "name": "Wigglytuff",
     "types": [
       "normal",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Cute",
+      "Charm",
+      "Competitive",
+      "Frisk"
+    ],
+    "baseStats": {
+      "total": 435,
+      "hp": 140,
+      "attack": 70,
+      "defense": 45,
+      "spAttack": 85,
+      "spDefense": 50,
+      "speed": 45
+    }
   },
   {
-    "order": 62,
+    "id": "Kyct5uQcu1",
+    "order": "62",
     "name": "Ralts",
     "types": [
       "psychic",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Synchronize",
+      "Trace",
+      "Telepathy"
+    ],
+    "baseStats": {
+      "total": 198,
+      "hp": 28,
+      "attack": 25,
+      "defense": 25,
+      "spAttack": 45,
+      "spDefense": 35,
+      "speed": 40
+    }
   },
   {
-    "order": 63,
+    "id": "Rz2qo0QQzA",
+    "order": "63",
     "name": "Kirlia",
     "types": [
       "psychic",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Synchronize",
+      "Trace",
+      "Telepathy"
+    ],
+    "baseStats": {
+      "total": 278,
+      "hp": 38,
+      "attack": 35,
+      "defense": 35,
+      "spAttack": 65,
+      "spDefense": 55,
+      "speed": 50
+    }
   },
   {
-    "order": 64,
+    "id": "GWfvFr3IrL",
+    "order": "64",
     "name": "Gardevoir",
     "types": [
       "psychic",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Synchronize",
+      "Trace",
+      "Telepathy"
+    ],
+    "baseStats": {
+      "total": 518,
+      "hp": 68,
+      "attack": 65,
+      "defense": 65,
+      "spAttack": 125,
+      "spDefense": 115,
+      "speed": 80
+    }
   },
   {
-    "order": 65,
+    "id": "E3Vr9coCa2",
+    "order": "65",
     "name": "Gallade",
     "types": [
       "psychic",
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Steadfast",
+      "Sharpness",
+      "Justified"
+    ],
+    "baseStats": {
+      "total": 518,
+      "hp": 68,
+      "attack": 125,
+      "defense": 65,
+      "spAttack": 65,
+      "spDefense": 115,
+      "speed": 80
+    }
   },
   {
-    "order": 66,
+    "id": "rgg8WRXGwW",
+    "order": "66",
     "name": "Drowzee",
     "types": [
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Insomnia",
+      "Forewarn",
+      "Inner",
+      "Focus"
+    ],
+    "baseStats": {
+      "total": 328,
+      "hp": 60,
+      "attack": 48,
+      "defense": 45,
+      "spAttack": 43,
+      "spDefense": 90,
+      "speed": 42
+    }
   },
   {
-    "order": 67,
+    "id": "w8CQCBepew",
+    "order": "67",
     "name": "Hypno",
     "types": [
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Insomnia",
+      "Forewarn",
+      "Inner",
+      "Focus"
+    ],
+    "baseStats": {
+      "total": 483,
+      "hp": 85,
+      "attack": 73,
+      "defense": 70,
+      "spAttack": 73,
+      "spDefense": 115,
+      "speed": 67
+    }
   },
   {
-    "order": 68,
+    "id": "APwdER6PcE",
+    "order": "68",
     "name": "Gastly",
     "types": [
       "ghost",
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Levitate"
+    ],
+    "baseStats": {
+      "total": 310,
+      "hp": 30,
+      "attack": 35,
+      "defense": 30,
+      "spAttack": 100,
+      "spDefense": 35,
+      "speed": 80
+    }
   },
   {
-    "order": 69,
+    "id": "7hJqUjC7fp",
+    "order": "69",
     "name": "Haunter",
     "types": [
       "ghost",
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Levitate"
+    ],
+    "baseStats": {
+      "total": 405,
+      "hp": 45,
+      "attack": 50,
+      "defense": 45,
+      "spAttack": 115,
+      "spDefense": 55,
+      "speed": 95
+    }
   },
   {
-    "order": 70,
+    "id": "9EJa57nEko",
+    "order": "70",
     "name": "Gengar",
     "types": [
       "ghost",
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Cursed",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 130,
+      "spDefense": 75,
+      "speed": 110
+    }
   },
   {
-    "order": 71,
+    "id": "o0wdgpQ3zj",
+    "order": "71",
     "name": "Tandemaus",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Run",
+      "Away",
+      "Pickup",
+      "Own",
+      "Tempo"
+    ],
+    "baseStats": {
+      "total": 305,
+      "hp": 50,
+      "attack": 50,
+      "defense": 45,
+      "spAttack": 40,
+      "spDefense": 45,
+      "speed": 75
+    }
   },
   {
-    "order": 72,
+    "id": "utuWeMpJMe",
+    "order": "72",
     "name": "Maushold",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Friend",
+      "Guard",
+      "Cheek",
+      "Pouch",
+      "Technician"
+    ],
+    "baseStats": {
+      "total": 470,
+      "hp": 74,
+      "attack": 75,
+      "defense": 70,
+      "spAttack": 65,
+      "spDefense": 75,
+      "speed": 111
+    }
   },
   {
-    "order": 73,
+    "id": "8tjwn7cHfg",
+    "order": "73",
     "name": "Pichu",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Static",
+      "Lightning",
+      "Rod"
+    ],
+    "baseStats": {
+      "total": 205,
+      "hp": 20,
+      "attack": 40,
+      "defense": 15,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 60
+    }
   },
   {
-    "order": 74,
+    "id": "SUiBQgHyzx",
+    "order": "74",
     "name": "Pikachu",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Static",
+      "Lightning",
+      "Rod"
+    ],
+    "baseStats": {
+      "total": 320,
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 90
+    }
   },
   {
-    "order": 75,
+    "id": "ovt8FznsDx",
+    "order": "75",
     "name": "Raichu",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Static",
+      "Lightning",
+      "Rod"
+    ],
+    "baseStats": {
+      "total": 485,
+      "hp": 60,
+      "attack": 90,
+      "defense": 55,
+      "spAttack": 90,
+      "spDefense": 80,
+      "speed": 110
+    }
   },
   {
-    "order": 76,
+    "id": "pChVbn3tab",
+    "order": "76",
     "name": "Fidough",
     "types": [
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Own",
+      "Tempo",
+      "Klutz"
+    ],
+    "baseStats": {
+      "total": 312,
+      "hp": 37,
+      "attack": 55,
+      "defense": 70,
+      "spAttack": 30,
+      "spDefense": 55,
+      "speed": 65
+    }
   },
   {
-    "order": 77,
+    "id": "FrCQdElHMy",
+    "order": "77",
     "name": "Dachsbun",
     "types": [
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Well-Baked",
+      "Body",
+      "Aroma",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 477,
+      "hp": 57,
+      "attack": 80,
+      "defense": 115,
+      "spAttack": 50,
+      "spDefense": 80,
+      "speed": 95
+    }
   },
   {
-    "order": 78,
+    "id": "DFvrFLb0Wl",
+    "order": "78",
     "name": "Slakoth",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Truant"
+    ],
+    "baseStats": {
+      "total": 280,
+      "hp": 60,
+      "attack": 60,
+      "defense": 60,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 30
+    }
   },
   {
-    "order": 79,
+    "id": "yjy1ADseIx",
+    "order": "79",
     "name": "Vigoroth",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Vital",
+      "Spirit"
+    ],
+    "baseStats": {
+      "total": 440,
+      "hp": 80,
+      "attack": 80,
+      "defense": 80,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 90
+    }
   },
   {
-    "order": 80,
+    "id": "rBL9eNp8P6",
+    "order": "80",
     "name": "Slaking",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Truant"
+    ],
+    "baseStats": {
+      "total": 670,
+      "hp": 150,
+      "attack": 160,
+      "defense": 100,
+      "spAttack": 95,
+      "spDefense": 65,
+      "speed": 100
+    }
   },
   {
-    "order": 81,
+    "id": "DNv2g7pE4O",
+    "order": "81",
     "name": "Bounsweet",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Oblivious",
+      "Leaf",
+      "Guard",
+      "Sweet",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 210,
+      "hp": 42,
+      "attack": 30,
+      "defense": 38,
+      "spAttack": 30,
+      "spDefense": 38,
+      "speed": 32
+    }
   },
   {
-    "order": 82,
+    "id": "Fr3jBOcfPO",
+    "order": "82",
     "name": "Steenee",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Oblivious",
+      "Leaf",
+      "Guard",
+      "Sweet",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 290,
+      "hp": 52,
+      "attack": 40,
+      "defense": 48,
+      "spAttack": 40,
+      "spDefense": 48,
+      "speed": 62
+    }
   },
   {
-    "order": 83,
+    "id": "hxP5BFAR1U",
+    "order": "83",
     "name": "Tsareena",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Leaf",
+      "Guard",
+      "Queenly",
+      "Majesty",
+      "Sweet",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 510,
+      "hp": 72,
+      "attack": 120,
+      "defense": 98,
+      "spAttack": 50,
+      "spDefense": 98,
+      "speed": 72
+    }
   },
   {
-    "order": 84,
+    "id": "rC70cPwkbz",
+    "order": "84",
     "name": "Smoliv",
     "types": [
       "grass",
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Early",
+      "Bird",
+      "Harvest"
+    ],
+    "baseStats": {
+      "total": 260,
+      "hp": 41,
+      "attack": 35,
+      "defense": 45,
+      "spAttack": 58,
+      "spDefense": 51,
+      "speed": 30
+    }
   },
   {
-    "order": 85,
+    "id": "AQwy4CsycZ",
+    "order": "85",
     "name": "Dolliv",
     "types": [
       "grass",
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Early",
+      "Bird",
+      "Harvest"
+    ],
+    "baseStats": {
+      "total": 354,
+      "hp": 52,
+      "attack": 53,
+      "defense": 60,
+      "spAttack": 78,
+      "spDefense": 78,
+      "speed": 33
+    }
   },
   {
-    "order": 86,
+    "id": "H429AqzCwi",
+    "order": "86",
     "name": "Arboliva",
     "types": [
       "grass",
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Seed",
+      "Sower",
+      "Harvest"
+    ],
+    "baseStats": {
+      "total": 510,
+      "hp": 78,
+      "attack": 69,
+      "defense": 90,
+      "spAttack": 125,
+      "spDefense": 109,
+      "speed": 39
+    }
   },
   {
-    "order": 87,
+    "id": "N8xpbUTNxZ",
+    "order": "87",
     "name": "Bonsly",
     "types": [
       "rock"
-    ]
+    ],
+    "abilities": [
+      "Sturdy",
+      "Rock",
+      "Head",
+      "Rattled"
+    ],
+    "baseStats": {
+      "total": 290,
+      "hp": 50,
+      "attack": 80,
+      "defense": 95,
+      "spAttack": 10,
+      "spDefense": 45,
+      "speed": 10
+    }
   },
   {
-    "order": 88,
+    "id": "hTftFB1h6T",
+    "order": "88",
     "name": "Sudowoodo",
     "types": [
       "rock"
-    ]
+    ],
+    "abilities": [
+      "Sturdy",
+      "Rock",
+      "Head",
+      "Rattled"
+    ],
+    "baseStats": {
+      "total": 410,
+      "hp": 70,
+      "attack": 100,
+      "defense": 115,
+      "spAttack": 30,
+      "spDefense": 65,
+      "speed": 30
+    }
   },
   {
-    "order": 89,
+    "id": "aIC54kmxQj",
+    "order": "89",
     "name": "Rockruff",
     "types": [
       "rock"
-    ]
+    ],
+    "abilities": [
+      "Keen",
+      "Eye",
+      "Vital",
+      "Spirit",
+      "Steadfast"
+    ],
+    "baseStats": {
+      "total": 280,
+      "hp": 45,
+      "attack": 65,
+      "defense": 40,
+      "spAttack": 30,
+      "spDefense": 40,
+      "speed": 60
+    }
   },
   {
-    "order": 90,
-    "name": "Lycanroc",
+    "id": "DoI0wZrQZ6",
+    "order": "90",
+    "name": "Lycanroc (Midday Form)",
     "types": [
       "rock"
-    ]
+    ],
+    "abilities": [
+      "Keen",
+      "Eye",
+      "Sand",
+      "Rush",
+      "Steadfast"
+    ],
+    "baseStats": {
+      "total": 487,
+      "hp": 75,
+      "attack": 115,
+      "defense": 65,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 112
+    }
   },
   {
-    "order": 91,
+    "id": "VUFTi6QeSG",
+    "order": "90.1",
+    "name": "Lycanroc (Midnight Form)",
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "Keen",
+      "Eye",
+      "Vital",
+      "Spirit",
+      "No",
+      "Guard"
+    ],
+    "baseStats": {
+      "total": 487,
+      "hp": 85,
+      "attack": 115,
+      "defense": 75,
+      "spAttack": 55,
+      "spDefense": 75,
+      "speed": 82
+    }
+  },
+  {
+    "id": "W6cf8zuE6H",
+    "order": "90.2",
+    "name": "Lycanroc (Dusk Form)",
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "Tough",
+      "Claws"
+    ],
+    "baseStats": {
+      "total": 487,
+      "hp": 75,
+      "attack": 117,
+      "defense": 65,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 110
+    }
+  },
+  {
+    "id": "6JJ2I7tZh3",
+    "order": "91",
     "name": "Rolycoly",
     "types": [
       "rock"
-    ]
+    ],
+    "abilities": [
+      "Heatproof",
+      "Steam",
+      "Engine",
+      "Flash",
+      "Fire"
+    ],
+    "baseStats": {
+      "total": 240,
+      "hp": 30,
+      "attack": 40,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 30
+    }
   },
   {
-    "order": 92,
+    "id": "zHkErIvHpp",
+    "order": "92",
     "name": "Carkol",
     "types": [
       "rock",
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Flame",
+      "Body",
+      "Steam",
+      "Engine",
+      "Flash",
+      "Fire"
+    ],
+    "baseStats": {
+      "total": 410,
+      "hp": 80,
+      "attack": 60,
+      "defense": 90,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 50
+    }
   },
   {
-    "order": 93,
+    "id": "VOfZNL3vKB",
+    "order": "93",
     "name": "Coalossal",
     "types": [
       "rock",
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Flame",
+      "Body",
+      "Steam",
+      "Engine",
+      "Flash",
+      "Fire"
+    ],
+    "baseStats": {
+      "total": 510,
+      "hp": 110,
+      "attack": 80,
+      "defense": 120,
+      "spAttack": 80,
+      "spDefense": 90,
+      "speed": 30
+    }
   },
   {
-    "order": 94,
+    "id": "XBzD4fKxNB",
+    "order": "94",
     "name": "Shinx",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Rivalry",
+      "Intimidate",
+      "Guts"
+    ],
+    "baseStats": {
+      "total": 263,
+      "hp": 45,
+      "attack": 65,
+      "defense": 34,
+      "spAttack": 40,
+      "spDefense": 34,
+      "speed": 45
+    }
   },
   {
-    "order": 95,
+    "id": "GIMHpMFu7n",
+    "order": "95",
     "name": "Luxio",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Rivalry",
+      "Intimidate",
+      "Guts"
+    ],
+    "baseStats": {
+      "total": 363,
+      "hp": 60,
+      "attack": 85,
+      "defense": 49,
+      "spAttack": 60,
+      "spDefense": 49,
+      "speed": 60
+    }
   },
   {
-    "order": 96,
+    "id": "b0HvdbGlIj",
+    "order": "96",
     "name": "Luxray",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Rivalry",
+      "Intimidate",
+      "Guts"
+    ],
+    "baseStats": {
+      "total": 523,
+      "hp": 80,
+      "attack": 120,
+      "defense": 79,
+      "spAttack": 95,
+      "spDefense": 79,
+      "speed": 70
+    }
   },
   {
-    "order": 97,
+    "id": "gxhYl1LWMB",
+    "order": "97",
     "name": "Starly",
     "types": [
       "normal",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Keen",
+      "Eye",
+      "Reckless"
+    ],
+    "baseStats": {
+      "total": 245,
+      "hp": 40,
+      "attack": 55,
+      "defense": 30,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 60
+    }
   },
   {
-    "order": 98,
+    "id": "MPg9vGuaEj",
+    "order": "98",
     "name": "Staravia",
     "types": [
       "normal",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Intimidate",
+      "Reckless"
+    ],
+    "baseStats": {
+      "total": 340,
+      "hp": 55,
+      "attack": 75,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 80
+    }
   },
   {
-    "order": 99,
+    "id": "NkHqh86ZSF",
+    "order": "99",
     "name": "Staraptor",
     "types": [
       "normal",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Intimidate",
+      "Reckless"
+    ],
+    "baseStats": {
+      "total": 485,
+      "hp": 85,
+      "attack": 120,
+      "defense": 70,
+      "spAttack": 50,
+      "spDefense": 60,
+      "speed": 100
+    }
   },
   {
-    "order": 100,
-    "name": "Oricorio",
+    "id": "eVvlfJtZ25",
+    "order": "100",
+    "name": "Oricorio (Baile Style)",
     "types": [
       "fire",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Dancer"
+    ],
+    "baseStats": {
+      "total": 476,
+      "hp": 75,
+      "attack": 70,
+      "defense": 70,
+      "spAttack": 98,
+      "spDefense": 70,
+      "speed": 93
+    }
   },
   {
-    "order": 101,
+    "id": "HykQjDBLQk",
+    "order": "100.1",
+    "name": "Oricorio (Pa'u Style)",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "abilities": [
+      "Dancer"
+    ],
+    "baseStats": {
+      "total": 476,
+      "hp": 75,
+      "attack": 70,
+      "defense": 70,
+      "spAttack": 98,
+      "spDefense": 70,
+      "speed": 93
+    }
+  },
+  {
+    "id": "EscCrPfQ6e",
+    "order": "100.2",
+    "name": "Oricorio (Pom-Pom Style)",
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "abilities": [
+      "Dancer"
+    ],
+    "baseStats": {
+      "total": 476,
+      "hp": 75,
+      "attack": 70,
+      "defense": 70,
+      "spAttack": 98,
+      "spDefense": 70,
+      "speed": 93
+    }
+  },
+  {
+    "id": "ABC4ARhsXn",
+    "order": "100.3",
+    "name": "Oricorio (Sensu Style)",
+    "types": [
+      "ghost",
+      "flying"
+    ],
+    "abilities": [
+      "Dancer"
+    ],
+    "baseStats": {
+      "total": 476,
+      "hp": 75,
+      "attack": 70,
+      "defense": 70,
+      "spAttack": 98,
+      "spDefense": 70,
+      "speed": 93
+    }
+  },
+  {
+    "id": "TgpbbMSzSG",
+    "order": "101",
     "name": "Mareep",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Static",
+      "Plus"
+    ],
+    "baseStats": {
+      "total": 280,
+      "hp": 55,
+      "attack": 40,
+      "defense": 40,
+      "spAttack": 65,
+      "spDefense": 45,
+      "speed": 35
+    }
   },
   {
-    "order": 102,
+    "id": "nSp5tVdJ4C",
+    "order": "102",
     "name": "Flaaffy",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Static",
+      "Plus"
+    ],
+    "baseStats": {
+      "total": 365,
+      "hp": 70,
+      "attack": 55,
+      "defense": 55,
+      "spAttack": 80,
+      "spDefense": 60,
+      "speed": 45
+    }
   },
   {
-    "order": 103,
+    "id": "gY9x3E6I98",
+    "order": "103",
     "name": "Ampharos",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Static",
+      "Plus"
+    ],
+    "baseStats": {
+      "total": 510,
+      "hp": 90,
+      "attack": 75,
+      "defense": 85,
+      "spAttack": 115,
+      "spDefense": 90,
+      "speed": 55
+    }
   },
   {
-    "order": 104,
+    "id": "pJgwjd7VGl",
+    "order": "104",
     "name": "Petilil",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Chlorophyll",
+      "Own",
+      "Tempo",
+      "Leaf",
+      "Guard"
+    ],
+    "baseStats": {
+      "total": 280,
+      "hp": 45,
+      "attack": 35,
+      "defense": 50,
+      "spAttack": 70,
+      "spDefense": 50,
+      "speed": 30
+    }
   },
   {
-    "order": 105,
+    "id": "zrDAvABe8H",
+    "order": "105",
     "name": "Lilligant",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Chlorophyll",
+      "Own",
+      "Tempo",
+      "Leaf",
+      "Guard"
+    ],
+    "baseStats": {
+      "total": 480,
+      "hp": 70,
+      "attack": 60,
+      "defense": 75,
+      "spAttack": 110,
+      "spDefense": 75,
+      "speed": 90
+    }
   },
   {
-    "order": 106,
+    "id": "zQrgfy4VOo",
+    "order": "106",
     "name": "Shroomish",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Effect",
+      "Spore",
+      "Poison",
+      "Heal",
+      "Quick",
+      "Feet"
+    ],
+    "baseStats": {
+      "total": 295,
+      "hp": 60,
+      "attack": 40,
+      "defense": 60,
+      "spAttack": 40,
+      "spDefense": 60,
+      "speed": 35
+    }
   },
   {
-    "order": 107,
+    "id": "Iq3iLQM5W8",
+    "order": "107",
     "name": "Breloom",
     "types": [
       "grass",
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Effect",
+      "Spore",
+      "Poison",
+      "Heal",
+      "Technician"
+    ],
+    "baseStats": {
+      "total": 460,
+      "hp": 60,
+      "attack": 130,
+      "defense": 80,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 70
+    }
   },
   {
-    "order": 108,
+    "id": "pM6fZgXW6Z",
+    "order": "108",
     "name": "Applin",
     "types": [
       "grass",
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Gluttony",
+      "Ripen",
+      "Bulletproof"
+    ],
+    "baseStats": {
+      "total": 260,
+      "hp": 40,
+      "attack": 40,
+      "defense": 80,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 20
+    }
   },
   {
-    "order": 109,
+    "id": "XqOlXv9njA",
+    "order": "109",
     "name": "Flapple",
     "types": [
       "grass",
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Gluttony",
+      "Ripen",
+      "Hustle"
+    ],
+    "baseStats": {
+      "total": 485,
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "spAttack": 95,
+      "spDefense": 60,
+      "speed": 70
+    }
   },
   {
-    "order": 110,
+    "id": "kOWXrppj5B",
+    "order": "110",
     "name": "Appletun",
     "types": [
       "grass",
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Gluttony",
+      "Ripen",
+      "Thick",
+      "Fat"
+    ],
+    "baseStats": {
+      "total": 485,
+      "hp": 110,
+      "attack": 85,
+      "defense": 80,
+      "spAttack": 100,
+      "spDefense": 80,
+      "speed": 30
+    }
   },
   {
-    "order": 111,
+    "id": "o2YP9MEOGX",
+    "order": "111",
     "name": "Spoink",
     "types": [
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Thick",
+      "Fat",
+      "Own",
+      "Tempo",
+      "Gluttony"
+    ],
+    "baseStats": {
+      "total": 330,
+      "hp": 60,
+      "attack": 25,
+      "defense": 35,
+      "spAttack": 70,
+      "spDefense": 80,
+      "speed": 60
+    }
   },
   {
-    "order": 112,
+    "id": "hvcLmHbJHn",
+    "order": "112",
     "name": "Grumpig",
     "types": [
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Thick",
+      "Fat",
+      "Own",
+      "Tempo",
+      "Gluttony"
+    ],
+    "baseStats": {
+      "total": 470,
+      "hp": 80,
+      "attack": 45,
+      "defense": 65,
+      "spAttack": 90,
+      "spDefense": 110,
+      "speed": 80
+    }
   },
   {
-    "order": 113,
+    "id": "P98HuP8J3z",
+    "order": "113",
     "name": "Squawkabilly",
     "types": [
       "normal",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Intimidate",
+      "Hustle",
+      "Guts"
+    ],
+    "baseStats": {
+      "total": 417,
+      "hp": 82,
+      "attack": 96,
+      "defense": 51,
+      "spAttack": 45,
+      "spDefense": 51,
+      "speed": 92
+    }
   },
   {
-    "order": 114,
+    "id": "kYQhoWcfKI",
+    "order": "114",
     "name": "Misdreavus",
     "types": [
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Levitate"
+    ],
+    "baseStats": {
+      "total": 435,
+      "hp": 60,
+      "attack": 60,
+      "defense": 60,
+      "spAttack": 85,
+      "spDefense": 85,
+      "speed": 85
+    }
   },
   {
-    "order": 115,
+    "id": "WiOmq2UAao",
+    "order": "115",
     "name": "Mismagius",
     "types": [
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Levitate"
+    ],
+    "baseStats": {
+      "total": 495,
+      "hp": 60,
+      "attack": 60,
+      "defense": 60,
+      "spAttack": 105,
+      "spDefense": 105,
+      "speed": 105
+    }
   },
   {
-    "order": 116,
+    "id": "B270L5t7gr",
+    "order": "116",
     "name": "Makuhita",
     "types": [
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Thick",
+      "Fat",
+      "Guts",
+      "Sheer",
+      "Force"
+    ],
+    "baseStats": {
+      "total": 237,
+      "hp": 72,
+      "attack": 60,
+      "defense": 30,
+      "spAttack": 20,
+      "spDefense": 30,
+      "speed": 25
+    }
   },
   {
-    "order": 117,
+    "id": "qcDYZIyG7B",
+    "order": "117",
     "name": "Hariyama",
     "types": [
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Thick",
+      "Fat",
+      "Guts",
+      "Sheer",
+      "Force"
+    ],
+    "baseStats": {
+      "total": 474,
+      "hp": 144,
+      "attack": 120,
+      "defense": 60,
+      "spAttack": 40,
+      "spDefense": 60,
+      "speed": 50
+    }
   },
   {
-    "order": 118,
+    "id": "H7P2192yW7",
+    "order": "118",
     "name": "Crabrawler",
     "types": [
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Hyper",
+      "Cutter",
+      "Iron",
+      "Fist",
+      "Anger",
+      "Point"
+    ],
+    "baseStats": {
+      "total": 338,
+      "hp": 47,
+      "attack": 82,
+      "defense": 57,
+      "spAttack": 42,
+      "spDefense": 47,
+      "speed": 63
+    }
   },
   {
-    "order": 119,
+    "id": "aLwe4LoIiO",
+    "order": "119",
     "name": "Crabominable",
     "types": [
       "fighting",
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Hyper",
+      "Cutter",
+      "Iron",
+      "Fist",
+      "Anger",
+      "Point"
+    ],
+    "baseStats": {
+      "total": 478,
+      "hp": 97,
+      "attack": 132,
+      "defense": 77,
+      "spAttack": 62,
+      "spDefense": 67,
+      "speed": 43
+    }
   },
   {
-    "order": 120,
+    "id": "KW6uj6v4E4",
+    "order": "120",
     "name": "Salandit",
     "types": [
       "poison",
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Corrosion",
+      "Oblivious"
+    ],
+    "baseStats": {
+      "total": 320,
+      "hp": 48,
+      "attack": 44,
+      "defense": 40,
+      "spAttack": 71,
+      "spDefense": 40,
+      "speed": 77
+    }
   },
   {
-    "order": 121,
+    "id": "GV2hP3z0rL",
+    "order": "121",
     "name": "Salazzle",
     "types": [
       "poison",
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Corrosion",
+      "Oblivious"
+    ],
+    "baseStats": {
+      "total": 480,
+      "hp": 68,
+      "attack": 64,
+      "defense": 60,
+      "spAttack": 111,
+      "spDefense": 60,
+      "speed": 117
+    }
   },
   {
-    "order": 122,
+    "id": "Uyv6rJM1Of",
+    "order": "122",
     "name": "Phanpy",
     "types": [
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Pickup",
+      "Sand",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 330,
+      "hp": 90,
+      "attack": 60,
+      "defense": 60,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 40
+    }
   },
   {
-    "order": 123,
+    "id": "4nLttpVAxu",
+    "order": "123",
     "name": "Donphan",
     "types": [
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Sturdy",
+      "Sand",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 90,
+      "attack": 120,
+      "defense": 120,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 50
+    }
   },
   {
-    "order": 124,
+    "id": "Xh60FjBUpj",
+    "order": "124",
     "name": "Cufant",
     "types": [
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Sheer",
+      "Force",
+      "Heavy",
+      "Metal"
+    ],
+    "baseStats": {
+      "total": 330,
+      "hp": 72,
+      "attack": 80,
+      "defense": 49,
+      "spAttack": 40,
+      "spDefense": 49,
+      "speed": 40
+    }
   },
   {
-    "order": 125,
+    "id": "KGem2zielE",
+    "order": "125",
     "name": "Copperajah",
     "types": [
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Sheer",
+      "Force",
+      "Heavy",
+      "Metal"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 122,
+      "attack": 130,
+      "defense": 69,
+      "spAttack": 80,
+      "spDefense": 69,
+      "speed": 30
+    }
   },
   {
-    "order": 126,
+    "id": "0uZvmI6Xfy",
+    "order": "126",
     "name": "Gible",
     "types": [
       "dragon",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Sand",
+      "Veil",
+      "Rough",
+      "Skin"
+    ],
+    "baseStats": {
+      "total": 300,
+      "hp": 58,
+      "attack": 70,
+      "defense": 45,
+      "spAttack": 40,
+      "spDefense": 45,
+      "speed": 42
+    }
   },
   {
-    "order": 127,
+    "id": "OuLUaQh5bS",
+    "order": "127",
     "name": "Gabite",
     "types": [
       "dragon",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Sand",
+      "Veil",
+      "Rough",
+      "Skin"
+    ],
+    "baseStats": {
+      "total": 410,
+      "hp": 68,
+      "attack": 90,
+      "defense": 65,
+      "spAttack": 50,
+      "spDefense": 55,
+      "speed": 82
+    }
   },
   {
-    "order": 128,
+    "id": "zlfVIfkqd6",
+    "order": "128",
     "name": "Garchomp",
     "types": [
       "dragon",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Sand",
+      "Veil",
+      "Rough",
+      "Skin"
+    ],
+    "baseStats": {
+      "total": 600,
+      "hp": 108,
+      "attack": 130,
+      "defense": 95,
+      "spAttack": 80,
+      "spDefense": 85,
+      "speed": 102
+    }
   },
   {
-    "order": 129,
+    "id": "7M1tUC2kb5",
+    "order": "129",
     "name": "Nacli",
     "types": [
       "rock"
-    ]
+    ],
+    "abilities": [
+      "Purifying",
+      "Salt",
+      "Sturdy",
+      "Clear",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 280,
+      "hp": 55,
+      "attack": 55,
+      "defense": 75,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 25
+    }
   },
   {
-    "order": 130,
+    "id": "vYuD6douch",
+    "order": "130",
     "name": "Naclstack",
     "types": [
       "rock"
-    ]
+    ],
+    "abilities": [
+      "Purifying",
+      "Salt",
+      "Sturdy",
+      "Clear",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 355,
+      "hp": 60,
+      "attack": 60,
+      "defense": 100,
+      "spAttack": 35,
+      "spDefense": 65,
+      "speed": 35
+    }
   },
   {
-    "order": 131,
+    "id": "6IzC7wk9un",
+    "order": "131",
     "name": "Garganacl",
     "types": [
       "rock"
-    ]
+    ],
+    "abilities": [
+      "Purifying",
+      "Salt",
+      "Sturdy",
+      "Clear",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 100,
+      "attack": 100,
+      "defense": 130,
+      "spAttack": 45,
+      "spDefense": 90,
+      "speed": 35
+    }
   },
   {
-    "order": 132,
+    "id": "SW6BCOQaFl",
+    "order": "132",
     "name": "Wingull",
     "types": [
       "water",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Keen",
+      "Eye",
+      "Hydration",
+      "Rain",
+      "Dish"
+    ],
+    "baseStats": {
+      "total": 270,
+      "hp": 40,
+      "attack": 30,
+      "defense": 30,
+      "spAttack": 55,
+      "spDefense": 30,
+      "speed": 85
+    }
   },
   {
-    "order": 133,
+    "id": "o64qYFnOYW",
+    "order": "133",
     "name": "Pelipper",
     "types": [
       "water",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Keen",
+      "Eye",
+      "Drizzle",
+      "Rain",
+      "Dish"
+    ],
+    "baseStats": {
+      "total": 440,
+      "hp": 60,
+      "attack": 50,
+      "defense": 100,
+      "spAttack": 95,
+      "spDefense": 70,
+      "speed": 65
+    }
   },
   {
-    "order": 134,
+    "id": "tbhLu8KINi",
+    "order": "134",
     "name": "Magikarp",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Swift",
+      "Swim",
+      "Rattled"
+    ],
+    "baseStats": {
+      "total": 200,
+      "hp": 20,
+      "attack": 10,
+      "defense": 55,
+      "spAttack": 15,
+      "spDefense": 20,
+      "speed": 80
+    }
   },
   {
-    "order": 135,
+    "id": "nPGQ3q3Eb4",
+    "order": "135",
     "name": "Gyarados",
     "types": [
       "water",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Intimidate",
+      "Moxie"
+    ],
+    "baseStats": {
+      "total": 540,
+      "hp": 95,
+      "attack": 125,
+      "defense": 79,
+      "spAttack": 60,
+      "spDefense": 100,
+      "speed": 81
+    }
   },
   {
-    "order": 136,
+    "id": "Isc8Ci1Lkm",
+    "order": "136",
     "name": "Arrokuda",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Swift",
+      "Swim",
+      "Propeller",
+      "Tail"
+    ],
+    "baseStats": {
+      "total": 280,
+      "hp": 41,
+      "attack": 63,
+      "defense": 40,
+      "spAttack": 40,
+      "spDefense": 30,
+      "speed": 66
+    }
   },
   {
-    "order": 137,
+    "id": "A4ub11ksMW",
+    "order": "137",
     "name": "Barraskewda",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Swift",
+      "Swim",
+      "Propeller",
+      "Tail"
+    ],
+    "baseStats": {
+      "total": 490,
+      "hp": 61,
+      "attack": 123,
+      "defense": 60,
+      "spAttack": 60,
+      "spDefense": 50,
+      "speed": 136
+    }
   },
   {
-    "order": 138,
+    "id": "0a8HLnwktl",
+    "order": "138",
     "name": "Basculin",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Reckless",
+      "Adaptability",
+      "Mold",
+      "Breaker"
+    ],
+    "baseStats": {
+      "total": 460,
+      "hp": 70,
+      "attack": 92,
+      "defense": 65,
+      "spAttack": 80,
+      "spDefense": 55,
+      "speed": 98
+    }
   },
   {
-    "order": 139,
+    "id": "ZupH4Bzegz",
+    "order": "139",
     "name": "Gulpin",
     "types": [
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Liquid",
+      "Ooze",
+      "Sticky",
+      "Hold",
+      "Gluttony"
+    ],
+    "baseStats": {
+      "total": 302,
+      "hp": 70,
+      "attack": 43,
+      "defense": 53,
+      "spAttack": 43,
+      "spDefense": 53,
+      "speed": 40
+    }
   },
   {
-    "order": 140,
+    "id": "eNEmoUCiGP",
+    "order": "140",
     "name": "Swalot",
     "types": [
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Liquid",
+      "Ooze",
+      "Sticky",
+      "Hold",
+      "Gluttony"
+    ],
+    "baseStats": {
+      "total": 467,
+      "hp": 100,
+      "attack": 73,
+      "defense": 83,
+      "spAttack": 73,
+      "spDefense": 83,
+      "speed": 55
+    }
   },
   {
-    "order": 141,
+    "id": "64i8J1sSHc",
+    "order": "141",
     "name": "Meowth",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Pickup",
+      "Technician",
+      "Unnerve"
+    ],
+    "baseStats": {
+      "total": 290,
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 90
+    }
   },
   {
-    "order": 142,
+    "id": "UnyHazAd0t",
+    "order": "141.1",
+    "name": "Galarian Meowth",
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      "Pickup",
+      "Tough",
+      "Claws",
+      "Unnerve"
+    ],
+    "baseStats": {
+      "total": 290,
+      "hp": 50,
+      "attack": 65,
+      "defense": 55,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 40
+    }
+  },
+  {
+    "id": "sL7MN3MqMq",
+    "order": "142",
     "name": "Persian",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Limber",
+      "Technician",
+      "Unnerve"
+    ],
+    "baseStats": {
+      "total": 440,
+      "hp": 65,
+      "attack": 70,
+      "defense": 60,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 115
+    }
   },
   {
-    "order": 143,
+    "id": "GSDWbR3QZf",
+    "order": "143",
     "name": "Drifloon",
     "types": [
       "ghost",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Aftermath",
+      "Unburden",
+      "Flare",
+      "Boost"
+    ],
+    "baseStats": {
+      "total": 348,
+      "hp": 90,
+      "attack": 50,
+      "defense": 34,
+      "spAttack": 60,
+      "spDefense": 44,
+      "speed": 70
+    }
   },
   {
-    "order": 144,
+    "id": "Ttw4gSuUc4",
+    "order": "144",
     "name": "Drifblim",
     "types": [
       "ghost",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Aftermath",
+      "Unburden",
+      "Flare",
+      "Boost"
+    ],
+    "baseStats": {
+      "total": 498,
+      "hp": 150,
+      "attack": 80,
+      "defense": 44,
+      "spAttack": 90,
+      "spDefense": 54,
+      "speed": 80
+    }
   },
   {
-    "order": 145,
-    "name": "Flabébé",
+    "id": "uItg84PxmR",
+    "order": "145",
+    "name": "Flabebe",
     "types": [
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Flower",
+      "Veil",
+      "Symbiosis"
+    ],
+    "baseStats": {
+      "total": 303,
+      "hp": 44,
+      "attack": 38,
+      "defense": 39,
+      "spAttack": 61,
+      "spDefense": 79,
+      "speed": 42
+    }
   },
   {
-    "order": 146,
+    "id": "ICuBvLgN1q",
+    "order": "146",
     "name": "Floette",
     "types": [
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Flower",
+      "Veil",
+      "Symbiosis"
+    ],
+    "baseStats": {
+      "total": 371,
+      "hp": 54,
+      "attack": 45,
+      "defense": 47,
+      "spAttack": 75,
+      "spDefense": 98,
+      "speed": 52
+    }
   },
   {
-    "order": 147,
+    "id": "70hkEkkkl9",
+    "order": "147",
     "name": "Florges",
     "types": [
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Flower",
+      "Veil",
+      "Symbiosis"
+    ],
+    "baseStats": {
+      "total": 552,
+      "hp": 78,
+      "attack": 65,
+      "defense": 68,
+      "spAttack": 112,
+      "spDefense": 154,
+      "speed": 75
+    }
   },
   {
-    "order": 148,
+    "id": "Q0NXR7aKJe",
+    "order": "148",
     "name": "Diglett",
     "types": [
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Sand",
+      "Veil",
+      "Arena",
+      "Trap",
+      "Sand",
+      "Force"
+    ],
+    "baseStats": {
+      "total": 265,
+      "hp": 10,
+      "attack": 55,
+      "defense": 25,
+      "spAttack": 35,
+      "spDefense": 45,
+      "speed": 95
+    }
   },
   {
-    "order": 149,
+    "id": "dJj0OY2uoE",
+    "order": "149",
     "name": "Dugtrio",
     "types": [
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Sand",
+      "Veil",
+      "Arena",
+      "Trap",
+      "Sand",
+      "Force"
+    ],
+    "baseStats": {
+      "total": 425,
+      "hp": 35,
+      "attack": 100,
+      "defense": 50,
+      "spAttack": 50,
+      "spDefense": 70,
+      "speed": 120
+    }
   },
   {
-    "order": 150,
+    "id": "jnHxfW9mi6",
+    "order": "150",
     "name": "Torkoal",
     "types": [
       "fire"
-    ]
+    ],
+    "abilities": [
+      "White",
+      "Smoke",
+      "Drought",
+      "Shell",
+      "Armor"
+    ],
+    "baseStats": {
+      "total": 470,
+      "hp": 70,
+      "attack": 85,
+      "defense": 140,
+      "spAttack": 85,
+      "spDefense": 70,
+      "speed": 20
+    }
   },
   {
-    "order": 151,
+    "id": "xb24iHgbBs",
+    "order": "151",
     "name": "Numel",
     "types": [
       "fire",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Oblivious",
+      "Simple",
+      "Own",
+      "Tempo"
+    ],
+    "baseStats": {
+      "total": 305,
+      "hp": 60,
+      "attack": 60,
+      "defense": 40,
+      "spAttack": 65,
+      "spDefense": 45,
+      "speed": 35
+    }
   },
   {
-    "order": 152,
+    "id": "FNNCQrgVZ0",
+    "order": "152",
     "name": "Camerupt",
     "types": [
       "fire",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Magma",
+      "Armor",
+      "Solid",
+      "Rock",
+      "Anger",
+      "Point"
+    ],
+    "baseStats": {
+      "total": 460,
+      "hp": 70,
+      "attack": 100,
+      "defense": 70,
+      "spAttack": 105,
+      "spDefense": 75,
+      "speed": 40
+    }
   },
   {
-    "order": 153,
+    "id": "dpK3Fo2TWA",
+    "order": "153",
     "name": "Bronzor",
     "types": [
       "steel",
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Levitate",
+      "Heatproof",
+      "Heavy",
+      "Metal"
+    ],
+    "baseStats": {
+      "total": 300,
+      "hp": 57,
+      "attack": 24,
+      "defense": 86,
+      "spAttack": 24,
+      "spDefense": 86,
+      "speed": 23
+    }
   },
   {
-    "order": 154,
+    "id": "3Cxe0a9M42",
+    "order": "154",
     "name": "Bronzong",
     "types": [
       "steel",
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Levitate",
+      "Heatproof",
+      "Heavy",
+      "Metal"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 67,
+      "attack": 89,
+      "defense": 116,
+      "spAttack": 79,
+      "spDefense": 116,
+      "speed": 33
+    }
   },
   {
-    "order": 155,
+    "id": "TcejFopBju",
+    "order": "155",
     "name": "Axew",
     "types": [
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Mold",
+      "Breaker",
+      "Rivalry",
+      "Unnerve"
+    ],
+    "baseStats": {
+      "total": 320,
+      "hp": 46,
+      "attack": 87,
+      "defense": 60,
+      "spAttack": 30,
+      "spDefense": 40,
+      "speed": 57
+    }
   },
   {
-    "order": 156,
+    "id": "88FERQ8AVz",
+    "order": "156",
     "name": "Fraxure",
     "types": [
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Mold",
+      "Breaker",
+      "Rivalry",
+      "Unnerve"
+    ],
+    "baseStats": {
+      "total": 410,
+      "hp": 66,
+      "attack": 117,
+      "defense": 70,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 67
+    }
   },
   {
-    "order": 157,
+    "id": "YIBaw6uNAY",
+    "order": "157",
     "name": "Haxorus",
     "types": [
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Mold",
+      "Breaker",
+      "Rivalry",
+      "Unnerve"
+    ],
+    "baseStats": {
+      "total": 540,
+      "hp": 76,
+      "attack": 147,
+      "defense": 90,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 97
+    }
   },
   {
-    "order": 158,
+    "id": "agEE9jSbUN",
+    "order": "158",
     "name": "Mankey",
     "types": [
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Vital",
+      "Spirit",
+      "Anger",
+      "Point",
+      "Defiant"
+    ],
+    "baseStats": {
+      "total": 305,
+      "hp": 40,
+      "attack": 80,
+      "defense": 35,
+      "spAttack": 35,
+      "spDefense": 45,
+      "speed": 70
+    }
   },
   {
-    "order": 159,
+    "id": "fC8YWqWDMu",
+    "order": "159",
     "name": "Primeape",
     "types": [
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Vital",
+      "Spirit",
+      "Anger",
+      "Point",
+      "Defiant"
+    ],
+    "baseStats": {
+      "total": 455,
+      "hp": 65,
+      "attack": 105,
+      "defense": 60,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 95
+    }
   },
   {
-    "order": 160,
+    "id": "PUpUvSBB5q",
+    "order": "160",
     "name": "Annihilape",
     "types": [
       "fighting",
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Vital",
+      "Spirit",
+      "Inner",
+      "Focus",
+      "Defiant"
+    ],
+    "baseStats": {
+      "total": 535,
+      "hp": 110,
+      "attack": 115,
+      "defense": 80,
+      "spAttack": 50,
+      "spDefense": 90,
+      "speed": 90
+    }
   },
   {
-    "order": 161,
+    "id": "NexQOeWr1I",
+    "order": "161",
     "name": "Meditite",
     "types": [
       "fighting",
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Pure",
+      "Power",
+      "Telepathy"
+    ],
+    "baseStats": {
+      "total": 280,
+      "hp": 30,
+      "attack": 40,
+      "defense": 55,
+      "spAttack": 40,
+      "spDefense": 55,
+      "speed": 60
+    }
   },
   {
-    "order": 162,
+    "id": "UpBFzUfZ2G",
+    "order": "162",
     "name": "Medicham",
     "types": [
       "fighting",
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Pure",
+      "Power",
+      "Telepathy"
+    ],
+    "baseStats": {
+      "total": 410,
+      "hp": 60,
+      "attack": 60,
+      "defense": 75,
+      "spAttack": 60,
+      "spDefense": 75,
+      "speed": 80
+    }
   },
   {
-    "order": 163,
+    "id": "3SbHxElaCe",
+    "order": "163",
     "name": "Riolu",
     "types": [
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Steadfast",
+      "Inner",
+      "Focus",
+      "Prankster"
+    ],
+    "baseStats": {
+      "total": 285,
+      "hp": 40,
+      "attack": 70,
+      "defense": 40,
+      "spAttack": 35,
+      "spDefense": 40,
+      "speed": 60
+    }
   },
   {
-    "order": 164,
+    "id": "EVQyA6sa4U",
+    "order": "164",
     "name": "Lucario",
     "types": [
       "fighting",
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Steadfast",
+      "Inner",
+      "Focus",
+      "Justified"
+    ],
+    "baseStats": {
+      "total": 525,
+      "hp": 70,
+      "attack": 110,
+      "defense": 70,
+      "spAttack": 115,
+      "spDefense": 70,
+      "speed": 90
+    }
   },
   {
-    "order": 165,
+    "id": "6EVA5mWXSq",
+    "order": "165",
     "name": "Charcadet",
     "types": [
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Flash",
+      "Fire",
+      "Flame",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 255,
+      "hp": 40,
+      "attack": 50,
+      "defense": 40,
+      "spAttack": 50,
+      "spDefense": 40,
+      "speed": 35
+    }
   },
   {
-    "order": 166,
+    "id": "vy7MdbKIOG",
+    "order": "166",
     "name": "Armarouge",
     "types": [
       "fire",
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Flash",
+      "Fire",
+      "Weak",
+      "Armor"
+    ],
+    "baseStats": {
+      "total": 525,
+      "hp": 85,
+      "attack": 60,
+      "defense": 100,
+      "spAttack": 125,
+      "spDefense": 80,
+      "speed": 75
+    }
   },
   {
-    "order": 167,
+    "id": "s0cqLNHypm",
+    "order": "167",
     "name": "Ceruledge",
     "types": [
       "fire",
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Flash",
+      "Fire",
+      "Weak",
+      "Armor"
+    ],
+    "baseStats": {
+      "total": 525,
+      "hp": 75,
+      "attack": 125,
+      "defense": 80,
+      "spAttack": 60,
+      "spDefense": 100,
+      "speed": 85
+    }
   },
   {
-    "order": 168,
+    "id": "mp7Zq8FKpE",
+    "order": "168",
     "name": "Barboach",
     "types": [
       "water",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Oblivious",
+      "Anticipation",
+      "Hydration"
+    ],
+    "baseStats": {
+      "total": 288,
+      "hp": 50,
+      "attack": 48,
+      "defense": 43,
+      "spAttack": 46,
+      "spDefense": 41,
+      "speed": 60
+    }
   },
   {
-    "order": 169,
+    "id": "ENNKU7I7TG",
+    "order": "169",
     "name": "Whiscash",
     "types": [
       "water",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Oblivious",
+      "Anticipation",
+      "Hydration"
+    ],
+    "baseStats": {
+      "total": 468,
+      "hp": 110,
+      "attack": 78,
+      "defense": 73,
+      "spAttack": 76,
+      "spDefense": 71,
+      "speed": 60
+    }
   },
   {
-    "order": 170,
+    "id": "aWQ53RII10",
+    "order": "170",
     "name": "Tadbulb",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Own",
+      "Tempo",
+      "Static",
+      "Damp"
+    ],
+    "baseStats": {
+      "total": 272,
+      "hp": 61,
+      "attack": 31,
+      "defense": 41,
+      "spAttack": 59,
+      "spDefense": 35,
+      "speed": 45
+    }
   },
   {
-    "order": 171,
+    "id": "eZa7iQPqTV",
+    "order": "171",
     "name": "Bellibolt",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Electromorphosis",
+      "Static",
+      "Damp"
+    ],
+    "baseStats": {
+      "total": 495,
+      "hp": 109,
+      "attack": 64,
+      "defense": 91,
+      "spAttack": 103,
+      "spDefense": 83,
+      "speed": 45
+    }
   },
   {
-    "order": 172,
+    "id": "iR7fG5Z9zH",
+    "order": "172",
     "name": "Goomy",
     "types": [
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Hydration",
+      "Sap",
+      "Sipper",
+      "Gooey"
+    ],
+    "baseStats": {
+      "total": 300,
+      "hp": 45,
+      "attack": 50,
+      "defense": 35,
+      "spAttack": 55,
+      "spDefense": 75,
+      "speed": 40
+    }
   },
   {
-    "order": 173,
+    "id": "TycQyfTJR6",
+    "order": "173",
     "name": "Sliggoo",
     "types": [
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Hydration",
+      "Sap",
+      "Sipper",
+      "Gooey"
+    ],
+    "baseStats": {
+      "total": 452,
+      "hp": 68,
+      "attack": 75,
+      "defense": 53,
+      "spAttack": 83,
+      "spDefense": 113,
+      "speed": 60
+    }
   },
   {
-    "order": 174,
+    "id": "Bj6b2YlkEV",
+    "order": "174",
     "name": "Goodra",
     "types": [
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Hydration",
+      "Sap",
+      "Sipper",
+      "Gooey"
+    ],
+    "baseStats": {
+      "total": 600,
+      "hp": 90,
+      "attack": 100,
+      "defense": 70,
+      "spAttack": 110,
+      "spDefense": 150,
+      "speed": 80
+    }
   },
   {
-    "order": 175,
+    "id": "XekYjjki04",
+    "order": "175",
     "name": "Croagunk",
     "types": [
       "poison",
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Anticipation",
+      "Dry",
+      "Skin",
+      "Poison",
+      "Touch"
+    ],
+    "baseStats": {
+      "total": 300,
+      "hp": 48,
+      "attack": 61,
+      "defense": 40,
+      "spAttack": 61,
+      "spDefense": 40,
+      "speed": 50
+    }
   },
   {
-    "order": 176,
+    "id": "QrXZNIs0yQ",
+    "order": "176",
     "name": "Toxicroak",
     "types": [
       "poison",
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Anticipation",
+      "Dry",
+      "Skin",
+      "Poison",
+      "Touch"
+    ],
+    "baseStats": {
+      "total": 490,
+      "hp": 83,
+      "attack": 106,
+      "defense": 65,
+      "spAttack": 86,
+      "spDefense": 65,
+      "speed": 85
+    }
   },
   {
-    "order": 177,
+    "id": "gE4VKqUXrK",
+    "order": "177",
     "name": "Wattrel",
     "types": [
       "electric",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Wind",
+      "Power",
+      "Volt",
+      "Absorb",
+      "Competitive"
+    ],
+    "baseStats": {
+      "total": 280,
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "spAttack": 55,
+      "spDefense": 40,
+      "speed": 70
+    }
   },
   {
-    "order": 178,
+    "id": "LztLOGeXLh",
+    "order": "178",
     "name": "Kilowattrel",
     "types": [
       "electric",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Wind",
+      "Power",
+      "Volt",
+      "Absorb",
+      "Competitive"
+    ],
+    "baseStats": {
+      "total": 490,
+      "hp": 70,
+      "attack": 70,
+      "defense": 60,
+      "spAttack": 105,
+      "spDefense": 60,
+      "speed": 125
+    }
   },
   {
-    "order": 179,
+    "id": "yqbXJu9Zgx",
+    "order": "179",
     "name": "Eevee",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Run",
+      "Away",
+      "Adaptability",
+      "Anticipation"
+    ],
+    "baseStats": {
+      "total": 325,
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "spAttack": 45,
+      "spDefense": 65,
+      "speed": 55
+    }
   },
   {
-    "order": 180,
+    "id": "CWYg0oNw8F",
+    "order": "180",
     "name": "Vaporeon",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Water",
+      "Absorb",
+      "Hydration"
+    ],
+    "baseStats": {
+      "total": 525,
+      "hp": 130,
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 110,
+      "spDefense": 95,
+      "speed": 65
+    }
   },
   {
-    "order": 181,
+    "id": "RM1lwxegCD",
+    "order": "181",
     "name": "Jolteon",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Volt",
+      "Absorb",
+      "Quick",
+      "Feet"
+    ],
+    "baseStats": {
+      "total": 525,
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 110,
+      "spDefense": 95,
+      "speed": 130
+    }
   },
   {
-    "order": 182,
+    "id": "oGfzB8JVBa",
+    "order": "182",
     "name": "Flareon",
     "types": [
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Flash",
+      "Fire",
+      "Guts"
+    ],
+    "baseStats": {
+      "total": 525,
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "spAttack": 95,
+      "spDefense": 110,
+      "speed": 65
+    }
   },
   {
-    "order": 183,
+    "id": "tsxctKDWjv",
+    "order": "183",
     "name": "Espeon",
     "types": [
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Synchronize",
+      "Magic",
+      "Bounce"
+    ],
+    "baseStats": {
+      "total": 525,
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 130,
+      "spDefense": 95,
+      "speed": 110
+    }
   },
   {
-    "order": 184,
+    "id": "xSYxNSHNvS",
+    "order": "184",
     "name": "Umbreon",
     "types": [
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Synchronize",
+      "Inner",
+      "Focus"
+    ],
+    "baseStats": {
+      "total": 525,
+      "hp": 95,
+      "attack": 65,
+      "defense": 110,
+      "spAttack": 60,
+      "spDefense": 130,
+      "speed": 65
+    }
   },
   {
-    "order": 185,
+    "id": "PrGQoJgiyX",
+    "order": "185",
     "name": "Leafeon",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Leaf",
+      "Guard",
+      "Chlorophyll"
+    ],
+    "baseStats": {
+      "total": 525,
+      "hp": 65,
+      "attack": 110,
+      "defense": 130,
+      "spAttack": 60,
+      "spDefense": 65,
+      "speed": 95
+    }
   },
   {
-    "order": 186,
+    "id": "44lBit4T5f",
+    "order": "186",
     "name": "Glaceon",
     "types": [
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Snow",
+      "Cloak",
+      "Ice",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 525,
+      "hp": 65,
+      "attack": 60,
+      "defense": 110,
+      "spAttack": 130,
+      "spDefense": 95,
+      "speed": 65
+    }
   },
   {
-    "order": 187,
+    "id": "KCfUPCCLKr",
+    "order": "187",
     "name": "Sylveon",
     "types": [
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Cute",
+      "Charm",
+      "Pixilate"
+    ],
+    "baseStats": {
+      "total": 525,
+      "hp": 95,
+      "attack": 65,
+      "defense": 65,
+      "spAttack": 110,
+      "spDefense": 130,
+      "speed": 60
+    }
   },
   {
-    "order": 188,
+    "id": "M0MuxOZZf9",
+    "order": "188",
     "name": "Dunsparce",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Serene",
+      "Grace",
+      "Run",
+      "Away",
+      "Rattled"
+    ],
+    "baseStats": {
+      "total": 415,
+      "hp": 100,
+      "attack": 70,
+      "defense": 70,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 45
+    }
   },
   {
-    "order": 189,
+    "id": "slwhV8a9gH",
+    "order": "189",
     "name": "Dudunsparce",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Serene",
+      "Grace",
+      "Run",
+      "Away",
+      "Rattled"
+    ],
+    "baseStats": {
+      "total": 520,
+      "hp": 125,
+      "attack": 100,
+      "defense": 80,
+      "spAttack": 85,
+      "spDefense": 75,
+      "speed": 55
+    }
   },
   {
-    "order": 190,
+    "id": "LOeAKoO52s",
+    "order": "190",
     "name": "Deerling",
     "types": [
       "normal",
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Chlorophyll",
+      "Sap",
+      "Sipper",
+      "Serene",
+      "Grace"
+    ],
+    "baseStats": {
+      "total": 335,
+      "hp": 60,
+      "attack": 60,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 75
+    }
   },
   {
-    "order": 191,
+    "id": "pabDgdWvPS",
+    "order": "191",
     "name": "Sawsbuck",
     "types": [
       "normal",
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Chlorophyll",
+      "Sap",
+      "Sipper",
+      "Serene",
+      "Grace"
+    ],
+    "baseStats": {
+      "total": 475,
+      "hp": 80,
+      "attack": 100,
+      "defense": 70,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 95
+    }
   },
   {
-    "order": 192,
+    "id": "TuFyxXjJhk",
+    "order": "192",
     "name": "Girafarig",
     "types": [
       "normal",
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Inner",
+      "Focus",
+      "Early",
+      "Bird",
+      "Sap",
+      "Sipper"
+    ],
+    "baseStats": {
+      "total": 455,
+      "hp": 70,
+      "attack": 80,
+      "defense": 65,
+      "spAttack": 90,
+      "spDefense": 65,
+      "speed": 85
+    }
   },
   {
-    "order": 193,
+    "id": "4l6JY6vTal",
+    "order": "193",
     "name": "Farigiraf",
     "types": [
       "normal",
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Cud",
+      "Chew",
+      "Armor",
+      "Tail",
+      "Sap",
+      "Sipper"
+    ],
+    "baseStats": {
+      "total": 520,
+      "hp": 120,
+      "attack": 90,
+      "defense": 70,
+      "spAttack": 110,
+      "spDefense": 70,
+      "speed": 60
+    }
   },
   {
-    "order": 194,
+    "id": "33ndDJ6rYl",
+    "order": "194",
     "name": "Grimer",
     "types": [
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Stench",
+      "Sticky",
+      "Hold",
+      "Poison",
+      "Touch"
+    ],
+    "baseStats": {
+      "total": 325,
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 25
+    }
   },
   {
-    "order": 195,
+    "id": "4D7SjZZYWO",
+    "order": "195",
     "name": "Muk",
     "types": [
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Stench",
+      "Sticky",
+      "Hold",
+      "Poison",
+      "Touch"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 105,
+      "attack": 105,
+      "defense": 75,
+      "spAttack": 65,
+      "spDefense": 100,
+      "speed": 50
+    }
   },
   {
-    "order": 196,
+    "id": "98roaOZkPj",
+    "order": "196",
     "name": "Maschiff",
     "types": [
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Intimidate",
+      "Run",
+      "Away",
+      "Stakeout"
+    ],
+    "baseStats": {
+      "total": 340,
+      "hp": 60,
+      "attack": 78,
+      "defense": 60,
+      "spAttack": 40,
+      "spDefense": 51,
+      "speed": 51
+    }
   },
   {
-    "order": 197,
+    "id": "fBtDVEMToF",
+    "order": "197",
     "name": "Mabosstiff",
     "types": [
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Intimidate",
+      "Guard",
+      "Dog",
+      "Stakeout"
+    ],
+    "baseStats": {
+      "total": 505,
+      "hp": 80,
+      "attack": 120,
+      "defense": 90,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 85
+    }
   },
   {
-    "order": 198,
+    "id": "RZdlTlcsm6",
+    "order": "198",
     "name": "Toxel",
     "types": [
       "electric",
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Static",
+      "Rattled",
+      "Klutz"
+    ],
+    "baseStats": {
+      "total": 242,
+      "hp": 40,
+      "attack": 38,
+      "defense": 35,
+      "spAttack": 54,
+      "spDefense": 35,
+      "speed": 40
+    }
   },
   {
-    "order": 199,
-    "name": "Toxtricity",
+    "id": "Yzd5cOwddO",
+    "order": "199",
+    "name": "Toxtricity (Amped Form)",
     "types": [
       "electric",
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Punk",
+      "Rock",
+      "Plus",
+      "Technician"
+    ],
+    "baseStats": {
+      "total": 502,
+      "hp": 75,
+      "attack": 98,
+      "defense": 70,
+      "spAttack": 114,
+      "spDefense": 70,
+      "speed": 75
+    }
   },
   {
-    "order": 200,
+    "id": "Id9sYhAz20",
+    "order": "199.1",
+    "name": "Toxtricity (Low Key Form)",
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "abilities": [
+      "Punk",
+      "Rock",
+      "Minus",
+      "Technician"
+    ],
+    "baseStats": {
+      "total": 502,
+      "hp": 75,
+      "attack": 98,
+      "defense": 70,
+      "spAttack": 114,
+      "spDefense": 70,
+      "speed": 75
+    }
+  },
+  {
+    "id": "l1BiTxsZM2",
+    "order": "200",
     "name": "Dedenne",
     "types": [
       "electric",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Cheek",
+      "Pouch",
+      "Pickup",
+      "Plus"
+    ],
+    "baseStats": {
+      "total": 431,
+      "hp": 67,
+      "attack": 58,
+      "defense": 57,
+      "spAttack": 81,
+      "spDefense": 67,
+      "speed": 101
+    }
   },
   {
-    "order": 201,
+    "id": "VYzsHxv1rS",
+    "order": "201",
     "name": "Pachirisu",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Run",
+      "Away",
+      "Pickup",
+      "Volt",
+      "Absorb"
+    ],
+    "baseStats": {
+      "total": 405,
+      "hp": 60,
+      "attack": 45,
+      "defense": 70,
+      "spAttack": 45,
+      "spDefense": 90,
+      "speed": 95
+    }
   },
   {
-    "order": 202,
+    "id": "HFr93cSMzk",
+    "order": "202",
     "name": "Shroodle",
     "types": [
       "poison",
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Unburden",
+      "Pickpocket",
+      "Prankster"
+    ],
+    "baseStats": {
+      "total": 290,
+      "hp": 40,
+      "attack": 65,
+      "defense": 35,
+      "spAttack": 40,
+      "spDefense": 35,
+      "speed": 75
+    }
   },
   {
-    "order": 203,
+    "id": "3r8IJZKYsS",
+    "order": "203",
     "name": "Grafaiai",
     "types": [
       "poison",
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Unburden",
+      "Poison",
+      "Touch",
+      "Prankster"
+    ],
+    "baseStats": {
+      "total": 485,
+      "hp": 63,
+      "attack": 95,
+      "defense": 65,
+      "spAttack": 80,
+      "spDefense": 72,
+      "speed": 110
+    }
   },
   {
-    "order": 204,
+    "id": "NO7swg41hV",
+    "order": "204",
     "name": "Stantler",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Intimidate",
+      "Frisk",
+      "Sap",
+      "Sipper"
+    ],
+    "baseStats": {
+      "total": 465,
+      "hp": 73,
+      "attack": 95,
+      "defense": 62,
+      "spAttack": 85,
+      "spDefense": 65,
+      "speed": 85
+    }
   },
   {
-    "order": 205,
+    "id": "C43wifLmJN",
+    "order": "205",
     "name": "Foongus",
     "types": [
       "grass",
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Effect",
+      "Spore",
+      "Regenerator"
+    ],
+    "baseStats": {
+      "total": 294,
+      "hp": 69,
+      "attack": 55,
+      "defense": 45,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 15
+    }
   },
   {
-    "order": 206,
+    "id": "vHyjJgasFn",
+    "order": "206",
     "name": "Amoonguss",
     "types": [
       "grass",
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Effect",
+      "Spore",
+      "Regenerator"
+    ],
+    "baseStats": {
+      "total": 464,
+      "hp": 114,
+      "attack": 85,
+      "defense": 70,
+      "spAttack": 85,
+      "spDefense": 80,
+      "speed": 30
+    }
   },
   {
-    "order": 207,
+    "id": "HVvy5PKaye",
+    "order": "207",
     "name": "Voltorb",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Soundproof",
+      "Static",
+      "Aftermath"
+    ],
+    "baseStats": {
+      "total": 330,
+      "hp": 40,
+      "attack": 30,
+      "defense": 50,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 100
+    }
   },
   {
-    "order": 208,
+    "id": "aOEM7aGiwh",
+    "order": "208",
     "name": "Electrode",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Soundproof",
+      "Static",
+      "Aftermath"
+    ],
+    "baseStats": {
+      "total": 490,
+      "hp": 60,
+      "attack": 50,
+      "defense": 70,
+      "spAttack": 80,
+      "spDefense": 80,
+      "speed": 150
+    }
   },
   {
-    "order": 209,
+    "id": "BV7x1QESg7",
+    "order": "209",
     "name": "Magnemite",
     "types": [
       "electric",
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Magnet",
+      "Pull",
+      "Sturdy",
+      "Analytic"
+    ],
+    "baseStats": {
+      "total": 325,
+      "hp": 25,
+      "attack": 35,
+      "defense": 70,
+      "spAttack": 95,
+      "spDefense": 55,
+      "speed": 45
+    }
   },
   {
-    "order": 210,
+    "id": "oFZaKjrmr2",
+    "order": "210",
     "name": "Magneton",
     "types": [
       "electric",
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Magnet",
+      "Pull",
+      "Sturdy",
+      "Analytic"
+    ],
+    "baseStats": {
+      "total": 465,
+      "hp": 50,
+      "attack": 60,
+      "defense": 95,
+      "spAttack": 120,
+      "spDefense": 70,
+      "speed": 70
+    }
   },
   {
-    "order": 211,
+    "id": "B59n14i2H6",
+    "order": "211",
     "name": "Magnezone",
     "types": [
       "electric",
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Magnet",
+      "Pull",
+      "Sturdy",
+      "Analytic"
+    ],
+    "baseStats": {
+      "total": 535,
+      "hp": 70,
+      "attack": 70,
+      "defense": 115,
+      "spAttack": 130,
+      "spDefense": 90,
+      "speed": 60
+    }
   },
   {
-    "order": 212,
+    "id": "9RSOj6YqBX",
+    "order": "212",
     "name": "Ditto",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Limber",
+      "Imposter"
+    ],
+    "baseStats": {
+      "total": 288,
+      "hp": 48,
+      "attack": 48,
+      "defense": 48,
+      "spAttack": 48,
+      "spDefense": 48,
+      "speed": 48
+    }
   },
   {
-    "order": 213,
+    "id": "Uds7dTPXkt",
+    "order": "213",
     "name": "Growlithe",
     "types": [
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Intimidate",
+      "Flash",
+      "Fire",
+      "Justified"
+    ],
+    "baseStats": {
+      "total": 350,
+      "hp": 55,
+      "attack": 70,
+      "defense": 45,
+      "spAttack": 70,
+      "spDefense": 50,
+      "speed": 60
+    }
   },
   {
-    "order": 214,
+    "id": "K2cZu9aRLf",
+    "order": "214",
     "name": "Arcanine",
     "types": [
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Intimidate",
+      "Flash",
+      "Fire",
+      "Justified"
+    ],
+    "baseStats": {
+      "total": 555,
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "spAttack": 100,
+      "spDefense": 80,
+      "speed": 95
+    }
   },
   {
-    "order": 215,
+    "id": "qKKgiSKKyV",
+    "order": "215",
     "name": "Teddiursa",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Pickup",
+      "Quick",
+      "Feet",
+      "Honey",
+      "Gather"
+    ],
+    "baseStats": {
+      "total": 330,
+      "hp": 60,
+      "attack": 80,
+      "defense": 50,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 40
+    }
   },
   {
-    "order": 216,
+    "id": "btvBOw108x",
+    "order": "216",
     "name": "Ursaring",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Guts",
+      "Quick",
+      "Feet",
+      "Unnerve"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 90,
+      "attack": 130,
+      "defense": 75,
+      "spAttack": 75,
+      "spDefense": 75,
+      "speed": 55
+    }
   },
   {
-    "order": 217,
+    "id": "P47oZ5DbWi",
+    "order": "217",
     "name": "Zangoose",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Immunity",
+      "Toxic",
+      "Boost"
+    ],
+    "baseStats": {
+      "total": 458,
+      "hp": 73,
+      "attack": 115,
+      "defense": 60,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 90
+    }
   },
   {
-    "order": 218,
+    "id": "2vA09kslaX",
+    "order": "218",
     "name": "Seviper",
     "types": [
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Shed",
+      "Skin",
+      "Infiltrator"
+    ],
+    "baseStats": {
+      "total": 458,
+      "hp": 73,
+      "attack": 100,
+      "defense": 60,
+      "spAttack": 100,
+      "spDefense": 60,
+      "speed": 65
+    }
   },
   {
-    "order": 219,
+    "id": "AC2YoXd8P9",
+    "order": "219",
     "name": "Swablu",
     "types": [
       "normal",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Natural",
+      "Cure",
+      "Cloud",
+      "Nine"
+    ],
+    "baseStats": {
+      "total": 310,
+      "hp": 45,
+      "attack": 40,
+      "defense": 60,
+      "spAttack": 40,
+      "spDefense": 75,
+      "speed": 50
+    }
   },
   {
-    "order": 220,
+    "id": "17Tng2PCdR",
+    "order": "220",
     "name": "Altaria",
     "types": [
       "dragon",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Natural",
+      "Cure",
+      "Cloud",
+      "Nine"
+    ],
+    "baseStats": {
+      "total": 490,
+      "hp": 75,
+      "attack": 70,
+      "defense": 90,
+      "spAttack": 70,
+      "spDefense": 105,
+      "speed": 80
+    }
   },
   {
-    "order": 221,
+    "id": "mrw9sfJbO7",
+    "order": "221",
     "name": "Skiddo",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Sap",
+      "Sipper",
+      "Grass",
+      "Pelt"
+    ],
+    "baseStats": {
+      "total": 350,
+      "hp": 66,
+      "attack": 65,
+      "defense": 48,
+      "spAttack": 62,
+      "spDefense": 57,
+      "speed": 52
+    }
   },
   {
-    "order": 222,
+    "id": "uiQtP2Gj76",
+    "order": "222",
     "name": "Gogoat",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Sap",
+      "Sipper",
+      "Grass",
+      "Pelt"
+    ],
+    "baseStats": {
+      "total": 531,
+      "hp": 123,
+      "attack": 100,
+      "defense": 62,
+      "spAttack": 97,
+      "spDefense": 81,
+      "speed": 68
+    }
   },
   {
-    "order": 223,
-    "name": "Tauros",
-    "types": ["fighting"],
-    "forms": [
-      {
-        "name": "Tauros",
-        "types": [
-          "fighting",
-          "water"
-        ]
-      },
-      {
-        "name": "Tauros",
-        "types": [
-          "fighting",
-          "fire"
-        ]
-      }
-    ]
+    "id": "sktZ5OzsqT",
+    "order": "223",
+    "name": "Paldean Tauros (Fighting Form)",
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "Intimidate",
+      "Anger",
+      "Point",
+      "Cud",
+      "Chew"
+    ],
+    "baseStats": {
+      "total": 490,
+      "hp": 75,
+      "attack": 110,
+      "defense": 105,
+      "spAttack": 30,
+      "spDefense": 70,
+      "speed": 100
+    }
   },
   {
-    "order": 224,
+    "id": "pTQ5NT3ZE5",
+    "order": "223.1",
+    "name": "Paldean Tauros (Fighting/Fire Form)",
+    "types": [
+      "fighting",
+      "fire"
+    ],
+    "abilities": [
+      "Intimidate",
+      "Anger",
+      "Point",
+      "Cud",
+      "Chew"
+    ],
+    "baseStats": {
+      "total": 490,
+      "hp": 75,
+      "attack": 110,
+      "defense": 105,
+      "spAttack": 30,
+      "spDefense": 70,
+      "speed": 100
+    }
+  },
+  {
+    "id": "jRNPIxu8sT",
+    "order": "223.2",
+    "name": "Paldean Tauros (Fighting/Water Form)",
+    "types": [
+      "fighting",
+      "water"
+    ],
+    "abilities": [
+      "Intimidate",
+      "Anger",
+      "Point",
+      "Cud",
+      "Chew"
+    ],
+    "baseStats": {
+      "total": 490,
+      "hp": 75,
+      "attack": 110,
+      "defense": 105,
+      "spAttack": 30,
+      "spDefense": 70,
+      "speed": 100
+    }
+  },
+  {
+    "id": "IGPDmqMx4C",
+    "order": "224",
     "name": "Litleo",
     "types": [
       "fire",
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Rivalry",
+      "Unnerve",
+      "Moxie"
+    ],
+    "baseStats": {
+      "total": 369,
+      "hp": 62,
+      "attack": 50,
+      "defense": 58,
+      "spAttack": 73,
+      "spDefense": 54,
+      "speed": 72
+    }
   },
   {
-    "order": 225,
+    "id": "FaA3OUwwIr",
+    "order": "225",
     "name": "Pyroar",
     "types": [
       "fire",
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Rivalry",
+      "Unnerve",
+      "Moxie"
+    ],
+    "baseStats": {
+      "total": 507,
+      "hp": 86,
+      "attack": 68,
+      "defense": 72,
+      "spAttack": 109,
+      "spDefense": 66,
+      "speed": 106
+    }
   },
   {
-    "order": 226,
+    "id": "baTKXpQsCW",
+    "order": "226",
     "name": "Stunky",
     "types": [
       "poison",
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Stench",
+      "Aftermath",
+      "Keen",
+      "Eye"
+    ],
+    "baseStats": {
+      "total": 329,
+      "hp": 63,
+      "attack": 63,
+      "defense": 47,
+      "spAttack": 41,
+      "spDefense": 41,
+      "speed": 74
+    }
   },
   {
-    "order": 227,
+    "id": "gdKOhyHTld",
+    "order": "227",
     "name": "Skuntank",
     "types": [
       "poison",
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Stench",
+      "Aftermath",
+      "Keen",
+      "Eye"
+    ],
+    "baseStats": {
+      "total": 479,
+      "hp": 103,
+      "attack": 93,
+      "defense": 67,
+      "spAttack": 71,
+      "spDefense": 61,
+      "speed": 84
+    }
   },
   {
-    "order": 228,
+    "id": "IRiboD1d8h",
+    "order": "228",
     "name": "Zorua",
     "types": [
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Illusion"
+    ],
+    "baseStats": {
+      "total": 330,
+      "hp": 40,
+      "attack": 65,
+      "defense": 40,
+      "spAttack": 80,
+      "spDefense": 40,
+      "speed": 65
+    }
   },
   {
-    "order": 229,
+    "id": "o1aLdTcHRk",
+    "order": "229",
     "name": "Zoroark",
     "types": [
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Illusion"
+    ],
+    "baseStats": {
+      "total": 510,
+      "hp": 60,
+      "attack": 105,
+      "defense": 60,
+      "spAttack": 120,
+      "spDefense": 60,
+      "speed": 105
+    }
   },
   {
-    "order": 230,
+    "id": "fzdqT6A6jX",
+    "order": "230",
     "name": "Sneasel",
     "types": [
       "dark",
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Inner",
+      "Focus",
+      "Keen",
+      "Eye",
+      "Pickpocket"
+    ],
+    "baseStats": {
+      "total": 430,
+      "hp": 55,
+      "attack": 95,
+      "defense": 55,
+      "spAttack": 35,
+      "spDefense": 75,
+      "speed": 115
+    }
   },
   {
-    "order": 231,
+    "id": "dxlyZp2GCP",
+    "order": "231",
     "name": "Weavile",
     "types": [
       "dark",
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Pressure",
+      "Pickpocket"
+    ],
+    "baseStats": {
+      "total": 510,
+      "hp": 70,
+      "attack": 120,
+      "defense": 65,
+      "spAttack": 45,
+      "spDefense": 85,
+      "speed": 125
+    }
   },
   {
-    "order": 232,
+    "id": "K1eRDU5tow",
+    "order": "232",
     "name": "Murkrow",
     "types": [
       "dark",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Insomnia",
+      "Super",
+      "Luck",
+      "Prankster"
+    ],
+    "baseStats": {
+      "total": 405,
+      "hp": 60,
+      "attack": 85,
+      "defense": 42,
+      "spAttack": 85,
+      "spDefense": 42,
+      "speed": 91
+    }
   },
   {
-    "order": 233,
+    "id": "8T4WR8jPAn",
+    "order": "233",
     "name": "Honchkrow",
     "types": [
       "dark",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Insomnia",
+      "Super",
+      "Luck",
+      "Moxie"
+    ],
+    "baseStats": {
+      "total": 505,
+      "hp": 100,
+      "attack": 125,
+      "defense": 52,
+      "spAttack": 105,
+      "spDefense": 52,
+      "speed": 71
+    }
   },
   {
-    "order": 234,
+    "id": "4ojhML2iOc",
+    "order": "234",
     "name": "Gothita",
     "types": [
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Frisk",
+      "Competitive",
+      "Shadow",
+      "Tag"
+    ],
+    "baseStats": {
+      "total": 290,
+      "hp": 45,
+      "attack": 30,
+      "defense": 50,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 45
+    }
   },
   {
-    "order": 235,
+    "id": "L3egCrXeKd",
+    "order": "235",
     "name": "Gothorita",
     "types": [
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Frisk",
+      "Competitive",
+      "Shadow",
+      "Tag"
+    ],
+    "baseStats": {
+      "total": 390,
+      "hp": 60,
+      "attack": 45,
+      "defense": 70,
+      "spAttack": 75,
+      "spDefense": 85,
+      "speed": 55
+    }
   },
   {
-    "order": 236,
+    "id": "W5xGlslAKU",
+    "order": "236",
     "name": "Gothitelle",
     "types": [
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Frisk",
+      "Competitive",
+      "Shadow",
+      "Tag"
+    ],
+    "baseStats": {
+      "total": 490,
+      "hp": 70,
+      "attack": 55,
+      "defense": 95,
+      "spAttack": 95,
+      "spDefense": 110,
+      "speed": 65
+    }
   },
   {
-    "order": 237,
+    "id": "3yrje1ldT1",
+    "order": "237",
     "name": "Sinistea",
     "types": [
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Weak",
+      "Armor",
+      "Cursed",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 308,
+      "hp": 40,
+      "attack": 45,
+      "defense": 45,
+      "spAttack": 74,
+      "spDefense": 54,
+      "speed": 50
+    }
   },
   {
-    "order": 238,
+    "id": "KecqRfMjMq",
+    "order": "238",
     "name": "Polteageist",
     "types": [
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Weak",
+      "Armor",
+      "Cursed",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 508,
+      "hp": 60,
+      "attack": 65,
+      "defense": 65,
+      "spAttack": 134,
+      "spDefense": 114,
+      "speed": 70
+    }
   },
   {
-    "order": 239,
+    "id": "RJJsZNJeZf",
+    "order": "239",
     "name": "Mimikyu",
     "types": [
       "ghost",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Disguise"
+    ],
+    "baseStats": {
+      "total": 476,
+      "hp": 55,
+      "attack": 90,
+      "defense": 80,
+      "spAttack": 50,
+      "spDefense": 105,
+      "speed": 96
+    }
   },
   {
-    "order": 240,
+    "id": "0dr7q2trOe",
+    "order": "240",
     "name": "Klefki",
     "types": [
       "steel",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Prankster",
+      "Magician"
+    ],
+    "baseStats": {
+      "total": 470,
+      "hp": 57,
+      "attack": 80,
+      "defense": 91,
+      "spAttack": 80,
+      "spDefense": 87,
+      "speed": 75
+    }
   },
   {
-    "order": 241,
-    "name": "Indeedee",
+    "id": "0PVsj37QHP",
+    "order": "241",
+    "name": "Indeedee (Male)",
     "types": [
       "psychic",
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Inner",
+      "Focus",
+      "Synchronize",
+      "Psychic",
+      "Surge"
+    ],
+    "baseStats": {
+      "total": 475,
+      "hp": 60,
+      "attack": 65,
+      "defense": 55,
+      "spAttack": 105,
+      "spDefense": 95,
+      "speed": 95
+    }
   },
   {
-    "order": 242,
+    "id": "SyixPBezjG",
+    "order": "241.1",
+    "name": "Indeedee (Female)",
+    "types": [
+      "psychic",
+      "normal"
+    ],
+    "abilities": [
+      "Own",
+      "Tempo",
+      "Synchronize",
+      "Psychic",
+      "Surge"
+    ],
+    "baseStats": {
+      "total": 475,
+      "hp": 70,
+      "attack": 55,
+      "defense": 65,
+      "spAttack": 95,
+      "spDefense": 105,
+      "speed": 85
+    }
+  },
+  {
+    "id": "nahmD4wB02",
+    "order": "242",
     "name": "Bramblin",
     "types": [
       "grass",
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Wind",
+      "Rider",
+      "Infiltrator"
+    ],
+    "baseStats": {
+      "total": 275,
+      "hp": 40,
+      "attack": 65,
+      "defense": 30,
+      "spAttack": 45,
+      "spDefense": 35,
+      "speed": 60
+    }
   },
   {
-    "order": 243,
+    "id": "HdV6TDBRes",
+    "order": "243",
     "name": "Brambleghast",
     "types": [
       "grass",
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Wind",
+      "Rider",
+      "Infiltrator"
+    ],
+    "baseStats": {
+      "total": 480,
+      "hp": 55,
+      "attack": 115,
+      "defense": 70,
+      "spAttack": 80,
+      "spDefense": 70,
+      "speed": 90
+    }
   },
   {
-    "order": 244,
+    "id": "SU9QXRWLzI",
+    "order": "244",
     "name": "Toedscool",
     "types": [
-      "grass",
-      "ground"
-    ]
+      "ground",
+      "grass"
+    ],
+    "abilities": [
+      "Mycelium",
+      "Might"
+    ],
+    "baseStats": {
+      "total": 335,
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "spAttack": 50,
+      "spDefense": 100,
+      "speed": 70
+    }
   },
   {
-    "order": 245,
+    "id": "Tcz9bZIljB",
+    "order": "245",
     "name": "Toedscruel",
     "types": [
-      "grass",
-      "ground"
-    ]
+      "ground",
+      "grass"
+    ],
+    "abilities": [
+      "Mycelium",
+      "Might"
+    ],
+    "baseStats": {
+      "total": 515,
+      "hp": 80,
+      "attack": 70,
+      "defense": 65,
+      "spAttack": 80,
+      "spDefense": 120,
+      "speed": 100
+    }
   },
   {
-    "order": 246,
+    "id": "cifr7uH6Xt",
+    "order": "246",
     "name": "Tropius",
     "types": [
       "grass",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Chlorophyll",
+      "Solar",
+      "Power",
+      "Harvest"
+    ],
+    "baseStats": {
+      "total": 460,
+      "hp": 99,
+      "attack": 68,
+      "defense": 83,
+      "spAttack": 72,
+      "spDefense": 87,
+      "speed": 51
+    }
   },
   {
-    "order": 247,
+    "id": "9lMXqw7Ahb",
+    "order": "247",
     "name": "Fomantis",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Leaf",
+      "Guard",
+      "Contrary"
+    ],
+    "baseStats": {
+      "total": 250,
+      "hp": 40,
+      "attack": 55,
+      "defense": 35,
+      "spAttack": 50,
+      "spDefense": 35,
+      "speed": 35
+    }
   },
   {
-    "order": 248,
+    "id": "U0RPcDwwWu",
+    "order": "248",
     "name": "Lurantis",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Leaf",
+      "Guard",
+      "Contrary"
+    ],
+    "baseStats": {
+      "total": 480,
+      "hp": 70,
+      "attack": 105,
+      "defense": 90,
+      "spAttack": 80,
+      "spDefense": 90,
+      "speed": 45
+    }
   },
   {
-    "order": 249,
+    "id": "hkGUDwBQhI",
+    "order": "249",
     "name": "Klawf",
     "types": [
       "rock"
-    ]
+    ],
+    "abilities": [
+      "Anger",
+      "Shell",
+      "Shell",
+      "Armor",
+      "Regenerator"
+    ],
+    "baseStats": {
+      "total": 450,
+      "hp": 70,
+      "attack": 100,
+      "defense": 115,
+      "spAttack": 35,
+      "spDefense": 55,
+      "speed": 75
+    }
   },
   {
-    "order": 250,
+    "id": "OFFjohNiT0",
+    "order": "250",
     "name": "Capsakid",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Chlorophyll",
+      "Insomnia",
+      "Klutz"
+    ],
+    "baseStats": {
+      "total": 304,
+      "hp": 50,
+      "attack": 62,
+      "defense": 40,
+      "spAttack": 62,
+      "spDefense": 40,
+      "speed": 50
+    }
   },
   {
-    "order": 251,
+    "id": "jrHK2OGCDL",
+    "order": "251",
     "name": "Scovillain",
     "types": [
       "grass",
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Chlorophyll",
+      "Insomnia",
+      "Moody"
+    ],
+    "baseStats": {
+      "total": 486,
+      "hp": 65,
+      "attack": 108,
+      "defense": 65,
+      "spAttack": 108,
+      "spDefense": 65,
+      "speed": 75
+    }
   },
   {
-    "order": 252,
+    "id": "YQTy2rCUnR",
+    "order": "252",
     "name": "Cacnea",
     "types": [
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Sand",
+      "Veil",
+      "Water",
+      "Absorb"
+    ],
+    "baseStats": {
+      "total": 335,
+      "hp": 50,
+      "attack": 85,
+      "defense": 40,
+      "spAttack": 85,
+      "spDefense": 40,
+      "speed": 35
+    }
   },
   {
-    "order": 253,
+    "id": "RGa6P8SPfQ",
+    "order": "253",
     "name": "Cacturne",
     "types": [
       "grass",
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Sand",
+      "Veil",
+      "Water",
+      "Absorb"
+    ],
+    "baseStats": {
+      "total": 475,
+      "hp": 70,
+      "attack": 115,
+      "defense": 60,
+      "spAttack": 115,
+      "spDefense": 60,
+      "speed": 55
+    }
   },
   {
-    "order": 254,
+    "id": "XiontrNENw",
+    "order": "254",
     "name": "Rellor",
     "types": [
       "bug"
-    ]
+    ],
+    "abilities": [
+      "Compound",
+      "Eyes",
+      "Shed",
+      "Skin"
+    ],
+    "baseStats": {
+      "total": 270,
+      "hp": 41,
+      "attack": 50,
+      "defense": 60,
+      "spAttack": 31,
+      "spDefense": 58,
+      "speed": 30
+    }
   },
   {
-    "order": 255,
+    "id": "LGapNksk4Y",
+    "order": "255",
     "name": "Rabsca",
     "types": [
       "bug",
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Synchronize",
+      "Telepathy"
+    ],
+    "baseStats": {
+      "total": 470,
+      "hp": 75,
+      "attack": 50,
+      "defense": 85,
+      "spAttack": 115,
+      "spDefense": 100,
+      "speed": 45
+    }
   },
   {
-    "order": 256,
+    "id": "xJdmdCMuQc",
+    "order": "256",
     "name": "Venonat",
     "types": [
       "bug",
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Compound",
+      "Eyes",
+      "Tinted",
+      "Lens",
+      "Run",
+      "Away"
+    ],
+    "baseStats": {
+      "total": 305,
+      "hp": 60,
+      "attack": 55,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 55,
+      "speed": 45
+    }
   },
   {
-    "order": 257,
+    "id": "wpV233Mn9s",
+    "order": "257",
     "name": "Venomoth",
     "types": [
       "bug",
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Shield",
+      "Dust",
+      "Tinted",
+      "Lens",
+      "Wonder",
+      "Skin"
+    ],
+    "baseStats": {
+      "total": 450,
+      "hp": 70,
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 90,
+      "spDefense": 75,
+      "speed": 90
+    }
   },
   {
-    "order": 258,
+    "id": "eseyokJ7V9",
+    "order": "258",
     "name": "Pineco",
     "types": [
       "bug"
-    ]
+    ],
+    "abilities": [
+      "Sturdy",
+      "Overcoat"
+    ],
+    "baseStats": {
+      "total": 290,
+      "hp": 50,
+      "attack": 65,
+      "defense": 90,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 15
+    }
   },
   {
-    "order": 259,
+    "id": "9fXbgdxdZy",
+    "order": "259",
     "name": "Forretress",
     "types": [
       "bug",
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Sturdy",
+      "Overcoat"
+    ],
+    "baseStats": {
+      "total": 465,
+      "hp": 75,
+      "attack": 90,
+      "defense": 140,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 40
+    }
   },
   {
-    "order": 260,
+    "id": "x7bXspm7f8",
+    "order": "260",
     "name": "Scyther",
     "types": [
       "bug",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Swarm",
+      "Technician",
+      "Steadfast"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "spAttack": 55,
+      "spDefense": 80,
+      "speed": 105
+    }
   },
   {
-    "order": 261,
+    "id": "IRQTyvTS6I",
+    "order": "261",
     "name": "Scizor",
     "types": [
       "bug",
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Swarm",
+      "Technician",
+      "Light",
+      "Metal"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 70,
+      "attack": 130,
+      "defense": 100,
+      "spAttack": 55,
+      "spDefense": 80,
+      "speed": 65
+    }
   },
   {
-    "order": 262,
+    "id": "ygoVqRUAbP",
+    "order": "262",
     "name": "Heracross",
     "types": [
       "bug",
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Swarm",
+      "Guts",
+      "Moxie"
+    ],
+    "baseStats": {
+      "total": 510,
+      "hp": 80,
+      "attack": 125,
+      "defense": 75,
+      "spAttack": 40,
+      "spDefense": 95,
+      "speed": 85
+    }
   },
   {
-    "order": 263,
+    "id": "vl4ZexHUEh",
+    "order": "263",
     "name": "Flittle",
     "types": [
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Anticipation",
+      "Frisk",
+      "Speed",
+      "Boost"
+    ],
+    "baseStats": {
+      "total": 255,
+      "hp": 30,
+      "attack": 35,
+      "defense": 30,
+      "spAttack": 55,
+      "spDefense": 30,
+      "speed": 75
+    }
   },
   {
-    "order": 264,
+    "id": "CI9Fbw7aA0",
+    "order": "264",
     "name": "Espathra",
     "types": [
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Opportunist",
+      "Frisk",
+      "Speed",
+      "Boost"
+    ],
+    "baseStats": {
+      "total": 481,
+      "hp": 95,
+      "attack": 60,
+      "defense": 60,
+      "spAttack": 101,
+      "spDefense": 60,
+      "speed": 105
+    }
   },
   {
-    "order": 265,
+    "id": "h1wKkOlT1L",
+    "order": "265",
     "name": "Hippopotas",
     "types": [
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Sand",
+      "Stream",
+      "Sand",
+      "Force"
+    ],
+    "baseStats": {
+      "total": 330,
+      "hp": 68,
+      "attack": 72,
+      "defense": 78,
+      "spAttack": 38,
+      "spDefense": 42,
+      "speed": 32
+    }
   },
   {
-    "order": 266,
+    "id": "8Rt27653t3",
+    "order": "266",
     "name": "Hippowdon",
     "types": [
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Sand",
+      "Stream",
+      "Sand",
+      "Force"
+    ],
+    "baseStats": {
+      "total": 525,
+      "hp": 108,
+      "attack": 112,
+      "defense": 118,
+      "spAttack": 68,
+      "spDefense": 72,
+      "speed": 47
+    }
   },
   {
-    "order": 267,
+    "id": "MG5dR4LG5Z",
+    "order": "267",
     "name": "Sandile",
     "types": [
       "ground",
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Intimidate",
+      "Moxie",
+      "Anger",
+      "Point"
+    ],
+    "baseStats": {
+      "total": 292,
+      "hp": 50,
+      "attack": 72,
+      "defense": 35,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 65
+    }
   },
   {
-    "order": 268,
+    "id": "Gh8rPXxr6G",
+    "order": "268",
     "name": "Krokorok",
     "types": [
       "ground",
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Intimidate",
+      "Moxie",
+      "Anger",
+      "Point"
+    ],
+    "baseStats": {
+      "total": 351,
+      "hp": 60,
+      "attack": 82,
+      "defense": 45,
+      "spAttack": 45,
+      "spDefense": 45,
+      "speed": 74
+    }
   },
   {
-    "order": 269,
+    "id": "FNPtQYgz65",
+    "order": "269",
     "name": "Krookodile",
     "types": [
       "ground",
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Intimidate",
+      "Moxie",
+      "Anger",
+      "Point"
+    ],
+    "baseStats": {
+      "total": 519,
+      "hp": 95,
+      "attack": 117,
+      "defense": 80,
+      "spAttack": 65,
+      "spDefense": 70,
+      "speed": 92
+    }
   },
   {
-    "order": 270,
+    "id": "UIttiNV35e",
+    "order": "270",
     "name": "Silicobra",
     "types": [
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Shed",
+      "Skin",
+      "Sand",
+      "Spit",
+      "Sand",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 315,
+      "hp": 52,
+      "attack": 57,
+      "defense": 75,
+      "spAttack": 35,
+      "spDefense": 50,
+      "speed": 46
+    }
   },
   {
-    "order": 271,
+    "id": "afnzpY5DxI",
+    "order": "271",
     "name": "Sandaconda",
     "types": [
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Shed",
+      "Skin",
+      "Sand",
+      "Spit",
+      "Sand",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 510,
+      "hp": 72,
+      "attack": 107,
+      "defense": 125,
+      "spAttack": 65,
+      "spDefense": 70,
+      "speed": 71
+    }
   },
   {
-    "order": 272,
+    "id": "xg8sBsCsQd",
+    "order": "272",
     "name": "Mudbray",
     "types": [
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Own",
+      "Tempo",
+      "Stamina",
+      "Inner",
+      "Focus"
+    ],
+    "baseStats": {
+      "total": 385,
+      "hp": 70,
+      "attack": 100,
+      "defense": 70,
+      "spAttack": 45,
+      "spDefense": 55,
+      "speed": 45
+    }
   },
   {
-    "order": 273,
+    "id": "kYtVZNSB60",
+    "order": "273",
     "name": "Mudsdale",
     "types": [
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Own",
+      "Tempo",
+      "Stamina",
+      "Inner",
+      "Focus"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 100,
+      "attack": 125,
+      "defense": 100,
+      "spAttack": 55,
+      "spDefense": 85,
+      "speed": 35
+    }
   },
   {
-    "order": 274,
+    "id": "wHylezqa0R",
+    "order": "274",
     "name": "Larvesta",
     "types": [
       "bug",
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Flame",
+      "Body",
+      "Swarm"
+    ],
+    "baseStats": {
+      "total": 360,
+      "hp": 55,
+      "attack": 85,
+      "defense": 55,
+      "spAttack": 50,
+      "spDefense": 55,
+      "speed": 60
+    }
   },
   {
-    "order": 275,
+    "id": "gnpYxcSLBH",
+    "order": "275",
     "name": "Volcarona",
     "types": [
       "bug",
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Flame",
+      "Body",
+      "Swarm"
+    ],
+    "baseStats": {
+      "total": 550,
+      "hp": 85,
+      "attack": 60,
+      "defense": 65,
+      "spAttack": 135,
+      "spDefense": 105,
+      "speed": 100
+    }
   },
   {
-    "order": 276,
+    "id": "T61FsEd2S9",
+    "order": "276",
     "name": "Bagon",
     "types": [
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Rock",
+      "Head",
+      "Sheer",
+      "Force"
+    ],
+    "baseStats": {
+      "total": 300,
+      "hp": 45,
+      "attack": 75,
+      "defense": 60,
+      "spAttack": 40,
+      "spDefense": 30,
+      "speed": 50
+    }
   },
   {
-    "order": 277,
+    "id": "OgKWxB9nCf",
+    "order": "277",
     "name": "Shelgon",
     "types": [
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Rock",
+      "Head",
+      "Overcoat"
+    ],
+    "baseStats": {
+      "total": 420,
+      "hp": 65,
+      "attack": 95,
+      "defense": 100,
+      "spAttack": 60,
+      "spDefense": 50,
+      "speed": 50
+    }
   },
   {
-    "order": 278,
+    "id": "21M1S9KWjs",
+    "order": "278",
     "name": "Salamence",
     "types": [
       "dragon",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Intimidate",
+      "Moxie"
+    ],
+    "baseStats": {
+      "total": 600,
+      "hp": 95,
+      "attack": 135,
+      "defense": 80,
+      "spAttack": 110,
+      "spDefense": 80,
+      "speed": 100
+    }
   },
   {
-    "order": 279,
+    "id": "DLmdaKauxQ",
+    "order": "279",
     "name": "Tinkatink",
     "types": [
       "fairy",
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Mold",
+      "Breaker",
+      "Own",
+      "Tempo",
+      "Pickpocket"
+    ],
+    "baseStats": {
+      "total": 297,
+      "hp": 50,
+      "attack": 45,
+      "defense": 45,
+      "spAttack": 35,
+      "spDefense": 64,
+      "speed": 58
+    }
   },
   {
-    "order": 280,
+    "id": "YPzaaO85YT",
+    "order": "280",
     "name": "Tinkatuff",
     "types": [
       "fairy",
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Mold",
+      "Breaker",
+      "Own",
+      "Tempo",
+      "Pickpocket"
+    ],
+    "baseStats": {
+      "total": 380,
+      "hp": 65,
+      "attack": 55,
+      "defense": 55,
+      "spAttack": 45,
+      "spDefense": 82,
+      "speed": 78
+    }
   },
   {
-    "order": 281,
+    "id": "0kJ4gskVnz",
+    "order": "281",
     "name": "Tinkaton",
     "types": [
       "fairy",
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Mold",
+      "Breaker",
+      "Own",
+      "Tempo",
+      "Pickpocket"
+    ],
+    "baseStats": {
+      "total": 506,
+      "hp": 85,
+      "attack": 75,
+      "defense": 77,
+      "spAttack": 70,
+      "spDefense": 105,
+      "speed": 94
+    }
   },
   {
-    "order": 282,
+    "id": "Ao5D20X2wQ",
+    "order": "282",
     "name": "Hatenna",
     "types": [
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Healer",
+      "Anticipation",
+      "Magic",
+      "Bounce"
+    ],
+    "baseStats": {
+      "total": 265,
+      "hp": 42,
+      "attack": 30,
+      "defense": 45,
+      "spAttack": 56,
+      "spDefense": 53,
+      "speed": 39
+    }
   },
   {
-    "order": 283,
+    "id": "Ducdnsg5WU",
+    "order": "283",
     "name": "Hattrem",
     "types": [
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Healer",
+      "Anticipation",
+      "Magic",
+      "Bounce"
+    ],
+    "baseStats": {
+      "total": 370,
+      "hp": 57,
+      "attack": 40,
+      "defense": 65,
+      "spAttack": 86,
+      "spDefense": 73,
+      "speed": 49
+    }
   },
   {
-    "order": 284,
+    "id": "JgxUzzdwVI",
+    "order": "284",
     "name": "Hatterene",
     "types": [
       "psychic",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Healer",
+      "Anticipation",
+      "Magic",
+      "Bounce"
+    ],
+    "baseStats": {
+      "total": 510,
+      "hp": 57,
+      "attack": 90,
+      "defense": 95,
+      "spAttack": 136,
+      "spDefense": 103,
+      "speed": 29
+    }
   },
   {
-    "order": 285,
+    "id": "wITQvpGiO2",
+    "order": "285",
     "name": "Impidimp",
     "types": [
       "dark",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Prankster",
+      "Frisk",
+      "Pickpocket"
+    ],
+    "baseStats": {
+      "total": 265,
+      "hp": 45,
+      "attack": 45,
+      "defense": 30,
+      "spAttack": 55,
+      "spDefense": 40,
+      "speed": 50
+    }
   },
   {
-    "order": 286,
+    "id": "v8c17c77qv",
+    "order": "286",
     "name": "Morgrem",
     "types": [
       "dark",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Prankster",
+      "Frisk",
+      "Pickpocket"
+    ],
+    "baseStats": {
+      "total": 370,
+      "hp": 65,
+      "attack": 60,
+      "defense": 45,
+      "spAttack": 75,
+      "spDefense": 55,
+      "speed": 70
+    }
   },
   {
-    "order": 287,
+    "id": "qN35dpRZkz",
+    "order": "287",
     "name": "Grimmsnarl",
     "types": [
       "dark",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Prankster",
+      "Frisk",
+      "Pickpocket"
+    ],
+    "baseStats": {
+      "total": 510,
+      "hp": 95,
+      "attack": 120,
+      "defense": 65,
+      "spAttack": 95,
+      "spDefense": 75,
+      "speed": 60
+    }
   },
   {
-    "order": 288,
+    "id": "4QHA8mV6GA",
+    "order": "288",
     "name": "Wiglett",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Gooey",
+      "Rattled",
+      "Sand",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 245,
+      "hp": 10,
+      "attack": 55,
+      "defense": 25,
+      "spAttack": 35,
+      "spDefense": 25,
+      "speed": 95
+    }
   },
   {
-    "order": 289,
+    "id": "HjaSETlTKh",
+    "order": "289",
     "name": "Wugtrio",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Gooey",
+      "Rattled",
+      "Sand",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 425,
+      "hp": 35,
+      "attack": 100,
+      "defense": 50,
+      "spAttack": 50,
+      "spDefense": 70,
+      "speed": 120
+    }
   },
   {
-    "order": 290,
+    "id": "QZ0Mpr9B1g",
+    "order": "290",
     "name": "Bombirdier",
     "types": [
-      "dark",
-      "flying"
-    ]
+      "flying",
+      "dark"
+    ],
+    "abilities": [
+      "Big",
+      "Pecks",
+      "Keen",
+      "Eye",
+      "Rocky",
+      "Payload"
+    ],
+    "baseStats": {
+      "total": 485,
+      "hp": 70,
+      "attack": 103,
+      "defense": 85,
+      "spAttack": 60,
+      "spDefense": 85,
+      "speed": 82
+    }
   },
   {
-    "order": 291,
+    "id": "xpTjdMvRhu",
+    "order": "291",
     "name": "Finizen",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Water",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 315,
+      "hp": 70,
+      "attack": 45,
+      "defense": 40,
+      "spAttack": 45,
+      "spDefense": 40,
+      "speed": 75
+    }
   },
   {
-    "order": 292,
+    "id": "HuvExMs82k",
+    "order": "292",
     "name": "Palafin",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Zero",
+      "to",
+      "Hero"
+    ],
+    "baseStats": {
+      "total": 457,
+      "hp": 100,
+      "attack": 70,
+      "defense": 72,
+      "spAttack": 53,
+      "spDefense": 62,
+      "speed": 100
+    }
   },
   {
-    "order": 293,
+    "id": "xdOTLZQ0fi",
+    "order": "292.1",
+    "name": "Palafin (Hero Form)",
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "Zero",
+      "to",
+      "Hero"
+    ],
+    "baseStats": {
+      "total": 650,
+      "hp": 100,
+      "attack": 160,
+      "defense": 97,
+      "spAttack": 106,
+      "spDefense": 87,
+      "speed": 100
+    }
+  },
+  {
+    "id": "cHBvwE8UMo",
+    "order": "293",
     "name": "Varoom",
     "types": [
       "steel",
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Overcoat",
+      "Slow",
+      "Start"
+    ],
+    "baseStats": {
+      "total": 300,
+      "hp": 45,
+      "attack": 70,
+      "defense": 63,
+      "spAttack": 30,
+      "spDefense": 45,
+      "speed": 47
+    }
   },
   {
-    "order": 294,
+    "id": "GX1ziJyqCW",
+    "order": "294",
     "name": "Revavroom",
     "types": [
       "steel",
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Overcoat",
+      "Filter"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 80,
+      "attack": 119,
+      "defense": 90,
+      "spAttack": 54,
+      "spDefense": 67,
+      "speed": 90
+    }
   },
   {
-    "order": 295,
+    "id": "EO3HVKDN83",
+    "order": "295",
     "name": "Cyclizar",
     "types": [
       "dragon",
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Shed",
+      "Skin",
+      "Regenerator"
+    ],
+    "baseStats": {
+      "total": 501,
+      "hp": 70,
+      "attack": 95,
+      "defense": 65,
+      "spAttack": 85,
+      "spDefense": 65,
+      "speed": 121
+    }
   },
   {
-    "order": 296,
+    "id": "FgK9UvYa6o",
+    "order": "296",
     "name": "Orthworm",
     "types": [
-      "steel",
-      "poison"
-    ]
+      "steel"
+    ],
+    "abilities": [
+      "Earth",
+      "Eater",
+      "Sand",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 480,
+      "hp": 70,
+      "attack": 85,
+      "defense": 145,
+      "spAttack": 60,
+      "spDefense": 55,
+      "speed": 65
+    }
   },
   {
-    "order": 297,
+    "id": "wKpWvdEmtE",
+    "order": "297",
     "name": "Sableye",
     "types": [
       "dark",
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Keen",
+      "Eye",
+      "Stall",
+      "Prankster"
+    ],
+    "baseStats": {
+      "total": 380,
+      "hp": 50,
+      "attack": 75,
+      "defense": 75,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 50
+    }
   },
   {
-    "order": 298,
+    "id": "2xWGmIrnCP",
+    "order": "298",
     "name": "Shuppet",
     "types": [
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Insomnia",
+      "Frisk",
+      "Cursed",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 295,
+      "hp": 44,
+      "attack": 75,
+      "defense": 35,
+      "spAttack": 63,
+      "spDefense": 33,
+      "speed": 45
+    }
   },
   {
-    "order": 299,
+    "id": "JKusLUbbh8",
+    "order": "299",
     "name": "Banette",
     "types": [
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Insomnia",
+      "Frisk",
+      "Cursed",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 455,
+      "hp": 64,
+      "attack": 115,
+      "defense": 65,
+      "spAttack": 83,
+      "spDefense": 63,
+      "speed": 65
+    }
   },
   {
-    "order": 300,
+    "id": "X0SMS9kDK5",
+    "order": "300",
     "name": "Falinks",
     "types": [
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Battle",
+      "Armor",
+      "Defiant"
+    ],
+    "baseStats": {
+      "total": 470,
+      "hp": 65,
+      "attack": 100,
+      "defense": 100,
+      "spAttack": 70,
+      "spDefense": 60,
+      "speed": 75
+    }
   },
   {
-    "order": 301,
+    "id": "wTJp9JQy2H",
+    "order": "301",
     "name": "Hawlucha",
     "types": [
       "fighting",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Unburden",
+      "Limber",
+      "Mold",
+      "Breaker"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 78,
+      "attack": 92,
+      "defense": 75,
+      "spAttack": 74,
+      "spDefense": 63,
+      "speed": 118
+    }
   },
   {
-    "order": 302,
+    "id": "fZvvUyULmL",
+    "order": "302",
     "name": "Spiritomb",
     "types": [
       "ghost",
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Pressure",
+      "Infiltrator"
+    ],
+    "baseStats": {
+      "total": 485,
+      "hp": 50,
+      "attack": 92,
+      "defense": 108,
+      "spAttack": 92,
+      "spDefense": 108,
+      "speed": 35
+    }
   },
   {
-    "order": 303,
+    "id": "DNeV2Jvn38",
+    "order": "303",
     "name": "Noibat",
     "types": [
       "flying",
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Frisk",
+      "Infiltrator",
+      "Telepathy"
+    ],
+    "baseStats": {
+      "total": 245,
+      "hp": 40,
+      "attack": 30,
+      "defense": 35,
+      "spAttack": 45,
+      "spDefense": 40,
+      "speed": 55
+    }
   },
   {
-    "order": 304,
+    "id": "Pwt73qiTxV",
+    "order": "304",
     "name": "Noivern",
     "types": [
       "flying",
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Frisk",
+      "Infiltrator",
+      "Telepathy"
+    ],
+    "baseStats": {
+      "total": 535,
+      "hp": 85,
+      "attack": 70,
+      "defense": 80,
+      "spAttack": 97,
+      "spDefense": 80,
+      "speed": 123
+    }
   },
   {
-    "order": 305,
+    "id": "xSqgLtyete",
+    "order": "305",
     "name": "Dreepy",
     "types": [
       "dragon",
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Clear",
+      "Body",
+      "Infiltrator",
+      "Cursed",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 270,
+      "hp": 28,
+      "attack": 60,
+      "defense": 30,
+      "spAttack": 40,
+      "spDefense": 30,
+      "speed": 82
+    }
   },
   {
-    "order": 306,
+    "id": "dy5EWDG4e8",
+    "order": "306",
     "name": "Drakloak",
     "types": [
       "dragon",
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Clear",
+      "Body",
+      "Infiltrator",
+      "Cursed",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 410,
+      "hp": 68,
+      "attack": 80,
+      "defense": 50,
+      "spAttack": 60,
+      "spDefense": 50,
+      "speed": 102
+    }
   },
   {
-    "order": 307,
+    "id": "V57SOe71dr",
+    "order": "307",
     "name": "Dragapult",
     "types": [
       "dragon",
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Clear",
+      "Body",
+      "Infiltrator",
+      "Cursed",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 600,
+      "hp": 88,
+      "attack": 120,
+      "defense": 75,
+      "spAttack": 100,
+      "spDefense": 75,
+      "speed": 142
+    }
   },
   {
-    "order": 308,
+    "id": "gemCoeqZWx",
+    "order": "308",
     "name": "Glimmet",
     "types": [
-      "poison",
-      "rock"
-    ]
+      "rock",
+      "poison"
+    ],
+    "abilities": [
+      "Toxic",
+      "Debris",
+      "Corrosion"
+    ],
+    "baseStats": {
+      "total": 350,
+      "hp": 48,
+      "attack": 35,
+      "defense": 42,
+      "spAttack": 105,
+      "spDefense": 60,
+      "speed": 60
+    }
   },
   {
-    "order": 309,
+    "id": "aDvmhtj4Lr",
+    "order": "309",
     "name": "Glimmora",
     "types": [
-      "poison",
-      "rock"
-    ]
+      "rock",
+      "poison"
+    ],
+    "abilities": [
+      "Toxic",
+      "Debris",
+      "Corrosion"
+    ],
+    "baseStats": {
+      "total": 525,
+      "hp": 83,
+      "attack": 55,
+      "defense": 90,
+      "spAttack": 130,
+      "spDefense": 81,
+      "speed": 86
+    }
   },
   {
-    "order": 310,
+    "id": "sp3w4OOfF4",
+    "order": "310",
     "name": "Rotom",
-    "types": ["electric", "ghost"],
-    "forms": [
-      {
-        "name": "Heat Rotom",
-        "types": [
-          "electric", "fire"
-        ]
-      },
-      {
-        "name": "Wash Rotom",
-        "types": [
-          "electric", "water"
-        ]
-      },
-      {
-        "name": "Frost Rotom",
-        "types": [
-          "electric", "ice"
-        ]
-      },
-      {
-        "name": "Fan Rotom",
-        "types": [
-          "electric", "flying"
-        ]
-      },
-      {
-        "name": "Mow Rotom",
-        "types": [
-          "grass"
-        ]
-      }
-    ]
+    "types": [
+      "electric",
+      "ghost"
+    ],
+    "abilities": [
+      "Levitate"
+    ],
+    "baseStats": {
+      "total": 440,
+      "hp": 50,
+      "attack": 50,
+      "defense": 77,
+      "spAttack": 95,
+      "spDefense": 77,
+      "speed": 91
+    }
   },
   {
-    "order": 311,
+    "id": "0X3M95kUFy",
+    "order": "310.1",
+    "name": "Heat Rotom",
+    "types": [
+      "electric",
+      "fire"
+    ],
+    "abilities": [
+      "Levitate"
+    ],
+    "baseStats": {
+      "total": 479,
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "spAttack": 105,
+      "spDefense": 107,
+      "speed": 86
+    }
+  },
+  {
+    "id": "GNJEAie9BG",
+    "order": "310.2",
+    "name": "Wash Rotom",
+    "types": [
+      "electric",
+      "water"
+    ],
+    "abilities": [
+      "Levitate"
+    ],
+    "baseStats": {
+      "total": 479,
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "spAttack": 105,
+      "spDefense": 107,
+      "speed": 86
+    }
+  },
+  {
+    "id": "qOJhAM8rT9",
+    "order": "310.3",
+    "name": "Frost Rotom",
+    "types": [
+      "electric",
+      "ice"
+    ],
+    "abilities": [
+      "Levitate"
+    ],
+    "baseStats": {
+      "total": 479,
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "spAttack": 105,
+      "spDefense": 107,
+      "speed": 86
+    }
+  },
+  {
+    "id": "RnVYXp0klc",
+    "order": "310.4",
+    "name": "Fan Rotom",
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "abilities": [
+      "Levitate"
+    ],
+    "baseStats": {
+      "total": 479,
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "spAttack": 105,
+      "spDefense": 107,
+      "speed": 86
+    }
+  },
+  {
+    "id": "LSfA1WLJxy",
+    "order": "310.5",
+    "name": "Mow Rotom",
+    "types": [
+      "electric",
+      "grass"
+    ],
+    "abilities": [
+      "Levitate"
+    ],
+    "baseStats": {
+      "total": 479,
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "spAttack": 105,
+      "spDefense": 107,
+      "speed": 86
+    }
+  },
+  {
+    "id": "CVfY8UuOfy",
+    "order": "311",
     "name": "Greavard",
     "types": [
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Pickup",
+      "Fluffy"
+    ],
+    "baseStats": {
+      "total": 290,
+      "hp": 50,
+      "attack": 61,
+      "defense": 60,
+      "spAttack": 30,
+      "spDefense": 55,
+      "speed": 34
+    }
   },
   {
-    "order": 312,
+    "id": "PaheihrdOR",
+    "order": "312",
     "name": "Houndstone",
     "types": [
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Sand",
+      "Rush",
+      "Fluffy"
+    ],
+    "baseStats": {
+      "total": 488,
+      "hp": 72,
+      "attack": 101,
+      "defense": 100,
+      "spAttack": 50,
+      "spDefense": 97,
+      "speed": 68
+    }
   },
   {
-    "order": 313,
+    "id": "cxZmqWMm30",
+    "order": "313",
     "name": "Oranguru",
     "types": [
       "normal",
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Inner",
+      "Focus",
+      "Telepathy",
+      "Symbiosis"
+    ],
+    "baseStats": {
+      "total": 490,
+      "hp": 90,
+      "attack": 60,
+      "defense": 80,
+      "spAttack": 90,
+      "spDefense": 110,
+      "speed": 60
+    }
   },
   {
-    "order": 314,
+    "id": "yhqvDsvhB2",
+    "order": "314",
     "name": "Passimian",
     "types": [
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Receiver",
+      "Defiant"
+    ],
+    "baseStats": {
+      "total": 490,
+      "hp": 100,
+      "attack": 120,
+      "defense": 90,
+      "spAttack": 40,
+      "spDefense": 60,
+      "speed": 80
+    }
   },
   {
-    "order": 315,
+    "id": "ae2eCElijj",
+    "order": "315",
     "name": "Komala",
     "types": [
       "normal"
-    ]
+    ],
+    "abilities": [
+      "Comatose"
+    ],
+    "baseStats": {
+      "total": 480,
+      "hp": 65,
+      "attack": 115,
+      "defense": 65,
+      "spAttack": 75,
+      "spDefense": 95,
+      "speed": 65
+    }
   },
   {
-    "order": 316,
+    "id": "Lrrvwo89HF",
+    "order": "316",
     "name": "Larvitar",
     "types": [
       "rock",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Guts",
+      "Sand",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 300,
+      "hp": 50,
+      "attack": 64,
+      "defense": 50,
+      "spAttack": 45,
+      "spDefense": 50,
+      "speed": 41
+    }
   },
   {
-    "order": 317,
+    "id": "qWQtVzbXcB",
+    "order": "317",
     "name": "Pupitar",
     "types": [
       "rock",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Shed",
+      "Skin"
+    ],
+    "baseStats": {
+      "total": 410,
+      "hp": 70,
+      "attack": 84,
+      "defense": 70,
+      "spAttack": 65,
+      "spDefense": 70,
+      "speed": 51
+    }
   },
   {
-    "order": 318,
+    "id": "Uw8DVCbAnw",
+    "order": "318",
     "name": "Tyranitar",
     "types": [
       "rock",
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Sand",
+      "Stream",
+      "Unnerve"
+    ],
+    "baseStats": {
+      "total": 600,
+      "hp": 100,
+      "attack": 134,
+      "defense": 110,
+      "spAttack": 95,
+      "spDefense": 100,
+      "speed": 61
+    }
   },
   {
-    "order": 319,
+    "id": "MVa6jIuYB1",
+    "order": "319",
     "name": "Stonjourner",
     "types": [
       "rock"
-    ]
+    ],
+    "abilities": [
+      "Power",
+      "Spot"
+    ],
+    "baseStats": {
+      "total": 470,
+      "hp": 100,
+      "attack": 125,
+      "defense": 135,
+      "spAttack": 20,
+      "spDefense": 20,
+      "speed": 70
+    }
   },
   {
-    "order": 320,
-    "name": "Eiscue",
+    "id": "fXLcxJJJxz",
+    "order": "320",
+    "name": "Eiscue (Ice Face)",
     "types": [
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Ice",
+      "Face"
+    ],
+    "baseStats": {
+      "total": 470,
+      "hp": 75,
+      "attack": 80,
+      "defense": 110,
+      "spAttack": 65,
+      "spDefense": 90,
+      "speed": 50
+    }
   },
   {
-    "order": 321,
+    "id": "OQ44I1tAKK",
+    "order": "321",
     "name": "Pincurchin",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Lightning",
+      "Rod",
+      "Electric",
+      "Surge"
+    ],
+    "baseStats": {
+      "total": 435,
+      "hp": 48,
+      "attack": 101,
+      "defense": 95,
+      "spAttack": 91,
+      "spDefense": 85,
+      "speed": 15
+    }
   },
   {
-    "order": 322,
+    "id": "Sjx0vryV4I",
+    "order": "322",
     "name": "Sandygast",
     "types": [
       "ghost",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Water",
+      "Compaction",
+      "Sand",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 320,
+      "hp": 55,
+      "attack": 55,
+      "defense": 80,
+      "spAttack": 70,
+      "spDefense": 45,
+      "speed": 15
+    }
   },
   {
-    "order": 323,
+    "id": "GV7YY2YfO0",
+    "order": "323",
     "name": "Palossand",
     "types": [
       "ghost",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Water",
+      "Compaction",
+      "Sand",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 480,
+      "hp": 85,
+      "attack": 75,
+      "defense": 110,
+      "spAttack": 100,
+      "spDefense": 75,
+      "speed": 35
+    }
   },
   {
-    "order": 324,
+    "id": "6s4gUcHZjO",
+    "order": "324",
     "name": "Slowpoke",
     "types": [
       "water",
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Oblivious",
+      "Own",
+      "Tempo",
+      "Regenerator"
+    ],
+    "baseStats": {
+      "total": 315,
+      "hp": 90,
+      "attack": 65,
+      "defense": 65,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 15
+    }
   },
   {
-    "order": 325,
+    "id": "rNVMJF8wOW",
+    "order": "325",
     "name": "Slowbro",
     "types": [
       "water",
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Oblivious",
+      "Own",
+      "Tempo",
+      "Regenerator"
+    ],
+    "baseStats": {
+      "total": 490,
+      "hp": 95,
+      "attack": 75,
+      "defense": 110,
+      "spAttack": 100,
+      "spDefense": 80,
+      "speed": 30
+    }
   },
   {
-    "order": 326,
+    "id": "QIpD2ycfWj",
+    "order": "326",
     "name": "Slowking",
     "types": [
       "water",
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Oblivious",
+      "Own",
+      "Tempo",
+      "Regenerator"
+    ],
+    "baseStats": {
+      "total": 490,
+      "hp": 95,
+      "attack": 75,
+      "defense": 80,
+      "spAttack": 100,
+      "spDefense": 110,
+      "speed": 30
+    }
   },
   {
-    "order": 327,
-    "name": "Shellos",
+    "id": "gDzvNdGlrs",
+    "order": "327",
+    "name": "Shellos (East Sea)",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Sticky",
+      "Hold",
+      "Storm",
+      "Drain",
+      "Sand",
+      "Force"
+    ],
+    "baseStats": {
+      "total": 325,
+      "hp": 76,
+      "attack": 48,
+      "defense": 48,
+      "spAttack": 57,
+      "spDefense": 62,
+      "speed": 34
+    }
   },
   {
-    "order": 328,
-    "name": "Gastrodon",
+    "id": "TNp58D1bIu",
+    "order": "327.1",
+    "name": "Shellos (West Sea)",
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "Sticky",
+      "Hold",
+      "Storm",
+      "Drain",
+      "Sand",
+      "Force"
+    ],
+    "baseStats": {
+      "total": 325,
+      "hp": 76,
+      "attack": 48,
+      "defense": 48,
+      "spAttack": 57,
+      "spDefense": 62,
+      "speed": 34
+    }
+  },
+  {
+    "id": "zmUfVlEqr8",
+    "order": "328",
+    "name": "Gastrodon (East Sea)",
     "types": [
       "water",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Sticky",
+      "Hold",
+      "Storm",
+      "Drain",
+      "Sand",
+      "Force"
+    ],
+    "baseStats": {
+      "total": 475,
+      "hp": 111,
+      "attack": 83,
+      "defense": 68,
+      "spAttack": 92,
+      "spDefense": 82,
+      "speed": 39
+    }
   },
   {
-    "order": 329,
+    "id": "l8JLWjXoba",
+    "order": "328.1",
+    "name": "Gastrodon (West Sea)",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "abilities": [
+      "Sticky",
+      "Hold",
+      "Storm",
+      "Drain",
+      "Sand",
+      "Force"
+    ],
+    "baseStats": {
+      "total": 475,
+      "hp": 111,
+      "attack": 83,
+      "defense": 68,
+      "spAttack": 92,
+      "spDefense": 82,
+      "speed": 39
+    }
+  },
+  {
+    "id": "4Hr6gPVPKF",
+    "order": "329",
     "name": "Shellder",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Shell",
+      "Armor",
+      "Skill",
+      "Link",
+      "Overcoat"
+    ],
+    "baseStats": {
+      "total": 305,
+      "hp": 30,
+      "attack": 65,
+      "defense": 100,
+      "spAttack": 45,
+      "spDefense": 25,
+      "speed": 40
+    }
   },
   {
-    "order": 330,
+    "id": "t0O7qLownr",
+    "order": "330",
     "name": "Cloyster",
     "types": [
       "water",
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Shell",
+      "Armor",
+      "Skill",
+      "Link",
+      "Overcoat"
+    ],
+    "baseStats": {
+      "total": 525,
+      "hp": 50,
+      "attack": 95,
+      "defense": 180,
+      "spAttack": 85,
+      "spDefense": 45,
+      "speed": 70
+    }
   },
   {
-    "order": 331,
+    "id": "KdOo6Gg8mZ",
+    "order": "331",
     "name": "Qwilfish",
     "types": [
       "water",
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Poison",
+      "Point",
+      "Swift",
+      "Swim",
+      "Intimidate"
+    ],
+    "baseStats": {
+      "total": 440,
+      "hp": 65,
+      "attack": 95,
+      "defense": 85,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 85
+    }
   },
   {
-    "order": 332,
+    "id": "VpUAkQqs4O",
+    "order": "332",
     "name": "Luvdisc",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Swift",
+      "Swim",
+      "Hydration"
+    ],
+    "baseStats": {
+      "total": 330,
+      "hp": 43,
+      "attack": 30,
+      "defense": 55,
+      "spAttack": 40,
+      "spDefense": 65,
+      "speed": 97
+    }
   },
   {
-    "order": 333,
+    "id": "6VfgYfJac9",
+    "order": "333",
     "name": "Finneon",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Swift",
+      "Swim",
+      "Storm",
+      "Drain",
+      "Water",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 330,
+      "hp": 49,
+      "attack": 49,
+      "defense": 56,
+      "spAttack": 49,
+      "spDefense": 61,
+      "speed": 66
+    }
   },
   {
-    "order": 334,
+    "id": "CivMmHyYO5",
+    "order": "334",
     "name": "Lumineon",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Swift",
+      "Swim",
+      "Storm",
+      "Drain",
+      "Water",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 460,
+      "hp": 69,
+      "attack": 69,
+      "defense": 76,
+      "spAttack": 69,
+      "spDefense": 86,
+      "speed": 91
+    }
   },
   {
-    "order": 335,
+    "id": "hYiZSSKtlR",
+    "order": "335",
     "name": "Bruxish",
     "types": [
       "water",
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Dazzling",
+      "Strong",
+      "Jaw",
+      "Wonder",
+      "Skin"
+    ],
+    "baseStats": {
+      "total": 475,
+      "hp": 68,
+      "attack": 105,
+      "defense": 70,
+      "spAttack": 70,
+      "spDefense": 70,
+      "speed": 92
+    }
   },
   {
-    "order": 336,
+    "id": "DPouvW6U94",
+    "order": "336",
     "name": "Alomomola",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Healer",
+      "Hydration",
+      "Regenerator"
+    ],
+    "baseStats": {
+      "total": 470,
+      "hp": 165,
+      "attack": 75,
+      "defense": 80,
+      "spAttack": 40,
+      "spDefense": 45,
+      "speed": 65
+    }
   },
   {
-    "order": 337,
+    "id": "GscsOy20kC",
+    "order": "337",
     "name": "Skrelp",
     "types": [
       "poison",
       "water"
-    ]
+    ],
+    "abilities": [
+      "Poison",
+      "Point",
+      "Poison",
+      "Touch",
+      "Adaptability"
+    ],
+    "baseStats": {
+      "total": 320,
+      "hp": 50,
+      "attack": 60,
+      "defense": 60,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 30
+    }
   },
   {
-    "order": 338,
+    "id": "unWXxNwkkT",
+    "order": "338",
     "name": "Dragalge",
     "types": [
       "poison",
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Poison",
+      "Point",
+      "Poison",
+      "Touch",
+      "Adaptability"
+    ],
+    "baseStats": {
+      "total": 494,
+      "hp": 65,
+      "attack": 75,
+      "defense": 90,
+      "spAttack": 97,
+      "spDefense": 123,
+      "speed": 44
+    }
   },
   {
-    "order": 339,
+    "id": "cHC8nxZIS0",
+    "order": "339",
     "name": "Clauncher",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Mega",
+      "Launcher"
+    ],
+    "baseStats": {
+      "total": 330,
+      "hp": 50,
+      "attack": 53,
+      "defense": 62,
+      "spAttack": 58,
+      "spDefense": 63,
+      "speed": 44
+    }
   },
   {
-    "order": 340,
+    "id": "Qu0tM6MFFU",
+    "order": "340",
     "name": "Clawitzer",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Mega",
+      "Launcher"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 71,
+      "attack": 73,
+      "defense": 88,
+      "spAttack": 120,
+      "spDefense": 89,
+      "speed": 59
+    }
   },
   {
-    "order": 341,
+    "id": "bKttISeUpN",
+    "order": "341",
     "name": "Tynamo",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Levitate"
+    ],
+    "baseStats": {
+      "total": 275,
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "spAttack": 45,
+      "spDefense": 40,
+      "speed": 60
+    }
   },
   {
-    "order": 342,
+    "id": "tfyGGf0wAG",
+    "order": "342",
     "name": "Eelektrik",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Levitate"
+    ],
+    "baseStats": {
+      "total": 405,
+      "hp": 65,
+      "attack": 85,
+      "defense": 70,
+      "spAttack": 75,
+      "spDefense": 70,
+      "speed": 40
+    }
   },
   {
-    "order": 343,
+    "id": "HO8ttzWyRT",
+    "order": "343",
     "name": "Eelektross",
     "types": [
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Levitate"
+    ],
+    "baseStats": {
+      "total": 515,
+      "hp": 85,
+      "attack": 115,
+      "defense": 80,
+      "spAttack": 105,
+      "spDefense": 80,
+      "speed": 50
+    }
   },
   {
-    "order": 344,
+    "id": "YUXwUxI3OE",
+    "order": "344",
     "name": "Mareanie",
     "types": [
       "poison",
       "water"
-    ]
+    ],
+    "abilities": [
+      "Merciless",
+      "Limber",
+      "Regenerator"
+    ],
+    "baseStats": {
+      "total": 305,
+      "hp": 50,
+      "attack": 53,
+      "defense": 62,
+      "spAttack": 43,
+      "spDefense": 52,
+      "speed": 45
+    }
   },
   {
-    "order": 345,
+    "id": "OUe98BZvl0",
+    "order": "345",
     "name": "Toxapex",
     "types": [
       "poison",
       "water"
-    ]
+    ],
+    "abilities": [
+      "Merciless",
+      "Limber",
+      "Regenerator"
+    ],
+    "baseStats": {
+      "total": 495,
+      "hp": 50,
+      "attack": 63,
+      "defense": 152,
+      "spAttack": 53,
+      "spDefense": 142,
+      "speed": 35
+    }
   },
   {
-    "order": 346,
+    "id": "lBuLhIN6xB",
+    "order": "346",
     "name": "Flamigo",
     "types": [
-      "fighting",
-      "flying"
-    ]
+      "flying",
+      "fighting"
+    ],
+    "abilities": [
+      "Scrappy",
+      "Tangled",
+      "Feet",
+      "Costar"
+    ],
+    "baseStats": {
+      "total": 500,
+      "hp": 82,
+      "attack": 115,
+      "defense": 74,
+      "spAttack": 75,
+      "spDefense": 64,
+      "speed": 90
+    }
   },
   {
-    "order": 347,
+    "id": "p9N15HlR3l",
+    "order": "347",
     "name": "Dratini",
     "types": [
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Shed",
+      "Skin",
+      "Marvel",
+      "Scale"
+    ],
+    "baseStats": {
+      "total": 300,
+      "hp": 41,
+      "attack": 64,
+      "defense": 45,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 50
+    }
   },
   {
-    "order": 348,
+    "id": "Q9S3ZYnrg6",
+    "order": "348",
     "name": "Dragonair",
     "types": [
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Shed",
+      "Skin",
+      "Marvel",
+      "Scale"
+    ],
+    "baseStats": {
+      "total": 420,
+      "hp": 61,
+      "attack": 84,
+      "defense": 65,
+      "spAttack": 70,
+      "spDefense": 70,
+      "speed": 70
+    }
   },
   {
-    "order": 349,
+    "id": "0nGr4vASwp",
+    "order": "349",
     "name": "Dragonite",
     "types": [
       "dragon",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Inner",
+      "Focus",
+      "Multiscale"
+    ],
+    "baseStats": {
+      "total": 600,
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 80
+    }
   },
   {
-    "order": 350,
+    "id": "FgVjPuczZR",
+    "order": "350",
     "name": "Snom",
     "types": [
       "ice",
       "bug"
-    ]
+    ],
+    "abilities": [
+      "Shield",
+      "Dust",
+      "Ice",
+      "Scales"
+    ],
+    "baseStats": {
+      "total": 185,
+      "hp": 30,
+      "attack": 25,
+      "defense": 35,
+      "spAttack": 45,
+      "spDefense": 30,
+      "speed": 20
+    }
   },
   {
-    "order": 351,
+    "id": "YtcbkxunrM",
+    "order": "351",
     "name": "Frosmoth",
     "types": [
       "ice",
       "bug"
-    ]
+    ],
+    "abilities": [
+      "Shield",
+      "Dust",
+      "Ice",
+      "Scales"
+    ],
+    "baseStats": {
+      "total": 475,
+      "hp": 70,
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 125,
+      "spDefense": 90,
+      "speed": 65
+    }
   },
   {
-    "order": 352,
+    "id": "4Cb7fYUrtt",
+    "order": "352",
     "name": "Snover",
     "types": [
       "grass",
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Snow",
+      "Warning",
+      "Soundproof"
+    ],
+    "baseStats": {
+      "total": 334,
+      "hp": 60,
+      "attack": 62,
+      "defense": 50,
+      "spAttack": 62,
+      "spDefense": 60,
+      "speed": 40
+    }
   },
   {
-    "order": 353,
+    "id": "VHvCx9JVu2",
+    "order": "353",
     "name": "Abomasnow",
     "types": [
       "grass",
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Snow",
+      "Warning",
+      "Soundproof"
+    ],
+    "baseStats": {
+      "total": 494,
+      "hp": 90,
+      "attack": 92,
+      "defense": 75,
+      "spAttack": 92,
+      "spDefense": 85,
+      "speed": 60
+    }
   },
   {
-    "order": 354,
+    "id": "X17jKyZAtP",
+    "order": "354",
     "name": "Delibird",
     "types": [
       "ice",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Vital",
+      "Spirit",
+      "Hustle",
+      "Insomnia"
+    ],
+    "baseStats": {
+      "total": 330,
+      "hp": 45,
+      "attack": 55,
+      "defense": 45,
+      "spAttack": 65,
+      "spDefense": 45,
+      "speed": 75
+    }
   },
   {
-    "order": 355,
+    "id": "8YCa9weVvz",
+    "order": "355",
     "name": "Cubchoo",
     "types": [
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Snow",
+      "Cloak",
+      "Slush",
+      "Rush",
+      "Rattled"
+    ],
+    "baseStats": {
+      "total": 305,
+      "hp": 55,
+      "attack": 70,
+      "defense": 40,
+      "spAttack": 60,
+      "spDefense": 40,
+      "speed": 40
+    }
   },
   {
-    "order": 356,
+    "id": "XH8inzNWIF",
+    "order": "356",
     "name": "Beartic",
     "types": [
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Snow",
+      "Cloak",
+      "Slush",
+      "Rush",
+      "Swift",
+      "Swim"
+    ],
+    "baseStats": {
+      "total": 505,
+      "hp": 95,
+      "attack": 130,
+      "defense": 80,
+      "spAttack": 70,
+      "spDefense": 80,
+      "speed": 50
+    }
   },
   {
-    "order": 357,
+    "id": "wCGn0vU0fn",
+    "order": "357",
     "name": "Snorunt",
     "types": [
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Inner",
+      "Focus",
+      "Ice",
+      "Body",
+      "Moody"
+    ],
+    "baseStats": {
+      "total": 300,
+      "hp": 50,
+      "attack": 50,
+      "defense": 50,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 50
+    }
   },
   {
-    "order": 358,
+    "id": "Ssal2Rjaf5",
+    "order": "358",
     "name": "Glalie",
     "types": [
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Inner",
+      "Focus",
+      "Ice",
+      "Body",
+      "Moody"
+    ],
+    "baseStats": {
+      "total": 480,
+      "hp": 80,
+      "attack": 80,
+      "defense": 80,
+      "spAttack": 80,
+      "spDefense": 80,
+      "speed": 80
+    }
   },
   {
-    "order": 359,
+    "id": "DjS6Ky9Cn4",
+    "order": "359",
     "name": "Froslass",
     "types": [
       "ice",
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Snow",
+      "Cloak",
+      "Cursed",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 480,
+      "hp": 70,
+      "attack": 80,
+      "defense": 70,
+      "spAttack": 80,
+      "spDefense": 70,
+      "speed": 110
+    }
   },
   {
-    "order": 360,
+    "id": "n5RXKG0wRA",
+    "order": "360",
     "name": "Cryogonal",
     "types": [
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Levitate"
+    ],
+    "baseStats": {
+      "total": 515,
+      "hp": 80,
+      "attack": 50,
+      "defense": 50,
+      "spAttack": 95,
+      "spDefense": 135,
+      "speed": 105
+    }
   },
   {
-    "order": 361,
+    "id": "OgY0eca2Y6",
+    "order": "361",
     "name": "Cetoddle",
     "types": [
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Thick",
+      "Fat",
+      "Snow",
+      "Cloak",
+      "Sheer",
+      "Force"
+    ],
+    "baseStats": {
+      "total": 334,
+      "hp": 108,
+      "attack": 68,
+      "defense": 45,
+      "spAttack": 30,
+      "spDefense": 40,
+      "speed": 43
+    }
   },
   {
-    "order": 362,
+    "id": "eMNAnL6Noe",
+    "order": "362",
     "name": "Cetitan",
     "types": [
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Thick",
+      "Fat",
+      "Slush",
+      "Rush",
+      "Sheer",
+      "Force"
+    ],
+    "baseStats": {
+      "total": 521,
+      "hp": 170,
+      "attack": 113,
+      "defense": 65,
+      "spAttack": 45,
+      "spDefense": 55,
+      "speed": 73
+    }
   },
   {
-    "order": 363,
+    "id": "dUH4HI3CG9",
+    "order": "363",
     "name": "Bergmite",
     "types": [
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Ice",
+      "Body",
+      "Own",
+      "Tempo",
+      "Sturdy"
+    ],
+    "baseStats": {
+      "total": 304,
+      "hp": 55,
+      "attack": 69,
+      "defense": 85,
+      "spAttack": 32,
+      "spDefense": 35,
+      "speed": 28
+    }
   },
   {
-    "order": 364,
+    "id": "WEOb8jRiCs",
+    "order": "364",
     "name": "Avalugg",
     "types": [
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Ice",
+      "Body",
+      "Own",
+      "Tempo",
+      "Sturdy"
+    ],
+    "baseStats": {
+      "total": 514,
+      "hp": 95,
+      "attack": 117,
+      "defense": 184,
+      "spAttack": 44,
+      "spDefense": 46,
+      "speed": 28
+    }
   },
   {
-    "order": 365,
+    "id": "9ECURXW2Fj",
+    "order": "365",
     "name": "Rufflet",
     "types": [
       "normal",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Keen",
+      "Eye",
+      "Sheer",
+      "Force",
+      "Defiant"
+    ],
+    "baseStats": {
+      "total": 350,
+      "hp": 70,
+      "attack": 83,
+      "defense": 50,
+      "spAttack": 37,
+      "spDefense": 50,
+      "speed": 60
+    }
   },
   {
-    "order": 366,
+    "id": "Sqr82ZlFQA",
+    "order": "366",
     "name": "Braviary",
     "types": [
       "normal",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Keen",
+      "Eye",
+      "Sheer",
+      "Force",
+      "Defiant"
+    ],
+    "baseStats": {
+      "total": 510,
+      "hp": 100,
+      "attack": 123,
+      "defense": 75,
+      "spAttack": 57,
+      "spDefense": 75,
+      "speed": 80
+    }
   },
   {
-    "order": 367,
+    "id": "wn5aG3spMj",
+    "order": "367",
     "name": "Pawniard",
     "types": [
       "dark",
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Inner",
+      "Focus",
+      "Defiant",
+      "Pressure"
+    ],
+    "baseStats": {
+      "total": 340,
+      "hp": 45,
+      "attack": 85,
+      "defense": 70,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 60
+    }
   },
   {
-    "order": 368,
+    "id": "gr49XCkH9z",
+    "order": "368",
     "name": "Bisharp",
     "types": [
       "dark",
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Inner",
+      "Focus",
+      "Defiant",
+      "Pressure"
+    ],
+    "baseStats": {
+      "total": 490,
+      "hp": 65,
+      "attack": 125,
+      "defense": 100,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 70
+    }
   },
   {
-    "order": 369,
+    "id": "JdJa7mHF3k",
+    "order": "369",
     "name": "Kingambit",
     "types": [
       "dark",
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Defiant",
+      "Supreme",
+      "Overlord",
+      "Pressure"
+    ],
+    "baseStats": {
+      "total": 550,
+      "hp": 100,
+      "attack": 135,
+      "defense": 120,
+      "spAttack": 60,
+      "spDefense": 85,
+      "speed": 50
+    }
   },
   {
-    "order": 370,
+    "id": "mnNySJ9pjS",
+    "order": "370",
     "name": "Deino",
     "types": [
       "dark",
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Hustle"
+    ],
+    "baseStats": {
+      "total": 300,
+      "hp": 52,
+      "attack": 65,
+      "defense": 50,
+      "spAttack": 45,
+      "spDefense": 50,
+      "speed": 38
+    }
   },
   {
-    "order": 371,
+    "id": "YnR4R65frP",
+    "order": "371",
     "name": "Zweilous",
     "types": [
       "dark",
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Hustle"
+    ],
+    "baseStats": {
+      "total": 420,
+      "hp": 72,
+      "attack": 85,
+      "defense": 70,
+      "spAttack": 65,
+      "spDefense": 70,
+      "speed": 58
+    }
   },
   {
-    "order": 372,
+    "id": "6BjhmJjRAS",
+    "order": "372",
     "name": "Hydreigon",
     "types": [
       "dark",
       "dragon"
-    ]
+    ],
+    "abilities": [
+      "Levitate"
+    ],
+    "baseStats": {
+      "total": 600,
+      "hp": 92,
+      "attack": 105,
+      "defense": 90,
+      "spAttack": 125,
+      "spDefense": 90,
+      "speed": 98
+    }
   },
   {
-    "order": 373,
+    "id": "ANXstoRFRY",
+    "order": "373",
     "name": "Veluza",
     "types": [
       "water",
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Mold",
+      "Breaker",
+      "Sharpness"
+    ],
+    "baseStats": {
+      "total": 478,
+      "hp": 90,
+      "attack": 102,
+      "defense": 73,
+      "spAttack": 78,
+      "spDefense": 65,
+      "speed": 70
+    }
   },
   {
-    "order": 374,
+    "id": "EiBGXCV2iW",
+    "order": "374",
     "name": "Dondozo",
     "types": [
       "water"
-    ]
+    ],
+    "abilities": [
+      "Unaware",
+      "Oblivious",
+      "Water",
+      "Veil"
+    ],
+    "baseStats": {
+      "total": 530,
+      "hp": 150,
+      "attack": 100,
+      "defense": 115,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 35
+    }
   },
   {
-    "order": 375,
+    "id": "OPnlJYNvF7",
+    "order": "375",
     "name": "Tatsugiri",
     "types": [
-      "water",
-      "dragon"
-    ]
+      "dragon",
+      "water"
+    ],
+    "abilities": [
+      "Commander",
+      "Storm",
+      "Drain"
+    ],
+    "baseStats": {
+      "total": 475,
+      "hp": 68,
+      "attack": 50,
+      "defense": 60,
+      "spAttack": 120,
+      "spDefense": 95,
+      "speed": 82
+    }
   },
   {
-    "order": 376,
+    "id": "k3MYQVFImy",
+    "order": "376",
     "name": "Great Tusk",
     "types": [
       "ground",
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Protosynthesis"
+    ],
+    "baseStats": {
+      "total": 570,
+      "hp": 115,
+      "attack": 131,
+      "defense": 131,
+      "spAttack": 53,
+      "spDefense": 53,
+      "speed": 87
+    }
   },
   {
-    "order": 377,
+    "id": "8fk5yRb73Z",
+    "order": "377",
     "name": "Scream Tail",
     "types": [
       "fairy",
       "psychic"
-    ]
+    ],
+    "abilities": [
+      "Protosynthesis"
+    ],
+    "baseStats": {
+      "total": 570,
+      "hp": 115,
+      "attack": 65,
+      "defense": 99,
+      "spAttack": 65,
+      "spDefense": 115,
+      "speed": 111
+    }
   },
   {
-    "order": 378,
+    "id": "i7gCxuxHmO",
+    "order": "378",
     "name": "Brute Bonnet",
     "types": [
       "grass",
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Protosynthesis"
+    ],
+    "baseStats": {
+      "total": 570,
+      "hp": 111,
+      "attack": 127,
+      "defense": 99,
+      "spAttack": 79,
+      "spDefense": 99,
+      "speed": 55
+    }
   },
   {
-    "order": 379,
+    "id": "vjeKtCXqx2",
+    "order": "379",
     "name": "Flutter Mane",
     "types": [
       "ghost",
       "fairy"
-    ]
+    ],
+    "abilities": [
+      "Protosynthesis"
+    ],
+    "baseStats": {
+      "total": 570,
+      "hp": 55,
+      "attack": 55,
+      "defense": 55,
+      "spAttack": 135,
+      "spDefense": 135,
+      "speed": 135
+    }
   },
   {
-    "order": 380,
+    "id": "7IddTykw1Z",
+    "order": "380",
     "name": "Slither Wing",
     "types": [
       "bug",
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Protosynthesis"
+    ],
+    "baseStats": {
+      "total": 570,
+      "hp": 85,
+      "attack": 135,
+      "defense": 79,
+      "spAttack": 85,
+      "spDefense": 105,
+      "speed": 81
+    }
   },
   {
-    "order": 381,
+    "id": "UR9Xi1lATm",
+    "order": "381",
     "name": "Sandy Shocks",
     "types": [
       "electric",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Protosynthesis"
+    ],
+    "baseStats": {
+      "total": 570,
+      "hp": 85,
+      "attack": 81,
+      "defense": 97,
+      "spAttack": 121,
+      "spDefense": 85,
+      "speed": 101
+    }
   },
   {
-    "order": 382,
+    "id": "x6hiBeWheA",
+    "order": "382",
     "name": "Iron Treads",
     "types": [
       "ground",
       "steel"
-    ]
+    ],
+    "abilities": [
+      "Quark",
+      "Drive"
+    ],
+    "baseStats": {
+      "total": 570,
+      "hp": 90,
+      "attack": 112,
+      "defense": 120,
+      "spAttack": 72,
+      "spDefense": 70,
+      "speed": 106
+    }
   },
   {
-    "order": 383,
+    "id": "zZJlL88E8i",
+    "order": "383",
     "name": "Iron Bundle",
     "types": [
       "ice",
       "water"
-    ]
+    ],
+    "abilities": [
+      "Quark",
+      "Drive"
+    ],
+    "baseStats": {
+      "total": 570,
+      "hp": 56,
+      "attack": 80,
+      "defense": 114,
+      "spAttack": 124,
+      "spDefense": 60,
+      "speed": 136
+    }
   },
   {
-    "order": 384,
+    "id": "sJN5jMkwVc",
+    "order": "384",
     "name": "Iron Hands",
-    "meta": true,
     "types": [
       "fighting",
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Quark",
+      "Drive"
+    ],
+    "baseStats": {
+      "total": 570,
+      "hp": 154,
+      "attack": 140,
+      "defense": 108,
+      "spAttack": 50,
+      "spDefense": 68,
+      "speed": 50
+    }
   },
   {
-    "order": 385,
+    "id": "oygxByJ7p3",
+    "order": "385",
     "name": "Iron Jugulis",
     "types": [
       "dark",
       "flying"
-    ]
+    ],
+    "abilities": [
+      "Quark",
+      "Drive"
+    ],
+    "baseStats": {
+      "total": 570,
+      "hp": 94,
+      "attack": 80,
+      "defense": 86,
+      "spAttack": 122,
+      "spDefense": 80,
+      "speed": 108
+    }
   },
   {
-    "order": 386,
+    "id": "kYxfbV1p8F",
+    "order": "386",
     "name": "Iron Moth",
     "types": [
       "fire",
       "poison"
-    ]
+    ],
+    "abilities": [
+      "Quark",
+      "Drive"
+    ],
+    "baseStats": {
+      "total": 570,
+      "hp": 80,
+      "attack": 70,
+      "defense": 60,
+      "spAttack": 140,
+      "spDefense": 110,
+      "speed": 110
+    }
   },
   {
-    "order": 387,
+    "id": "uDOqLETCze",
+    "order": "387",
     "name": "Iron Thorns",
     "types": [
       "rock",
       "electric"
-    ]
+    ],
+    "abilities": [
+      "Quark",
+      "Drive"
+    ],
+    "baseStats": {
+      "total": 570,
+      "hp": 100,
+      "attack": 134,
+      "defense": 110,
+      "spAttack": 70,
+      "spDefense": 84,
+      "speed": 72
+    }
   },
   {
-    "order": 388,
+    "id": "HQS1HjBreT",
+    "order": "388",
     "name": "Frigibax",
     "types": [
-      "ice",
-      "dragon"
-    ]
+      "dragon",
+      "ice"
+    ],
+    "abilities": [
+      "Thermal",
+      "Exchange",
+      "Ice",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 320,
+      "hp": 65,
+      "attack": 75,
+      "defense": 45,
+      "spAttack": 35,
+      "spDefense": 45,
+      "speed": 55
+    }
   },
   {
-    "order": 389,
+    "id": "7yTrcLcRiO",
+    "order": "389",
     "name": "Arctibax",
     "types": [
-      "ice",
-      "dragon"
-    ]
+      "dragon",
+      "ice"
+    ],
+    "abilities": [
+      "Thermal",
+      "Exchange",
+      "Ice",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 423,
+      "hp": 90,
+      "attack": 95,
+      "defense": 66,
+      "spAttack": 45,
+      "spDefense": 65,
+      "speed": 62
+    }
   },
   {
-    "order": 390,
+    "id": "LQ2q32TL30",
+    "order": "390",
     "name": "Baxcalibur",
     "types": [
-      "ice",
-      "dragon"
-    ]
+      "dragon",
+      "ice"
+    ],
+    "abilities": [
+      "Thermal",
+      "Exchange",
+      "Ice",
+      "Body"
+    ],
+    "baseStats": {
+      "total": 600,
+      "hp": 115,
+      "attack": 145,
+      "defense": 92,
+      "spAttack": 75,
+      "spDefense": 86,
+      "speed": 87
+    }
   },
   {
-    "order": 391,
-    "name": "Gimmighoul",
+    "id": "tYajzp8D0W",
+    "order": "391",
+    "name": "Gimmighoul (Chest Form)",
     "types": [
       "ghost"
-    ]
+    ],
+    "abilities": [
+      "Rattled"
+    ],
+    "baseStats": {
+      "total": 300,
+      "hp": 45,
+      "attack": 30,
+      "defense": 70,
+      "spAttack": 75,
+      "spDefense": 70,
+      "speed": 10
+    }
   },
   {
-    "order": 392,
+    "id": "JhI5rqqD6U",
+    "order": "392",
     "name": "Gholdengo",
     "types": [
-      "ghost",
-      "steel"
-    ]
+      "steel",
+      "ghost"
+    ],
+    "abilities": [
+      "Good",
+      "as",
+      "Gold"
+    ],
+    "baseStats": {
+      "total": 550,
+      "hp": 87,
+      "attack": 60,
+      "defense": 95,
+      "spAttack": 133,
+      "spDefense": 91,
+      "speed": 84
+    }
   },
   {
-    "order": 393,
+    "id": "ExtrqZIA0I",
+    "order": "393",
     "name": "Wo-Chien",
     "types": [
       "dark",
       "grass"
-    ]
+    ],
+    "abilities": [
+      "Tablets",
+      "of",
+      "Ruin"
+    ],
+    "baseStats": {
+      "total": 580,
+      "hp": 85,
+      "attack": 90,
+      "defense": 100,
+      "spAttack": 100,
+      "spDefense": 135,
+      "speed": 70
+    }
   },
   {
-    "order": 394,
+    "id": "60UZNCltG8",
+    "order": "394",
     "name": "Chien-Pao",
     "types": [
       "dark",
       "ice"
-    ]
+    ],
+    "abilities": [
+      "Sword",
+      "of",
+      "Ruin"
+    ],
+    "baseStats": {
+      "total": 580,
+      "hp": 80,
+      "attack": 130,
+      "defense": 80,
+      "spAttack": 90,
+      "spDefense": 65,
+      "speed": 135
+    }
   },
   {
-    "order": 395,
+    "id": "pKcf8nMEDr",
+    "order": "395",
     "name": "Ting-Lu",
     "types": [
       "dark",
       "ground"
-    ]
+    ],
+    "abilities": [
+      "Vessel",
+      "of",
+      "Ruin"
+    ],
+    "baseStats": {
+      "total": 580,
+      "hp": 165,
+      "attack": 110,
+      "defense": 130,
+      "spAttack": 50,
+      "spDefense": 80,
+      "speed": 45
+    }
   },
   {
-    "order": 396,
+    "id": "3t898pf4od",
+    "order": "396",
     "name": "Chi-Yu",
     "types": [
       "dark",
       "fire"
-    ]
+    ],
+    "abilities": [
+      "Beads",
+      "of",
+      "Ruin"
+    ],
+    "baseStats": {
+      "total": 580,
+      "hp": 55,
+      "attack": 80,
+      "defense": 80,
+      "spAttack": 145,
+      "spDefense": 120,
+      "speed": 100
+    }
   },
   {
-    "order": 397,
+    "id": "TvIru0wvY8",
+    "order": "397",
     "name": "Roaring Moon",
     "types": [
       "dragon",
       "dark"
-    ]
+    ],
+    "abilities": [
+      "Protosynthesis"
+    ],
+    "baseStats": {
+      "total": 590,
+      "hp": 105,
+      "attack": 139,
+      "defense": 71,
+      "spAttack": 55,
+      "spDefense": 101,
+      "speed": 119
+    }
   },
   {
-    "order": 398,
+    "id": "JRhK6WYg5O",
+    "order": "398",
     "name": "Iron Valiant",
     "types": [
-      "rock",
-      "electric"
-    ]
-  },
-  {
-    "order": 399,
-    "name": "Koraidon",
-    "meta": true,
-    "types": [
-      "dragon",
+      "fairy",
       "fighting"
-    ]
+    ],
+    "abilities": [
+      "Quark",
+      "Drive"
+    ],
+    "baseStats": {
+      "total": 590,
+      "hp": 74,
+      "attack": 130,
+      "defense": 90,
+      "spAttack": 120,
+      "spDefense": 60,
+      "speed": 116
+    }
   },
   {
-    "order": 400,
-    "name": "Miraidon",
-    "meta": true,
+    "id": "PAyg1q1XQb",
+    "order": "399",
+    "name": "Koraidon",
     "types": [
-      "dragon",
-      "electric"
-    ]
+      "fighting",
+      "dragon"
+    ],
+    "abilities": [
+      "Orichalcum",
+      "Pulse"
+    ],
+    "baseStats": {
+      "total": 670,
+      "hp": 100,
+      "attack": 135,
+      "defense": 115,
+      "spAttack": 85,
+      "spDefense": 100,
+      "speed": 135
+    }
   },
   {
-    "order": 401,
+    "id": "fRtWQY1LO5",
+    "order": "400",
+    "name": "Miraidon",
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "abilities": [
+      "Hadron",
+      "Engine"
+    ],
+    "baseStats": {
+      "total": 670,
+      "hp": 100,
+      "attack": 85,
+      "defense": 100,
+      "spAttack": 135,
+      "spDefense": 115,
+      "speed": 135
+    }
+  },
+  {
+    "id": "fRtWQY1LO6",
+    "order": "401",
     "name": "Charizard",
     "types": [
-      "flying", "fire"
-    ]
+      "flying",
+      "fire"
+    ],
+    "abilities": [
+      "Blaze",
+      "Solar Power",
+      "Flight"
+    ],
+    "baseStats": {
+      "total": 534,
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "spAttack": 109,
+      "spDefense": 85,
+      "speed": 100
+    }
   }
 ]
