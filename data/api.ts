@@ -29,7 +29,8 @@ export const pokedex = pokedexJson.map(p => {
         name: p.name,
         abilities: p.abilities,
         types: p.types,
-        baseStats: p.baseStats
+        baseStats: p.baseStats,
+        meta: p.meta
     } as Pokemon
 }).flat()
 

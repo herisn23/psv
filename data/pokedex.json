@@ -1119,6 +1119,7 @@
     }
   },
   {
+    "meta": true,
     "id": "UuYqG8etFw",
     "order": "48",
     "name": "Azumarill",
@@ -9349,6 +9350,7 @@
     }
   },
   {
+    "meta": true,
     "id": "sJN5jMkwVc",
     "order": "384",
     "name": "Iron Hands",
@@ -9687,6 +9689,7 @@
     }
   },
   {
+    "meta": true,
     "id": "PAyg1q1XQb",
     "order": "399",
     "name": "Koraidon",
@@ -9709,6 +9712,7 @@
     }
   },
   {
+    "meta": true,
     "id": "fRtWQY1LO5",
     "order": "400",
     "name": "Miraidon",

@@ -30,8 +30,7 @@ export const useTeraRaidAdvise = () => {
     const calculateScore = useCalculatePokemonScore()
     return useCallback(async (type: PokemonType, boss?: Pokemon, minTotalStats = 500) => {
         const eligiblePokemons = pokedex
-            // .filter(p=>p.name === "Arcanine")
-            .filter(e => e.baseStats.total >= minTotalStats)
+            .filter(e => e.baseStats.total >= minTotalStats || e.meta)
             .filter(e => check(e, type, boss))
         return eligiblePokemons.map(pokemon => {
             const defenderTypes = [type].concat(boss?.types ?? [])

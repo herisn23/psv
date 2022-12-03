@@ -30,7 +30,8 @@ export type Pokemon = {
     id: string
     order: number
     name: string
-    abilities: string[],
+    abilities: string[]
     baseStats: BaseStats
     types: PokemonType[]
+    meta: true
 }
