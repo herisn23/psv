@@ -1,0 +1,98 @@
+{
+  "Health": [
+    {
+      "pokemon": "Azurill",
+      "area": "South of Los Platos"
+    },
+    {
+      "pokemon": "Lechonk",
+      "area": "South of Los Platos"
+    },
+    {
+      "pokemon": "Paldean Wooper",
+      "area": "South of Los Platos"
+    }
+  ],
+  "Attack": [
+    {
+      "pokemon": "Shinx",
+      "area": "South Province (Area 3)"
+    },
+    {
+      "pokemon": "Growlithe",
+      "area": "South Province (Area 3)"
+    },
+    {
+      "pokemon": "Yungoos",
+      "area": "South Province (Area 3)"
+    },
+    {
+      "pokemon": "Nymble",
+      "area": "South Province (Area 3)"
+    }
+  ],
+  "Defense": [
+    {
+      "pokemon": "Scatterbug",
+      "area": "South Province (Area 1)"
+    },
+    {
+      "pokemon": "Tarountula",
+      "area": "South of Los Platos"
+    },
+    {
+      "pokemon": "Nacli",
+      "area": "South Province (Area 3)"
+    }
+  ],
+  "Special Attack": [
+    {
+      "pokemon": "Psyduck",
+      "area": "South Province (Area 4)"
+    },
+    {
+      "pokemon": "Toxel",
+      "area": "South Province (Area 4)"
+    },
+    {
+      "pokemon": "Hatenna",
+      "area": "South Province (Area 4)"
+    }
+  ],
+  "Special Defense": [
+    {
+      "pokemon": "Hoppip",
+      "area": "South Province (Area 1)"
+    },
+    {
+      "pokemon": "Spoink",
+      "area": "South Province (Area 3)"
+    },
+    {
+      "pokemon": "Swablu",
+      "area": "West Province (Area 1)"
+    }
+  ],
+  "Speed": [
+    {
+      "pokemon": "Rookidee",
+      "area": "South Province (Area 3)"
+    },
+    {
+      "pokemon": "Wingull",
+      "area": "South of your Home in Cabo Poco\n(Requires Swim Build/Mode Miraidon/Koraidon)"
+    },
+    {
+      "pokemon": "Magikarp",
+      "area": "South of your Home in Cabo Poco\n(Requires Swim Build/Mode Miraidon/Koraidon)"
+    },
+    {
+      "pokemon": "Buizel",
+      "area": "South of your Home in Cabo Poco\n(Requires Swim Build/Mode Miraidon/Koraidon)"
+    },
+    {
+      "pokemon": "Arrokuda",
+      "area": "South of your Home in Cabo Poco\n(Requires Swim Build/Mode Miraidon/Koraidon)"
+    }
+  ]
+}

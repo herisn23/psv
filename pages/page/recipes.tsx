@@ -35,13 +35,13 @@ export const RecipesPage = () => {
     const [type, setType] = useState<PokemonType>()
 
     return (
-        <Grid p={10}>
+        <Grid p={10} >
             <Grid.Col>
-                <Grid>
-                    <Grid.Col>
-                        <Text>Sparkling Recipes LV 3</Text>
-                    </Grid.Col>
-                    <Grid.Col span={3}>
+                <Text align={"center"}>Sparkling Recipes LV 3</Text>
+            </Grid.Col>
+            <Grid.Col>
+                <Grid justify={"center"}>
+                    <Grid.Col md={3}>
                         <PokemonTypeSelect onPick={setType}/>
                     </Grid.Col>
                 </Grid>
