@@ -25,8 +25,6 @@ const MealPowersPage = () => {
                 <li><strong> Teensy Power:</strong> Increase chances of finding smaller Pokémon</li>
                 <li><strong> Title Power:</strong> Increase chances of finding Pokémon with titles</li>
             </ul>
-
-
         </Group>
     )
 }

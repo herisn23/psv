@@ -7,6 +7,7 @@ import {Recipe} from "../../types/Recipe";
 import {useState} from "react";
 import {PokemonTypeSelect} from "../../components/PokemonTypeSelect";
 import {PokemonType} from "../../types/PokemonType";
+import Image from "next/image";
 
 export const getStaticProps: GetStaticProps<{ pageName: string }> = async (params) => {
     return {
@@ -57,6 +58,9 @@ export const RecipesPage = () => {
                     )
                 })
             }
+            <Grid.Col>
+                <Image src={"/img.png"} alt={"sparkling"} width={640} height={948} />
+            </Grid.Col>
         </Grid>
     )
 }
