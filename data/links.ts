@@ -24,7 +24,11 @@ export const evTrain: HeaderLink = {
     label: "EV Training"
 }
 
+export const mealPowers: HeaderLink = {
+    link: "/page/meal-powers",
+    label: "Meal powers"
+}
 
 export const links: HeaderLink[] = [
-    matrixLink, advisorLink, pokedexLink, recipesLink, evTrain
+    matrixLink, advisorLink, pokedexLink, recipesLink, evTrain, mealPowers
 ]
